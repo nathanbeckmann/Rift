@@ -1,7 +1,7 @@
 import java.util.Date
 import java.text.SimpleDateFormat
-import java.io.File
 import scala.util.matching.Regex
+import java.io.File
 
 class Parser(
   logFilename: String,
@@ -29,13 +29,14 @@ class Parser(
     }
   }
 
-  private def parseCombat(lines: Iterator[String]): (Combat, Iterator[String]) = {
-
-    def waitForLine(it: Iterator[String]) {
-      // wait for a line to be available
-      while (!it.hasNext)
+  private def waitForLine(it: Iterator[String]) {
+    // wait for a line to be available
+    while (!it.hasNext) {
       Thread.sleep(500)
     }
+  }
+
+  private def parseCombat(lines: Iterator[String]): (Combat, Iterator[String]) = {
 
     // find a valid entry, if one exists
     val buf = lines.buffered
@@ -43,9 +44,9 @@ class Parser(
     while (buf.hasNext && !(buf.head contains "Combat Begin"))
       buf.next()
 
-    if (!buf.hasNext)
+    if (!buf.hasNext) {
       (null, buf)
-    else {
+    } else {
       val combat = new Combat
 
       do {
@@ -73,7 +74,7 @@ class Parser(
       val log = new File(logFilename)
 
       if (!log.delete())
-        println("Couldn't delete the file!")
+        println("WARNING! Didn't delete log file: " + logFilename)
 
     } catch {
       case _: java.io.FileNotFoundException => ()
@@ -81,6 +82,7 @@ class Parser(
 
     // Start parsing...
     def parseForever(lines: Iterator[String]) {
+      waitForLine(lines)
       val (_, pos) = parseCombat(lines)
       parseForever(pos)
     }
@@ -88,8 +90,7 @@ class Parser(
     while (true)
     {
       try {
-        val log = new File(logFilename)
-        var lines = scala.io.Source.fromFile(log).getLines
+        var lines = new OnlineIterator(logFilename)
 
         parseForever(lines)
       } catch {
@@ -100,8 +101,7 @@ class Parser(
 
   // Off-line processing of logs
   def parseList(): List[Combat] = {
-    val log = new File(logFilename)
-    val lines = scala.io.Source.fromFile(log).getLines
+    val lines = new OnlineIterator(logFilename)
 
     def makeCombatList(it: Iterator[String]): List[Combat] = {
       val (combat, nextLines) = parseCombat(it)
