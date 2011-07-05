@@ -39,4 +39,7 @@ class Action (
     case CRITICAL_HEAL => true
     case _ => false
   }
+
+  override def toString: String =
+    "(" + source + ", " + target + ", " + name + ", " + amount + ", " + category + ")"
 }

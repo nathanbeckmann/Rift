@@ -15,4 +15,7 @@ class Entity(
   def hps: Double = 1000 * heals / combat.duration
   def dtps: Double = 1000 * damageTaken / combat.duration
   def htps: Double = 1000 * healsTaken / combat.duration
+
+  override def toString: String =
+    "|" + ("%.3s" format name) + ":" + ("%2.0f" format dps)
 }

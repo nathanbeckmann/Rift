@@ -30,48 +30,37 @@ class Parser(
   }
 
   private def parseCombat(lines: Iterator[String]): (Combat, Iterator[String]) = {
-    var it = lines dropWhile (l => !(l contains "Combat Begin"))
 
-    if (!it.hasNext)
-      (null, it)
+    def waitForLine(it: Iterator[String]) {
+      // wait for a line to be available
+      while (!it.hasNext)
+      Thread.sleep(500)
+    }
+
+    // find a valid entry, if one exists
+    val buf = lines.buffered
+
+    while (buf.hasNext && !(buf.head contains "Combat Begin"))
+      buf.next()
+
+    if (!buf.hasNext)
+      (null, buf)
     else {
       val combat = new Combat
-      var inCombat = true
 
-      while (inCombat) {
+      do {
+        waitForLine(buf)
 
-        // wait for a line to be available
-        while (!it.hasNext)
-          Thread.sleep(500)
-
-        val action = parseAction(it.next)
-        inCombat = action.name != "Combat End"
-
-        combat.actions = combat.actions :+ action
-
-        // extending Map to use default didn't work for some reason, probably I'm a nub and a moron
-        if (!(combat.entities contains action.source)) combat.entities += action.source -> new Entity(action.source, combat)
-        if (!(combat.entities contains action.target)) combat.entities += action.target -> new Entity(action.target, combat)
-
-        val source = combat.entities(action.source)
-        val target = combat.entities(action.target)
-        source.actions :+ action
-
-        if (action.isDmg) {
-          source.damage += action.amount
-          target.damageTaken += action.amount
-        }
-        else if (action.isHeal) {
-          source.heals += action.amount
-          target.healsTaken += action.amount
-        }
+        val action = parseAction(buf.next())
+        combat.handle(action)
 
         afterActionCallback(combat)
       }
+      while(combat.inCombat)
 
       afterCombatCallback(combat)
 
-      (combat, it)
+      (combat, buf)
     }
   }
 
@@ -79,16 +68,34 @@ class Parser(
   // parsed
   def parse() {
 
-    val log = new File(logFilename)
-
     // First, remove the old log
-    if (!log.delete())
-      println("Couldn't delete the file!")
+    try {
+      val log = new File(logFilename)
+
+      if (!log.delete())
+        println("Couldn't delete the file!")
+
+    } catch {
+      case _: java.io.FileNotFoundException => ()
+    }
 
     // Start parsing...
-    val lines = scala.io.Source.fromFile(log).getLines
+    def parseForever(lines: Iterator[String]) {
+      val (_, pos) = parseCombat(lines)
+      parseForever(pos)
+    }
+
     while (true)
-      parseCombat(lines)
+    {
+      try {
+        val log = new File(logFilename)
+        var lines = scala.io.Source.fromFile(log).getLines
+
+        parseForever(lines)
+      } catch {
+        case _: java.io.FileNotFoundException => Thread.sleep(500)
+      }
+    }
   }
 
   // Off-line processing of logs
