@@ -1,7 +1,11 @@
-class Action(
+import java.util.Date
+
+class Action (
+  val time: Date,
   val source: String,
   val target: String,
   val name: String,
+  val amount: Double,
   val category: Int) {
 
   object Categories {
@@ -22,23 +26,17 @@ class Action(
     val CRITICAL_HEAL = 28
   }
   import Categories._
-}
 
-// An action that doesn't directly change HP of something; debuff, etc
-class MetaAction(name: String) extends Action
+  def isDmg: Boolean = category match {
+    case HIT => true
+    case DOT => true
+    case CRITICAL_HIT => true
+    case _ => false
+  }
 
-class CombatStart extends MetaAction("combat")
-class CombatEnd extends MetaAction("combat")
-
-class BuffStart(name: String) extends MetaAction(name)
-class BuffEnd(name: String) extends MetaAction(name)
-
-class DebuffStart(name: String) extends MetaAction(name)
-class DebuffEnd(name: String) extends MetaAction(name)
-
-// An action that deals damage or heals
-class 
-
-class Heal extends Action {
-  def am
+  def isHeal: Boolean = category match {
+    case HEAL => true
+    case CRITICAL_HEAL => true
+    case _ => false
+  }
 }
