@@ -43,8 +43,9 @@ class Combat {
 
   override def toString: String = {
     val dpsers = entities.values.filter(_.dps > 0).toArray
+    val secs = duration / 1000
+    val mins = secs / 60
     stableSort[Entity](dpsers, (_: Entity).dps > (_: Entity).dps)
-    (duration / 1000) + " sec" +
-      dpsers.map(_.toString).reduce(_ + _)
+    mins + ":" + (secs % 60) + dpsers.map(_.toString).reduce(_ + _)
   }
 }
