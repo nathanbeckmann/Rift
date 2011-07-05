@@ -3,7 +3,12 @@ import java.text.SimpleDateFormat
 import java.io.File
 import scala.util.matching.Regex
 
-class Parser(logFilename: String) {
+class Parser(
+  logFilename: String,
+  afterActionCallback: Combat => Unit,
+  afterCombatCallback: Combat => Unit) {
+
+  class ActionParseException(val line: String) extends Throwable
 
   private val extractTime = """(\d\d:\d\d:\d\d):? (.*)""".r
   private val extractAction = """\( (\d+) .* , (.*) , (.*) , (\d+) , \d+ , (.*) \) .*""".r
@@ -34,6 +39,11 @@ class Parser(logFilename: String) {
       var inCombat = true
 
       while (inCombat) {
+
+        // wait for a line to be available
+        while (!it.hasNext)
+          Thread.sleep(500)
+
         val action = parseAction(it.next)
         inCombat = action.name != "Combat End"
 
@@ -55,18 +65,34 @@ class Parser(logFilename: String) {
           source.heals += action.amount
           target.healsTaken += action.amount
         }
+
+        afterActionCallback(combat)
       }
+
+      afterCombatCallback(combat)
 
       (combat, it)
     }
   }
 
-  class ActionParseException(val line: String) extends Throwable
+  // On-line processing of logs; does not store each combat as it is
+  // parsed
+  def parse() {
 
-  type AfterActionCallback = Combat => ()
-  type AfterCombatCallback = Combat => ()
+    val log = new File(logFilename)
 
-  def parse(): List[Combat] = {
+    // First, remove the old log
+    if (!log.delete())
+      println("Couldn't delete the file!")
+
+    // Start parsing...
+    val lines = scala.io.Source.fromFile(log).getLines
+    while (true)
+      parseCombat(lines)
+  }
+
+  // Off-line processing of logs
+  def parseList(): List[Combat] = {
     val log = new File(logFilename)
     val lines = scala.io.Source.fromFile(log).getLines
 

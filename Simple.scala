@@ -3,8 +3,8 @@ object Simple {
     if (args.length != 1) {
       println("Format: <combat-log-file>")
     } else {
-      val parser = new Parser(args(0))
-      val list = parser.parse()
+      val parser = new Parser(args(0), c => {}, c => {})
+      val list = parser.parseList()
 
       for (combat <- list) {
         println("Combat lasting " + (combat.duration / 1000) + " seconds:")
