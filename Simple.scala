@@ -5,9 +5,10 @@ object Simple {
     } else {
       val parser = new Parser(args(0),
                               c => (), //println(c.actions.tail),
-                              c => println(c))
+                              c => { println(c); Clippy.copy(c toString) })
 
       val list = parser.parse()
+
 //       val list = parser.parseList()
 
 //       for (combat <- list) {
