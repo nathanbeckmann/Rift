@@ -40,6 +40,9 @@ class Action (
     case _ => false
   }
 
+  // if this is a start or end marker
+  def isBookend: Boolean = category == 0
+
   override def toString: String =
     "(" + source + ", " + target + ", " + name + ", " + amount + ", " + category + ")"
 }

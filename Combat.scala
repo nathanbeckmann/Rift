@@ -12,9 +12,12 @@ class Combat {
 
   val entities = Map[String, Entity]()
 
+  private val saveActions = false
+
   def handle(action: Action) {
 
-    actions = actions :+ action
+    if (saveActions || action.isBookend)
+      actions = actions :+ action
 
     // extending Map to use default didn't work for some reason,
     // probably I'm a nub and a moron
@@ -23,7 +26,9 @@ class Combat {
 
     val source = entities(action.source)
     val target = entities(action.target)
-    source.actions :+ action
+
+    if (saveActions || action.isBookend)
+      source.actions :+ action
 
     if (action.isDmg) {
       source.damage += action.amount
