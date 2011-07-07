@@ -11,7 +11,7 @@ class Parser(
   class ActionParseException(val line: String) extends Throwable
 
   private val extractTime = """(\d\d:\d\d:\d\d):? (.*)""".r
-  private val extractAction = """\( (\d+) .* , (.*) , (.*) , (\d+) , \d+ , (.*) \) .*""".r
+  private val extractAction = """\( (\d+) .* , (.*) , (.*) , (-?\d+) , \d+ , (.*) \) .*""".r
 
   // returns true if still in combat
   private def parseAction(line: String): Action = {
