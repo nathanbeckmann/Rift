@@ -3,6 +3,9 @@ object Simple {
     if (args.length != 1) {
       println("Format: <combat-log-file>")
     } else {
+
+      println("Starting simple RIFT parser...")
+
       val parser = new Parser(args(0),
         c => (), //println(c.actions.tail),
         c => { println(c format "Length: %t\nDPS: %20d\nHPS: %20h\n\n");
