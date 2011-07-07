@@ -7,6 +7,7 @@ object Simple {
                               c => (), //println(c.actions.tail),
                               c => { println(c); Clippy.copy(c toString) })
 
+//      parser.delete()
       val list = parser.parse()
 
 //       val list = parser.parseList()

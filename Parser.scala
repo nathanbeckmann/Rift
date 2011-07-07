@@ -65,9 +65,8 @@ class Parser(
     }
   }
 
-  // On-line processing of logs; does not store each combat as it is
-  // parsed
-  def parse() {
+  // Delete the old log
+  def delete() {
 
     // First, remove the old log
     try {
@@ -79,6 +78,11 @@ class Parser(
     } catch {
       case _: java.io.FileNotFoundException => ()
     }
+  }
+
+  // On-line processing of logs; does not store each combat as it is
+  // parsed
+  def parse() {
 
     // Start parsing...
     def parseForever(lines: Iterator[String]) {
