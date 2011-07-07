@@ -23,5 +23,5 @@ class Entity(
     fmt replaceAll("%n", nameStr) replaceAll("%d", dpsStr) replaceAll("%h", hpsStr)
   }
 
-  override def toString: String = format("|%n:%d")
+  override def toString: String = format(" %n:%d")
 }

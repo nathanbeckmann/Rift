@@ -64,19 +64,19 @@ class Combat {
       list.take(num).map(_ format entityFmt) mkString ""
     }
 
-    // example: replaceTop(fmt, "%d", _.dps, "|%n:%d")
+    // example: replaceTop(fmt, "%d", _.dps, " %n:%d")
     def replaceTop(src: String, queryTerm: String, query: Entity => Double, entityFmt: String) = { 
-      val matcherStr = ".*" + (queryTerm replace ("%", "%(\\d+)")) + ".*"
+      val matcherStr = "(?s).*" + (queryTerm replace ("%", "%(\\d+)")) + ".*"
       val matcher = matcherStr.r
 
       try {
         val matcher(num) = src
-        val str = top(query, "|%n:%d", num.toInt)
+        val str = top(query, entityFmt, num.toInt)
 	val replaceRegex = queryTerm replaceAll ("%", """%(\\d+)""")
 
         src replaceAll (replaceRegex, str)
       } catch {
-        case _: MatchError => src
+        case _: MatchError => println("Couldn't match: " + matcherStr); src
       }
     }
 
@@ -84,9 +84,9 @@ class Combat {
     replaceTop(                        // replace hps
       replaceTop(                      // replace dps
         fmt replaceAll("%t", timeStr), // replace time
-        "%d", _.dps, "|%n:%d"),
-      "%h", _.hps, "|%n:%h")
+        "%d", _.dps, " %n:%d"),
+      "%h", _.hps, " %n:%h")
   }
 
-  override def toString: String = format("%t||DPS%10d||HPS%5h")
+  override def toString: String = format("%t| DPS%10d| HPS%5h")
 }
