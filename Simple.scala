@@ -9,7 +9,7 @@ object Simple {
                if (c.duration > 0) Clippy.copy(c toString) }
         )
 
-//      parser.delete()
+      parser.delete()
       val list = parser.parse()
 
 //       val list = parser.parseList()
