@@ -16,6 +16,12 @@ class Entity(
   def dtps: Double = 1000 * damageTaken / combat.duration
   def htps: Double = 1000 * healsTaken / combat.duration
 
-  override def toString: String =
-    "|" + ("%.3s" format name) + ":" + ("%.0f" format dps)
+  def format(fmt: String): String = {
+    val nameStr = ("%.3s" format name)
+    val dpsStr = ("%.0f" format dps)
+    val hpsStr = ("%.0f" format hps)
+    fmt replaceAll("%n", nameStr) replaceAll("%d", dpsStr) replaceAll("%h", hpsStr)
+  }
+
+  override def toString: String = format("|%n:%d")
 }
