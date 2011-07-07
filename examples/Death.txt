@@ -1,0 +1,512 @@
+05:21:40: ( 4 , T=P#R=O#211669182540508464 , T=N#R=O#9223372041367849858 , T=X#R=X#0 , T=X#R=X#0 , Zach , Boss Practice Dummy , 35 , 1269233496 , Puncture ) Boss Practice Dummy suffers 35 Physical damage from Zach's Puncture. 
+05:21:41: ( 3 , T=P#R=O#211669182540508464 , T=N#R=O#9223372041367849858 , T=X#R=X#0 , T=X#R=X#0 , Zach , Boss Practice Dummy , 72 , 1270156362 , Auto Attack ) Zach's Auto Attack hits Boss Practice Dummy for 72 Physical damage. 
+05:21:41: ( 4 , T=P#R=O#211669182540508464 , T=N#R=O#9223372041367849858 , T=X#R=X#0 , T=X#R=X#0 , Zach , Boss Practice Dummy , 115 , 1508652891 , Serrated Blades ) Boss Practice Dummy suffers 115 Physical damage from Zach's Serrated Blades. 
+05:21:41: ( 7 , T=P#R=O#211669182540508464 , T=P#R=O#211669182540508464 , T=X#R=X#0 , T=X#R=X#0 , Zach , Zach , 0 , 1092610256 , Temporary Rune Buff ) Zach's Temporary Rune Buff fades from Zach.
+05:21:51: ( 1 , T=P#R=O#211669182577793363 , T=X#R=X#0 , T=X#R=X#0 , T=X#R=X#0 , Mythander , Unknown , 0 , 1714956323 , Haunting Pain ) Mythander begins casting Haunting Pain.
+05:21:51: ( 2 , T=P#R=O#211669182577793363 , T=X#R=X#0 , T=X#R=X#0 , T=X#R=X#0 , Mythander , Unknown , 0 , 1714956323 , Haunting Pain ) Mythander's Haunting Pain has been interrupted.
+05:21:55: ( 26 , T=P#R=O#211669182577793363 , T=N#R=O#9223372041367849856 , T=X#R=X#0 , T=X#R=X#0 , Mythander , Normal Practice Dummy , 0 , 463135445 , Accelerated Decay ) Normal Practice Dummy is immune to Mythander's Accelerated Decay.
+05:21:57: ( 1 , T=P#R=O#211669182577793363 , T=X#R=X#0 , T=X#R=X#0 , T=X#R=X#0 , Mythander , Unknown , 0 , 1714956323 , Haunting Pain ) Mythander begins casting Haunting Pain.
+05:21:59: ( 7 , T=N#R=O#9223372045316399582 , T=P#R=O#211669182624520329 , T=P#R=O#211669182624520329 , T=X#R=X#0 , Tumnus , Moordecai , 0 , 1066126299 , Fury of the Fae ) Tumnus's Fury of the Fae fades from Moordecai.
+05:21:59: ( 7 , T=N#R=O#9223372045316399582 , T=N#R=O#9223372045316399582 , T=P#R=O#211669182624520329 , T=P#R=O#211669182624520329 , Tumnus , Tumnus , 0 , 1066126299 , Fury of the Fae ) Tumnus's Fury of the Fae fades from Tumnus.
+05:21:59: ( 8 , T=P#R=O#211669182577793363 , T=N#R=O#9223372041367849856 , T=X#R=X#0 , T=X#R=X#0 , Mythander , Normal Practice Dummy , 0 , 338552497 , Haunting Pain ) Normal Practice Dummy is afflicted by Mythander's Haunting Pain.
+05:21:59: ( 8 , T=P#R=O#211669182577793363 , T=N#R=O#9223372041367849856 , T=X#R=X#0 , T=X#R=X#0 , Mythander , Normal Practice Dummy , 0 , 338552497 , Haunting Pain ) Normal Practice Dummy is afflicted by Mythander's Haunting Pain.
+05:21:59: ( 8 , T=P#R=O#211669182577793363 , T=N#R=O#9223372041367849856 , T=X#R=X#0 , T=X#R=X#0 , Mythander , Normal Practice Dummy , 0 , 338552497 , Haunting Pain ) Normal Practice Dummy is afflicted by Mythander's Haunting Pain.
+05:21:59: ( 8 , T=P#R=O#211669182577793363 , T=N#R=O#9223372041367849856 , T=X#R=X#0 , T=X#R=X#0 , Mythander , Normal Practice Dummy , 0 , 338552497 , Haunting Pain ) Normal Practice Dummy is afflicted by Mythander's Haunting Pain.
+05:21:59: ( 8 , T=P#R=O#211669182577793363 , T=N#R=O#9223372041367849856 , T=X#R=X#0 , T=X#R=X#0 , Mythander , Normal Practice Dummy , 0 , 338552497 , Haunting Pain ) Normal Practice Dummy is afflicted by Mythander's Haunting Pain.
+05:21:59: ( 8 , T=P#R=O#211669182577793363 , T=N#R=O#9223372041367849856 , T=X#R=X#0 , T=X#R=X#0 , Mythander , Normal Practice Dummy , 0 , 338552497 , Haunting Pain ) Normal Practice Dummy is afflicted by Mythander's Haunting Pain.
+05:21:59: ( 8 , T=P#R=O#211669182577793363 , T=N#R=O#9223372041367849856 , T=X#R=X#0 , T=X#R=X#0 , Mythander , Normal Practice Dummy , 0 , 338552497 , Haunting Pain ) Normal Practice Dummy is afflicted by Mythander's Haunting Pain.
+05:21:59: ( 8 , T=P#R=O#211669182577793363 , T=N#R=O#9223372041367849856 , T=X#R=X#0 , T=X#R=X#0 , Mythander , Normal Practice Dummy , 0 , 338552497 , Haunting Pain ) Normal Practice Dummy is afflicted by Mythander's Haunting Pain.
+05:21:59: ( 8 , T=P#R=O#211669182577793363 , T=N#R=O#9223372041367849856 , T=X#R=X#0 , T=X#R=X#0 , Mythander , Normal Practice Dummy , 0 , 338552497 , Haunting Pain ) Normal Practice Dummy is afflicted by Mythander's Haunting Pain.
+05:21:59: ( 19 , T=P#R=O#211669182577793363 , T=N#R=O#9223372041367849856 , T=X#R=X#0 , T=X#R=X#0 , Mythander , Normal Practice Dummy , 0 , 337234408 , Mana Wrench ) Normal Practice Dummy resists Mythander's Mana Wrench.
+05:22:01: ( 3 , T=P#R=O#211669182577793363 , T=N#R=O#9223372041367849856 , T=X#R=X#0 , T=X#R=X#0 , Mythander , Normal Practice Dummy , 13 , 1714956323 , Haunting Pain ) Mythander's Haunting Pain hits Normal Practice Dummy for 13 Death damage. 
+05:22:02: ( 7 , T=P#R=O#211669182502153733 , T=P#R=O#211669182502153733 , T=X#R=X#0 , T=X#R=X#0 , Maestro , Maestro , 0 , 265715720 , Sprint ) Maestro's Sprint fades from Maestro.
+05:22:03: ( 3 , T=P#R=O#211669182577793363 , T=N#R=O#9223372041367849856 , T=X#R=X#0 , T=X#R=X#0 , Mythander , Normal Practice Dummy , 13 , 1714956323 , Haunting Pain ) Mythander's Haunting Pain hits Normal Practice Dummy for 13 Death damage. 
+05:22:05: ( 3 , T=P#R=O#211669182577793363 , T=N#R=O#9223372041367849856 , T=X#R=X#0 , T=X#R=X#0 , Mythander , Normal Practice Dummy , 13 , 1714956323 , Haunting Pain ) Mythander's Haunting Pain hits Normal Practice Dummy for 13 Death damage. 
+05:22:10: ( 1 , T=P#R=O#211669182499617226 , T=X#R=X#0 , T=X#R=X#0 , T=X#R=X#0 , Syl , Unknown , 0 , 1790356495 , Changing Role ) Syl begins casting Changing Role.
+05:22:12: ( 7 , T=P#R=O#211669182499617226 , T=P#R=O#211669182499617226 , T=X#R=X#0 , T=X#R=X#0 , Syl , Syl , 0 , 2075625347 , Wisdom of the Ages ) Syl's Wisdom of the Ages fades from Syl.
+05:22:50: ( 7 , T=P#R=O#211669182708410162 , T=P#R=O#211669182699344356 , T=X#R=X#0 , T=X#R=X#0 , Dewin , Amondyl , 0 , 1793852735 , Flaring Intellect ) Dewin's Flaring Intellect fades from Amondyl.
+05:22:50: ( 6 , T=P#R=O#211669182699344356 , T=P#R=O#211669182699344356 , T=X#R=X#0 , T=X#R=X#0 , Amondyl , Amondyl , 0 , 1092610256 , Temporary Rune Buff ) Amondyl gains Amondyl's Temporary Rune Buff.
+05:22:50: ( 6 , T=P#R=O#211669182699344356 , T=P#R=O#211669182699344356 , T=X#R=X#0 , T=X#R=X#0 , Amondyl , Amondyl , 0 , 1092610256 , Temporary Rune Buff ) Amondyl gains Amondyl's Temporary Rune Buff.
+05:22:52: ( 7 , T=P#R=O#211669182712202623 , T=P#R=O#211669182712202623 , T=X#R=X#0 , T=X#R=X#0 , Zellik , Zellik , 0 , 96862812 , Fanfare of Vigor ) Zellik's Fanfare of Vigor fades from Zellik.
+05:22:52: ( 7 , T=P#R=O#211669182712202623 , T=P#R=O#211669182712202623 , T=X#R=X#0 , T=X#R=X#0 , Zellik , Zellik , 0 , 1250691886 , Combat Pose ) Zellik's Combat Pose fades from Zellik.
+05:22:52: ( 7 , T=P#R=O#211669182712202623 , T=P#R=O#211669182712202623 , T=X#R=X#0 , T=X#R=X#0 , Zellik , Zellik , 0 , 517438039 , Planebound Resilience ) Zellik's Planebound Resilience fades from Zellik.
+05:22:57: ( 6 , T=N#R=O#9223372041367849710 , T=N#R=O#9223372041367849710 , T=X#R=X#0 , T=X#R=X#0 , Arto Starbine , Arto Starbine , 0 , 2044533123 , Combat Pose ) Arto Starbine gains Arto Starbine's Combat Pose.
+05:23:06: ( 1 , T=P#R=O#211669182557753792 , T=X#R=X#0 , T=X#R=X#0 , T=X#R=X#0 , Razzldazzl , Unknown , 0 , 947831449 , Changing Role ) Razzldazzl begins casting Changing Role.
+05:23:08: ( 7 , T=P#R=O#211669182557753792 , T=P#R=O#211669182557753792 , T=X#R=X#0 , T=X#R=X#0 , Razzldazzl , Razzldazzl , 0 , 1519850305 , Dark Armor ) Razzldazzl's Dark Armor fades from Razzldazzl.
+05:23:08: ( 7 , T=P#R=O#211669182557753792 , T=P#R=O#211669182557753792 , T=X#R=X#0 , T=X#R=X#0 , Razzldazzl , Razzldazzl , 0 , 598632415 , Lifegiving Veil ) Razzldazzl's Lifegiving Veil fades from Razzldazzl.
+05:23:12: ( 15 , T=N#R=O#9223372042227758486 , T=N#R=O#9223372041367852073 , T=X#R=X#0 , T=X#R=X#0 , Abyssal Infiltrator , Brother Jebiah , 0 , 795641470 , Crushing Blow ) Brother Jebiah dodges Abyssal Infiltrator's Crushing Blow.
+05:23:12: ( 11 , T=N#R=O#9223372041367852072 , T=N#R=O#9223372042227758486 , T=X#R=X#0 , T=X#R=X#0 , Marcus the Brute , Abyssal Infiltrator , 0 , 0 ,  ) Marcus the Brute has slain Abyssal Infiltrator!
+05:23:12: ( 23 , T=N#R=O#9223372041367852072 , T=N#R=O#9223372042227758486 , T=X#R=X#0 , T=X#R=X#0 , Marcus the Brute , Abyssal Infiltrator , 13166 , 671091319 , Thunderous Kick ) Marcus the Brute's Thunderous Kick critically hits Abyssal Infiltrator for 13166 Physical damage. (12705 overkill)
+05:23:14: ( 14 , T=P#R=O#211669182577814538 , T=P#R=O#211669182577814538 , T=X#R=X#0 , T=X#R=X#0 , Aldrin , Aldrin , 881 , 316931269 , Falling Damage ) Aldrin takes 881 damage from Falling Damage. 
+05:23:14: ( 1 , T=P#R=O#211669182723347354 , T=X#R=X#0 , T=X#R=X#0 , T=X#R=X#0 , Vhati , Unknown , 0 , 1524707111 , Changing Role ) Vhati begins casting Changing Role.
+05:23:18: ( 6 , T=P#R=O#211669182723347354 , T=P#R=O#211669182723347354 , T=X#R=X#0 , T=X#R=X#0 , Vhati , Vhati , 0 , 463220133 , Hellfire Blades ) Vhati gains Vhati's Hellfire Blades.
+05:23:19: ( 1 , T=P#R=O#211669182499616930 , T=X#R=X#0 , T=X#R=X#0 , T=X#R=X#0 , Fattop , Unknown , 0 , 1803733676 , Changing Role ) Fattop begins casting Changing Role.
+05:23:19: ( 6 , T=P#R=O#211669182723347354 , T=P#R=O#211669182723347354 , T=X#R=X#0 , T=X#R=X#0 , Vhati , Vhati , 0 , 181877460 , Fell Blades ) Vhati gains Vhati's Fell Blades.
+05:23:21: ( 7 , T=P#R=O#211669182499616930 , T=P#R=O#211669182499616930 , T=X#R=X#0 , T=X#R=X#0 , Fattop , Fattop , 0 , 517438039 , Planebound Resilience ) Fattop's Planebound Resilience fades from Fattop.
+05:23:25: ( 6 , T=P#R=O#211669182577814538 , T=P#R=O#211669182577814538 , T=X#R=X#0 , T=X#R=X#0 , Aldrin , Aldrin , 0 , 58827058 , Aegis of Salvation ) Aldrin gains Aldrin's Aegis of Salvation.
+05:23:33: ( 7 , T=P#R=C#211669182567225542 , T=P#R=C#211669182567225542 , T=X#R=X#0 , T=X#R=X#0 , Aoife , Aoife , 0 , 857666633 , Neddra's Strength ) Aoife's Neddra's Strength fades from Aoife.
+05:23:33: ( 7 , T=P#R=C#211669182567225542 , T=P#R=C#211669182567225542 , T=X#R=X#0 , T=X#R=X#0 , Aoife , Aoife , 0 , 473115348 , Warlock Armor ) Aoife's Warlock Armor fades from Aoife.
+05:23:35: ( 10 , T=N#R=O#9223372045344094368 , T=N#R=O#9223372045344094368 , T=X#R=X#0 , T=X#R=X#0 , Transcendent Wardstone , Transcendent Wardstone , 0 , 2068625741 ,  ) Transcendent Wardstone's  misses Transcendent Wardstone.
+05:23:39: ( 12 , T=N#R=O#9223372041367909154 , T=X#R=X#0 , T=X#R=X#0 , T=X#R=X#0 , Cannon , Unknown , 0 , 0 ,  ) Cannon has died.
+05:23:43: ( 12 , T=N#R=O#9223372041367909611 , T=X#R=X#0 , T=X#R=X#0 , T=X#R=X#0 , Cannon , Unknown , 0 , 0 ,  ) Cannon has died.
+05:23:43: ( 12 , T=N#R=O#9223372041367909624 , T=X#R=X#0 , T=X#R=X#0 , T=X#R=X#0 , Cannon , Unknown , 0 , 0 ,  ) Cannon has died.
+05:23:45: ( 3 , T=N#R=O#9223372041367905968 , T=P#R=O#211669182525644584 , T=X#R=X#0 , T=X#R=X#0 , Guardian Soldier , Punklash , 86 , 32 , attack ) Guardian Soldier's attack hits Punklash for 86 Physical damage. 
+05:23:46: ( 15 , T=N#R=O#9223372045344094368 , T=N#R=O#9223372045344094368 , T=X#R=X#0 , T=X#R=X#0 , Transcendent Wardstone , Transcendent Wardstone , 0 , 2068625741 ,  ) Transcendent Wardstone dodges Transcendent Wardstone's .
+05:23:47: ( 8 , T=N#R=O#9223372041367905968 , T=P#R=O#211669182525644584 , T=X#R=X#0 , T=X#R=X#0 , Guardian Soldier , Punklash , 0 , 1222916500 , Pacifying Strike ) Punklash is afflicted by Guardian Soldier's Pacifying Strike.
+05:23:47: ( 3 , T=N#R=O#9223372041367905968 , T=P#R=O#211669182525644584 , T=X#R=X#0 , T=X#R=X#0 , Guardian Soldier , Punklash , 210 , 1222916500 , Pacifying Strike ) Guardian Soldier's Pacifying Strike hits Punklash for 210 Physical damage. 
+05:23:48: ( 9 , T=N#R=O#9223372041367905968 , T=P#R=O#211669182525644584 , T=X#R=X#0 , T=X#R=X#0 , Guardian Soldier , Punklash , 0 , 1222916500 , Pacifying Strike ) Guardian Soldier's Pacifying Strike dissipates from Punklash.
+05:23:48: ( 8 , T=N#R=O#9223372041367905968 , T=P#R=O#211669182525644584 , T=X#R=X#0 , T=X#R=X#0 , Guardian Soldier , Punklash , 0 , 1222916500 , Pacifying Strike ) Punklash is afflicted by Guardian Soldier's Pacifying Strike.
+05:23:48: ( 3 , T=N#R=O#9223372041367905968 , T=P#R=O#211669182525644584 , T=X#R=X#0 , T=X#R=X#0 , Guardian Soldier , Punklash , 211 , 1222916500 , Pacifying Strike ) Guardian Soldier's Pacifying Strike hits Punklash for 211 Physical damage. 
+05:23:51: ( 12 , T=N#R=O#9223372041367909630 , T=X#R=X#0 , T=X#R=X#0 , T=X#R=X#0 , Cannon , Unknown , 0 , 0 ,  ) Cannon has died.
+05:23:51: ( 12 , T=N#R=O#9223372041367909632 , T=X#R=X#0 , T=X#R=X#0 , T=X#R=X#0 , Cannon , Unknown , 0 , 0 ,  ) Cannon has died.
+05:23:52: ( 12 , T=N#R=O#9223372041367909635 , T=X#R=X#0 , T=X#R=X#0 , T=X#R=X#0 , Cannon , Unknown , 0 , 0 ,  ) Cannon has died.
+05:23:53: ( 12 , T=N#R=O#9223372041367909618 , T=X#R=X#0 , T=X#R=X#0 , T=X#R=X#0 , Cannon , Unknown , 0 , 0 ,  ) Cannon has died.
+05:23:54: ( 6 , T=P#R=O#211669182525644584 , T=P#R=O#211669182525644584 , T=X#R=X#0 , T=X#R=X#0 , Punklash , Punklash , 0 , 1250691886 , Combat Pose ) Punklash gains Punklash's Combat Pose.
+05:23:55: ( 6 , T=P#R=O#211669182525644584 , T=P#R=O#211669182525644584 , T=X#R=X#0 , T=X#R=X#0 , Punklash , Punklash , 0 , 517438039 , Planebound Resilience ) Punklash gains Punklash's Planebound Resilience.
+05:23:56: ( 10 , T=N#R=O#9223372045344094368 , T=N#R=O#9223372045344094368 , T=X#R=X#0 , T=X#R=X#0 , Transcendent Wardstone , Transcendent Wardstone , 0 , 2068625741 ,  ) Transcendent Wardstone's  misses Transcendent Wardstone.
+05:23:59: ( 1 , T=P#R=O#211669182525644584 , T=X#R=X#0 , T=X#R=X#0 , T=X#R=X#0 , Punklash , Unknown , 0 , 1012591716 , Soul Recall ) Punklash begins casting Soul Recall.
+05:24:01: ( 6 , T=P#R=O#211669182502155250 , T=P#R=O#211669182499620626 , T=X#R=X#0 , T=X#R=X#0 , Mordiggian , Marcheline , 0 , 53947900 ,  ) Marcheline gains Mordiggian's .
+05:24:03: ( 12 , T=N#R=O#9223372041367909642 , T=X#R=X#0 , T=X#R=X#0 , T=X#R=X#0 , Cannon , Unknown , 0 , 0 ,  ) Cannon has died.
+05:24:03: ( 12 , T=N#R=O#9223372041367909645 , T=X#R=X#0 , T=X#R=X#0 , T=X#R=X#0 , Cannon , Unknown , 0 , 0 ,  ) Cannon has died.
+05:24:03: ( 9 , T=N#R=O#9223372041367905968 , T=P#R=O#211669182525644584 , T=X#R=X#0 , T=X#R=X#0 , Guardian Soldier , Punklash , 0 , 1222916500 , Pacifying Strike ) Guardian Soldier's Pacifying Strike dissipates from Punklash.
+05:24:06: ( 10 , T=N#R=O#9223372045344094368 , T=N#R=O#9223372045344094368 , T=X#R=X#0 , T=X#R=X#0 , Transcendent Wardstone , Transcendent Wardstone , 0 , 2068625741 ,  ) Transcendent Wardstone's  misses Transcendent Wardstone.
+05:24:07: ( 7 , T=P#R=G#211669182502152560 , T=P#R=G#211669182502152560 , T=X#R=X#0 , T=X#R=X#0 , Beawr , Beawr , 0 , 1092610256 , Temporary Rune Buff ) Beawr's Temporary Rune Buff fades from Beawr.
+05:24:10: ( 15 , T=N#R=O#9223372045344094368 , T=N#R=O#9223372045344094368 , T=X#R=X#0 , T=X#R=X#0 , Transcendent Wardstone , Transcendent Wardstone , 0 , 2068625741 ,  ) Transcendent Wardstone dodges Transcendent Wardstone's .
+05:24:11: ( 12 , T=N#R=O#9223372041367909653 , T=X#R=X#0 , T=X#R=X#0 , T=X#R=X#0 , Cannon , Unknown , 0 , 0 ,  ) Cannon has died.
+05:24:11: ( 15 , T=N#R=O#9223372045344094368 , T=N#R=O#9223372045344094368 , T=X#R=X#0 , T=X#R=X#0 , Transcendent Wardstone , Transcendent Wardstone , 0 , 2068625741 ,  ) Transcendent Wardstone dodges Transcendent Wardstone's .
+05:24:13: ( 12 , T=N#R=O#9223372041367909660 , T=X#R=X#0 , T=X#R=X#0 , T=X#R=X#0 , Cannon , Unknown , 0 , 0 ,  ) Cannon has died.
+05:24:13: ( 12 , T=N#R=O#9223372041367909659 , T=X#R=X#0 , T=X#R=X#0 , T=X#R=X#0 , Cannon , Unknown , 0 , 0 ,  ) Cannon has died.
+05:24:14: ( 12 , T=N#R=O#9223372041367909652 , T=X#R=X#0 , T=X#R=X#0 , T=X#R=X#0 , Cannon , Unknown , 0 , 0 ,  ) Cannon has died.
+05:24:16: ( 10 , T=N#R=O#9223372045344094368 , T=N#R=O#9223372045344094368 , T=X#R=X#0 , T=X#R=X#0 , Transcendent Wardstone , Transcendent Wardstone , 0 , 2068625741 ,  ) Transcendent Wardstone's  misses Transcendent Wardstone.
+05:24:18: ( 6 , T=P#R=O#211669182499620626 , T=P#R=O#211669182502155250 , T=X#R=X#0 , T=X#R=X#0 , Marcheline , Mordiggian , 0 , 53947900 ,  ) Mordiggian gains Marcheline's .
+05:24:24: ( 12 , T=N#R=O#9223372041367909669 , T=X#R=X#0 , T=X#R=X#0 , T=X#R=X#0 , Cannon , Unknown , 0 , 0 ,  ) Cannon has died.
+05:24:24: ( 12 , T=N#R=O#9223372041367909650 , T=X#R=X#0 , T=X#R=X#0 , T=X#R=X#0 , Cannon , Unknown , 0 , 0 ,  ) Cannon has died.
+05:24:28: ( 12 , T=N#R=O#9223372041367909598 , T=X#R=X#0 , T=X#R=X#0 , T=X#R=X#0 , Cannon , Unknown , 0 , 0 ,  ) Cannon has died.
+05:24:29: ( 7 , T=P#R=O#211669182725790355 , T=P#R=O#211669182725790355 , T=X#R=X#0 , T=X#R=X#0 , Sorian , Sorian , 0 , 1903177846 , Stealth ) Sorian's Stealth fades from Sorian.
+05:24:31: ( 7 , T=P#R=O#211669182713681592 , T=P#R=O#211669182713681592 , T=X#R=X#0 , T=X#R=X#0 , Zahrim , Zahrim , 0 , 473115348 , Warlock Armor ) Zahrim's Warlock Armor fades from Zahrim.
+05:24:31: ( 7 , T=P#R=O#211669182713681592 , T=P#R=O#211669182713681592 , T=X#R=X#0 , T=X#R=X#0 , Zahrim , Zahrim , 0 , 2010713335 , Neddra's Might ) Zahrim's Neddra's Might fades from Zahrim.
+05:24:39: ( 12 , T=N#R=O#9223372041367909678 , T=X#R=X#0 , T=X#R=X#0 , T=X#R=X#0 , Cannon , Unknown , 0 , 0 ,  ) Cannon has died.
+05:24:47: ( 7 , T=P#R=C#211669182567225542 , T=P#R=C#211669182567225542 , T=X#R=X#0 , T=X#R=X#0 , Aoife , Aoife , 0 , 857666633 , Neddra's Strength ) Aoife's Neddra's Strength fades from Aoife.
+05:24:47: ( 7 , T=P#R=C#211669182567225542 , T=P#R=C#211669182567225542 , T=X#R=X#0 , T=X#R=X#0 , Aoife , Aoife , 0 , 473115348 , Warlock Armor ) Aoife's Warlock Armor fades from Aoife.
+05:25:14: ( 7 , T=P#R=O#211669182538061365 , T=P#R=O#211669182538061365 , T=X#R=X#0 , T=X#R=X#0 , Gwenyth , Gwenyth , 0 , 1388137055 , Flaring Intellect ) Gwenyth's Flaring Intellect fades from Gwenyth.
+05:25:18: ( 7 , T=P#R=O#211669182538061365 , T=P#R=O#211669182538061365 , T=X#R=X#0 , T=X#R=X#0 , Gwenyth , Gwenyth , 0 , 1724504260 , Fire Armor ) Gwenyth's Fire Armor fades from Gwenyth.
+05:25:56: ( 7 , T=P#R=O#211669182722056658 , T=P#R=O#211669182722056658 , T=X#R=X#0 , T=X#R=X#0 , Vidarr , Vidarr , 0 , 1754219224 , Icewatch Cupcake ) Vidarr's Icewatch Cupcake fades from Vidarr.
+05:26:21: ( 1 , T=P#R=C#211669182567225542 , T=X#R=X#0 , T=X#R=X#0 , T=X#R=X#0 , Aoife , Unknown , 0 , 1969688444 , Life Leech ) Aoife begins casting Life Leech.
+05:26:22 Combat Begin
+05:26:23: ( 5 , T=P#R=C#211669182567225542 , T=P#R=C#211669182567225542 , T=X#R=X#0 , T=X#R=X#0 , Aoife , Aoife , 0 , 1969688444 , Life Leech ) Aoife's Life Leech heals Aoife for 0. (56 overheal)
+05:26:23: ( 8 , T=P#R=C#211669182567225542 , T=P#R=G#211669182502152560 , T=X#R=X#0 , T=X#R=X#0 , Aoife , Beawr , 0 , 1969688444 , Life Leech ) Beawr is afflicted by Aoife's Life Leech.
+05:26:23: ( 3 , T=P#R=C#211669182567225542 , T=P#R=G#211669182502152560 , T=X#R=X#0 , T=X#R=X#0 , Aoife , Beawr , 144 , 1969688444 , Life Leech ) Aoife's Life Leech hits Beawr for 144 Death damage. 
+05:26:23: ( 8 , T=P#R=C#211669182567225542 , T=P#R=G#211669182502152560 , T=X#R=X#0 , T=X#R=X#0 , Aoife , Beawr , 0 , 1055329214 , Dark Touch ) Beawr is afflicted by Aoife's Dark Touch.
+05:26:23: ( 6 , T=P#R=G#211669182502152560 , T=P#R=G#211669182502152560 , T=X#R=X#0 , T=X#R=X#0 , Beawr , Beawr , 0 , 861304448 , Shroud Of Agony ) Beawr gains Beawr's Shroud Of Agony.
+05:26:23: ( 23 , T=P#R=C#211669182567225542 , T=P#R=G#211669182502152560 , T=X#R=X#0 , T=X#R=X#0 , Aoife , Beawr , 182 , 1055329214 , Dark Touch ) Aoife's Dark Touch critically hits Beawr for 182 Death damage. 
+05:26:24: ( 5 , T=P#R=C#211669182567225542 , T=P#R=C#211669182567225542 , T=X#R=X#0 , T=X#R=X#0 , Aoife , Aoife , 0 , 1969688444 , Life Leech ) Aoife's Life Leech heals Aoife for 0. 
+05:26:25: ( 8 , T=P#R=C#211669182567225542 , T=P#R=G#211669182502152560 , T=X#R=X#0 , T=X#R=X#0 , Aoife , Beawr , 0 , 993221111 , Necrosis ) Beawr is afflicted by Aoife's Necrosis.
+05:26:25: ( 3 , T=P#R=C#211669182567225542 , T=P#R=G#211669182502152560 , T=X#R=X#0 , T=X#R=X#0 , Aoife , Beawr , 108 , 993221111 , Necrosis ) Aoife's Necrosis hits Beawr for 108 Death damage. 
+05:26:25: ( 28 , T=P#R=C#211669182567225542 , T=P#R=C#211669182567225542 , T=X#R=X#0 , T=X#R=X#0 , Aoife , Aoife , 0 , 1969688444 , Life Leech ) Aoife's Life Leech critically heals Aoife for 0. (84 overheal)
+05:26:25: ( 23 , T=P#R=C#211669182567225542 , T=P#R=G#211669182502152560 , T=X#R=X#0 , T=X#R=X#0 , Aoife , Beawr , 216 , 1969688444 , Life Leech ) Aoife's Life Leech critically hits Beawr for 216 Death damage. 
+05:26:25: ( 7 , T=P#R=G#211669182502152560 , T=P#R=G#211669182502152560 , T=X#R=X#0 , T=X#R=X#0 , Beawr , Beawr , 0 , 861304448 , Shroud Of Agony ) Beawr's Shroud Of Agony fades from Beawr.
+05:26:25: ( 6 , T=P#R=G#211669182502152560 , T=P#R=G#211669182502152560 , T=X#R=X#0 , T=X#R=X#0 , Beawr , Beawr , 0 , 861304448 , Shroud Of Agony ) Beawr gains Beawr's Shroud Of Agony.
+05:26:25: ( 4 , T=P#R=C#211669182567225542 , T=P#R=G#211669182502152560 , T=X#R=X#0 , T=X#R=X#0 , Aoife , Beawr , 121 , 1055329214 , Dark Touch ) Beawr suffers 121 Death damage from Aoife's Dark Touch. 
+05:26:26: ( 5 , T=P#R=C#211669182567225542 , T=P#R=C#211669182567225542 , T=X#R=X#0 , T=X#R=X#0 , Aoife , Aoife , 0 , 473115348 , Warlock Armor ) Aoife's Warlock Armor heals Aoife for 0. (12 overheal)
+05:26:26: ( 8 , T=P#R=G#211669182502152560 , T=P#R=C#211669182567225542 , T=X#R=X#0 , T=X#R=X#0 , Beawr , Aoife , 0 , 1441118300 , Sanction ) Aoife is afflicted by Beawr's Sanction.
+05:26:26: ( 5 , T=P#R=G#211669182502152560 , T=P#R=G#211669182502152560 , T=X#R=X#0 , T=X#R=X#0 , Beawr , Beawr , 133 , 293562978 , Salvation ) Beawr's Salvation heals Beawr for 133. 
+05:26:26: ( 3 , T=P#R=G#211669182502152560 , T=P#R=C#211669182567225542 , T=X#R=X#0 , T=X#R=X#0 , Beawr , Aoife , 812 , 449813826 , Sanction Heretic ) Beawr's Sanction Heretic hits Aoife for 812 Life damage. 
+05:26:26: ( 6 , T=P#R=G#211669182502152560 , T=P#R=G#211669182502152560 , T=X#R=X#0 , T=X#R=X#0 , Beawr , Beawr , 0 , 1626474066 , Conviction ) Beawr gains Beawr's Conviction.
+05:26:26: ( 3 , T=P#R=C#211669182567225542 , T=P#R=G#211669182502152560 , T=X#R=X#0 , T=X#R=X#0 , Aoife , Beawr , 56 , 473115348 , Warlock Armor ) Aoife's Warlock Armor hits Beawr for 56 Death damage. 
+05:26:27: ( 4 , T=P#R=C#211669182567225542 , T=P#R=G#211669182502152560 , T=X#R=X#0 , T=X#R=X#0 , Aoife , Beawr , 108 , 993221111 , Necrosis ) Beawr suffers 108 Death damage from Aoife's Necrosis. 
+05:26:27: ( 5 , T=P#R=C#211669182567225542 , T=P#R=C#211669182567225542 , T=X#R=X#0 , T=X#R=X#0 , Aoife , Aoife , 56 , 1969688444 , Life Leech ) Aoife's Life Leech heals Aoife for 56. 
+05:26:27: ( 4 , T=P#R=C#211669182567225542 , T=P#R=G#211669182502152560 , T=X#R=X#0 , T=X#R=X#0 , Aoife , Beawr , 144 , 1969688444 , Life Leech ) Beawr suffers 144 Death damage from Aoife's Life Leech. 
+05:26:27: ( 4 , T=P#R=C#211669182567225542 , T=P#R=G#211669182502152560 , T=X#R=X#0 , T=X#R=X#0 , Aoife , Beawr , 121 , 1055329214 , Dark Touch ) Beawr suffers 121 Death damage from Aoife's Dark Touch. 
+05:26:27: ( 3 , T=P#R=G#211669182502152560 , T=P#R=C#211669182567225542 , T=X#R=X#0 , T=X#R=X#0 , Beawr , Aoife , 52 , 861304448 , Shroud Of Agony ) Beawr's Shroud Of Agony hits Aoife for 52 Death damage. 
+05:26:28: ( 5 , T=P#R=C#211669182567225542 , T=P#R=C#211669182567225542 , T=X#R=X#0 , T=X#R=X#0 , Aoife , Aoife , 12 , 473115348 , Warlock Armor ) Aoife's Warlock Armor heals Aoife for 12. 
+05:26:28: ( 5 , T=P#R=G#211669182502152560 , T=P#R=G#211669182502152560 , T=X#R=X#0 , T=X#R=X#0 , Beawr , Beawr , 161 , 497313021 , Contempt ) Beawr's Contempt heals Beawr for 161. 
+05:26:28: ( 5 , T=P#R=G#211669182502152560 , T=P#R=G#211669182502152560 , T=X#R=X#0 , T=X#R=X#0 , Beawr , Beawr , 28 , 293562978 , Salvation ) Beawr's Salvation heals Beawr for 28. 
+05:26:28: ( 8 , T=P#R=G#211669182502152560 , T=P#R=C#211669182567225542 , T=X#R=X#0 , T=X#R=X#0 , Beawr , Aoife , 0 , 167933921 , Vex ) Aoife is afflicted by Beawr's Vex.
+05:26:28: ( 3 , T=P#R=G#211669182502152560 , T=P#R=C#211669182567225542 , T=X#R=X#0 , T=X#R=X#0 , Beawr , Aoife , 179 , 167933921 , Vex ) Beawr's Vex hits Aoife for 179 Death damage. 
+05:26:28: ( 3 , T=P#R=C#211669182567225542 , T=P#R=G#211669182502152560 , T=X#R=X#0 , T=X#R=X#0 , Aoife , Beawr , 56 , 473115348 , Warlock Armor ) Aoife's Warlock Armor hits Beawr for 56 Death damage. 
+05:26:28: ( 28 , T=P#R=C#211669182567225542 , T=P#R=C#211669182567225542 , T=X#R=X#0 , T=X#R=X#0 , Aoife , Aoife , 477 , 1109565430 , Draining Bolt ) Aoife's Draining Bolt critically heals Aoife for 477. 
+05:26:28: ( 23 , T=P#R=C#211669182567225542 , T=P#R=G#211669182502152560 , T=X#R=X#0 , T=X#R=X#0 , Aoife , Beawr , 954 , 1109565430 , Draining Bolt ) Aoife's Draining Bolt critically hits Beawr for 954 Death damage. 
+05:26:29: ( 28 , T=P#R=C#211669182567225542 , T=P#R=C#211669182567225542 , T=X#R=X#0 , T=X#R=X#0 , Aoife , Aoife , 0 , 1109565430 , Draining Bolt ) Aoife's Draining Bolt critically heals Aoife for 0. 
+05:26:29: ( 4 , T=P#R=C#211669182567225542 , T=P#R=G#211669182502152560 , T=X#R=X#0 , T=X#R=X#0 , Aoife , Beawr , 108 , 993221111 , Necrosis ) Beawr suffers 108 Death damage from Aoife's Necrosis. 
+05:26:29: ( 28 , T=P#R=C#211669182567225542 , T=P#R=C#211669182567225542 , T=X#R=X#0 , T=X#R=X#0 , Aoife , Aoife , 84 , 1969688444 , Life Leech ) Aoife's Life Leech critically heals Aoife for 84. 
+05:26:29: ( 23 , T=P#R=C#211669182567225542 , T=P#R=G#211669182502152560 , T=X#R=X#0 , T=X#R=X#0 , Aoife , Beawr , 216 , 1969688444 , Life Leech ) Aoife's Life Leech critically hits Beawr for 216 Death damage. 
+05:26:29: ( 5 , T=P#R=C#211669182567225542 , T=P#R=C#211669182567225542 , T=X#R=X#0 , T=X#R=X#0 , Aoife , Aoife , 12 , 473115348 , Warlock Armor ) Aoife's Warlock Armor heals Aoife for 12. 
+05:26:29: ( 5 , T=P#R=G#211669182502152560 , T=P#R=G#211669182502152560 , T=X#R=X#0 , T=X#R=X#0 , Beawr , Beawr , 30 , 293562978 , Salvation ) Beawr's Salvation heals Beawr for 30. 
+05:26:29: ( 3 , T=P#R=G#211669182502152560 , T=P#R=C#211669182567225542 , T=X#R=X#0 , T=X#R=X#0 , Beawr , Aoife , 182 , 1441118300 , Sanction ) Beawr's Sanction hits Aoife for 182 Life damage. 
+05:26:29: ( 6 , T=P#R=G#211669182502152560 , T=P#R=G#211669182502152560 , T=X#R=X#0 , T=X#R=X#0 , Beawr , Beawr , 0 , 1626474066 , Conviction ) Beawr gains Beawr's Conviction.
+05:26:29: ( 6 , T=P#R=G#211669182502152560 , T=P#R=G#211669182502152560 , T=X#R=X#0 , T=X#R=X#0 , Beawr , Beawr , 0 , 417489077 , Adorned Shadeshard ) Beawr gains Beawr's Adorned Shadeshard.
+05:26:29: ( 6 , T=P#R=G#211669182502152560 , T=P#R=G#211669182502152560 , T=X#R=X#0 , T=X#R=X#0 , Beawr , Beawr , 0 , 417489077 , Adorned Shadeshard ) Beawr gains Beawr's Adorned Shadeshard.
+05:26:29: ( 6 , T=P#R=G#211669182502152560 , T=P#R=G#211669182502152560 , T=X#R=X#0 , T=X#R=X#0 , Beawr , Beawr , 0 , 417489077 , Adorned Shadeshard ) Beawr gains Beawr's Adorned Shadeshard.
+05:26:29: ( 6 , T=P#R=G#211669182502152560 , T=P#R=G#211669182502152560 , T=X#R=X#0 , T=X#R=X#0 , Beawr , Beawr , 0 , 417489077 , Adorned Shadeshard ) Beawr gains Beawr's Adorned Shadeshard.
+05:26:29: ( 6 , T=P#R=G#211669182502152560 , T=P#R=G#211669182502152560 , T=X#R=X#0 , T=X#R=X#0 , Beawr , Beawr , 0 , 417489077 , Adorned Shadeshard ) Beawr gains Beawr's Adorned Shadeshard.
+05:26:29: ( 3 , T=P#R=C#211669182567225542 , T=P#R=G#211669182502152560 , T=X#R=X#0 , T=X#R=X#0 , Aoife , Beawr , 56 , 473115348 , Warlock Armor ) Aoife's Warlock Armor hits Beawr for 56 Death damage. 
+05:26:29: ( 23 , T=P#R=C#211669182567225542 , T=P#R=G#211669182502152560 , T=X#R=X#0 , T=X#R=X#0 , Aoife , Beawr , 182 , 1055329214 , Dark Touch ) Aoife's Dark Touch critically hits Beawr for 182 Death damage. 
+05:26:29: ( 3 , T=P#R=G#211669182502152560 , T=P#R=C#211669182567225542 , T=X#R=X#0 , T=X#R=X#0 , Beawr , Aoife , 52 , 861304448 , Shroud Of Agony ) Beawr's Shroud Of Agony hits Aoife for 52 Death damage. 
+05:26:29: ( 5 , T=P#R=G#211669182502152560 , T=P#R=G#211669182502152560 , T=X#R=X#0 , T=X#R=X#0 , Beawr , Beawr , 1362 , 1712615846 , Healing Breath ) Beawr's Healing Breath heals Beawr for 1362. 
+05:26:31: ( 5 , T=P#R=C#211669182567225542 , T=P#R=C#211669182567225542 , T=X#R=X#0 , T=X#R=X#0 , Aoife , Aoife , 12 , 473115348 , Warlock Armor ) Aoife's Warlock Armor heals Aoife for 12. 
+05:26:31: ( 5 , T=P#R=G#211669182502152560 , T=P#R=G#211669182502152560 , T=X#R=X#0 , T=X#R=X#0 , Beawr , Beawr , 161 , 497313021 , Contempt ) Beawr's Contempt heals Beawr for 161. 
+05:26:31: ( 4 , T=P#R=G#211669182502152560 , T=P#R=C#211669182567225542 , T=X#R=X#0 , T=X#R=X#0 , Beawr , Aoife , 179 , 167933921 , Vex ) Aoife suffers 179 Death damage from Beawr's Vex. 
+05:26:31: ( 4 , T=P#R=C#211669182567225542 , T=P#R=G#211669182502152560 , T=X#R=X#0 , T=X#R=X#0 , Aoife , Beawr , 108 , 993221111 , Necrosis ) Beawr suffers 108 Death damage from Aoife's Necrosis. 
+05:26:31: ( 7 , T=P#R=G#211669182502152560 , T=P#R=G#211669182502152560 , T=X#R=X#0 , T=X#R=X#0 , Beawr , Beawr , 0 , 861304448 , Shroud Of Agony ) Beawr's Shroud Of Agony fades from Beawr.
+05:26:31: ( 6 , T=P#R=G#211669182502152560 , T=P#R=G#211669182502152560 , T=X#R=X#0 , T=X#R=X#0 , Beawr , Beawr , 0 , 861304448 , Shroud Of Agony ) Beawr gains Beawr's Shroud Of Agony.
+05:26:31: ( 4 , T=P#R=C#211669182567225542 , T=P#R=G#211669182502152560 , T=X#R=X#0 , T=X#R=X#0 , Aoife , Beawr , 144 , 1969688444 , Life Leech ) Beawr suffers 144 Death damage from Aoife's Life Leech. 
+05:26:31: ( 5 , T=P#R=C#211669182567225542 , T=P#R=C#211669182567225542 , T=X#R=X#0 , T=X#R=X#0 , Aoife , Aoife , 56 , 1969688444 , Life Leech ) Aoife's Life Leech heals Aoife for 56. 
+05:26:31: ( 5 , T=P#R=C#211669182567225542 , T=P#R=C#211669182567225542 , T=X#R=X#0 , T=X#R=X#0 , Aoife , Aoife , 12 , 473115348 , Warlock Armor ) Aoife's Warlock Armor heals Aoife for 12. 
+05:26:31: ( 3 , T=P#R=G#211669182502152560 , T=P#R=C#211669182567225542 , T=X#R=X#0 , T=X#R=X#0 , Beawr , Aoife , 52 , 861304448 , Shroud Of Agony ) Beawr's Shroud Of Agony hits Aoife for 52 Death damage. 
+05:26:31: ( 1 , T=P#R=G#211669182502152560 , T=X#R=X#0 , T=X#R=X#0 , T=X#R=X#0 , Beawr , Unknown , 0 , 1028615457 , Bolt of Judgment ) Beawr begins casting Bolt of Judgment.
+05:26:31: ( 4 , T=P#R=C#211669182567225542 , T=P#R=G#211669182502152560 , T=X#R=X#0 , T=X#R=X#0 , Aoife , Beawr , 121 , 1055329214 , Dark Touch ) Beawr suffers 121 Death damage from Aoife's Dark Touch. 
+05:26:32: ( 5 , T=P#R=C#211669182567225542 , T=P#R=C#211669182567225542 , T=X#R=X#0 , T=X#R=X#0 , Aoife , Aoife , 12 , 473115348 , Warlock Armor ) Aoife's Warlock Armor heals Aoife for 12. 
+05:26:32: ( 23 , T=P#R=G#211669182502152560 , T=P#R=C#211669182567225542 , T=X#R=X#0 , T=X#R=X#0 , Beawr , Aoife , 347 , 1441118300 , Sanction ) Beawr's Sanction critically hits Aoife for 347 Life damage. 
+05:26:32: ( 6 , T=P#R=G#211669182502152560 , T=P#R=G#211669182502152560 , T=X#R=X#0 , T=X#R=X#0 , Beawr , Beawr , 0 , 1782770101 , Life and Death Concord ) Beawr gains Beawr's Life and Death Concord.
+05:26:33: ( 7 , T=P#R=O#211669182669056664 , T=P#R=O#211669182669056664 , T=X#R=X#0 , T=X#R=X#0 , Daedaluss , Daedaluss , 0 , 823017385 , Lethal Poison ) Daedaluss's Lethal Poison fades from Daedaluss.
+05:26:33: ( 7 , T=P#R=O#211669182669056664 , T=P#R=O#211669182669056664 , T=X#R=X#0 , T=X#R=X#0 , Daedaluss , Daedaluss , 0 , 276598819 , Leeching Poison ) Daedaluss's Leeching Poison fades from Daedaluss.
+05:26:33: ( 7 , T=P#R=O#211669182669056664 , T=P#R=O#211669182669056664 , T=X#R=X#0 , T=X#R=X#0 , Daedaluss , Daedaluss , 0 , 517438039 , Planebound Resilience ) Daedaluss's Planebound Resilience fades from Daedaluss.
+05:26:33: ( 7 , T=P#R=O#211669182669056664 , T=P#R=O#211669182669056664 , T=X#R=X#0 , T=X#R=X#0 , Daedaluss , Daedaluss , 0 , 1944017556 , Combat Pose ) Daedaluss's Combat Pose fades from Daedaluss.
+05:26:33: ( 5 , T=P#R=C#211669182567225542 , T=P#R=C#211669182567225542 , T=X#R=X#0 , T=X#R=X#0 , Aoife , Aoife , 12 , 473115348 , Warlock Armor ) Aoife's Warlock Armor heals Aoife for 12. 
+05:26:33: ( 1 , T=P#R=G#211669182502152560 , T=X#R=X#0 , T=X#R=X#0 , T=X#R=X#0 , Beawr , Unknown , 0 , 1028615457 , Bolt of Judgment ) Beawr begins casting Bolt of Judgment.
+05:26:33: ( 3 , T=P#R=C#211669182567225542 , T=P#R=G#211669182502152560 , T=X#R=X#0 , T=X#R=X#0 , Aoife , Beawr , 56 , 473115348 , Warlock Armor ) Aoife's Warlock Armor hits Beawr for 56 Death damage. 
+05:26:33: ( 5 , T=P#R=G#211669182502152560 , T=P#R=G#211669182502152560 , T=X#R=X#0 , T=X#R=X#0 , Beawr , Beawr , 81 , 293562978 , Salvation ) Beawr's Salvation heals Beawr for 81. 
+05:26:33: ( 3 , T=P#R=G#211669182502152560 , T=P#R=C#211669182567225542 , T=X#R=X#0 , T=X#R=X#0 , Beawr , Aoife , 499 , 1028615457 , Bolt of Judgment ) Beawr's Bolt of Judgment hits Aoife for 499 Life damage. 
+05:26:33: ( 6 , T=P#R=G#211669182502152560 , T=P#R=G#211669182502152560 , T=X#R=X#0 , T=X#R=X#0 , Beawr , Beawr , 0 , 1626474066 , Conviction ) Beawr gains Beawr's Conviction.
+05:26:33: ( 4 , T=P#R=C#211669182567225542 , T=P#R=G#211669182502152560 , T=X#R=X#0 , T=X#R=X#0 , Aoife , Beawr , 108 , 993221111 , Necrosis ) Beawr suffers 108 Death damage from Aoife's Necrosis. 
+05:26:33: ( 28 , T=P#R=C#211669182567225542 , T=P#R=C#211669182567225542 , T=X#R=X#0 , T=X#R=X#0 , Aoife , Aoife , 84 , 1969688444 , Life Leech ) Aoife's Life Leech critically heals Aoife for 84. 
+05:26:33: ( 23 , T=P#R=C#211669182567225542 , T=P#R=G#211669182502152560 , T=X#R=X#0 , T=X#R=X#0 , Aoife , Beawr , 216 , 1969688444 , Life Leech ) Aoife's Life Leech critically hits Beawr for 216 Death damage. 
+05:26:33: ( 3 , T=P#R=G#211669182502152560 , T=P#R=C#211669182567225542 , T=X#R=X#0 , T=X#R=X#0 , Beawr , Aoife , 52 , 861304448 , Shroud Of Agony ) Beawr's Shroud Of Agony hits Aoife for 52 Death damage. 
+05:26:33: ( 4 , T=P#R=C#211669182567225542 , T=P#R=G#211669182502152560 , T=X#R=X#0 , T=X#R=X#0 , Aoife , Beawr , 121 , 1055329214 , Dark Touch ) Beawr suffers 121 Death damage from Aoife's Dark Touch. 
+05:26:33: ( 7 , T=P#R=O#211669182508295625 , T=P#R=O#211669182508295625 , T=X#R=X#0 , T=X#R=X#0 , Ceph , Ceph , 0 , 2093053975 , Combat Preparation ) Ceph's Combat Preparation fades from Ceph.
+05:26:33: ( 7 , T=P#R=O#211669182508295625 , T=P#R=O#211669182508295625 , T=X#R=X#0 , T=X#R=X#0 , Ceph , Ceph , 0 , 1430163885 , Leeching Poison ) Ceph's Leeching Poison fades from Ceph.
+05:26:33: ( 7 , T=P#R=O#211669182508295625 , T=P#R=O#211669182508295625 , T=X#R=X#0 , T=X#R=X#0 , Ceph , Ceph , 0 , 111642718 , Lethal Poison ) Ceph's Lethal Poison fades from Ceph.
+05:26:34: ( 5 , T=P#R=C#211669182567225542 , T=P#R=C#211669182567225542 , T=X#R=X#0 , T=X#R=X#0 , Aoife , Aoife , 12 , 473115348 , Warlock Armor ) Aoife's Warlock Armor heals Aoife for 12. 
+05:26:34: ( 5 , T=P#R=G#211669182502152560 , T=P#R=G#211669182502152560 , T=X#R=X#0 , T=X#R=X#0 , Beawr , Beawr , 161 , 497313021 , Contempt ) Beawr's Contempt heals Beawr for 161. 
+05:26:34: ( 4 , T=P#R=G#211669182502152560 , T=P#R=C#211669182567225542 , T=X#R=X#0 , T=X#R=X#0 , Beawr , Aoife , 179 , 167933921 , Vex ) Aoife suffers 179 Death damage from Beawr's Vex. 
+05:26:34: ( 7 , T=P#R=G#211669182502152560 , T=P#R=G#211669182502152560 , T=X#R=X#0 , T=X#R=X#0 , Beawr , Beawr , 0 , 1782770101 , Life and Death Concord ) Beawr's Life and Death Concord fades from Beawr.
+05:26:34: ( 5 , T=P#R=C#211669182567225542 , T=P#R=C#211669182567225542 , T=X#R=X#0 , T=X#R=X#0 , Aoife , Aoife , 12 , 473115348 , Warlock Armor ) Aoife's Warlock Armor heals Aoife for 12. 
+05:26:34: ( 5 , T=P#R=G#211669182502152560 , T=P#R=G#211669182502152560 , T=X#R=X#0 , T=X#R=X#0 , Beawr , Beawr , 79 , 293562978 , Salvation ) Beawr's Salvation heals Beawr for 79. 
+05:26:34: ( 3 , T=P#R=G#211669182502152560 , T=P#R=C#211669182567225542 , T=X#R=X#0 , T=X#R=X#0 , Beawr , Aoife , 490 , 1028615457 , Bolt of Judgment ) Beawr's Bolt of Judgment hits Aoife for 490 Life damage. 
+05:26:34: ( 6 , T=P#R=G#211669182502152560 , T=P#R=G#211669182502152560 , T=X#R=X#0 , T=X#R=X#0 , Beawr , Beawr , 0 , 1626474066 , Conviction ) Beawr gains Beawr's Conviction.
+05:26:34: ( 3 , T=P#R=C#211669182567225542 , T=P#R=G#211669182502152560 , T=X#R=X#0 , T=X#R=X#0 , Aoife , Beawr , 56 , 473115348 , Warlock Armor ) Aoife's Warlock Armor hits Beawr for 56 Death damage. 
+05:26:35: ( 5 , T=P#R=C#211669182567225542 , T=P#R=C#211669182567225542 , T=X#R=X#0 , T=X#R=X#0 , Aoife , Aoife , 12 , 473115348 , Warlock Armor ) Aoife's Warlock Armor heals Aoife for 12. 
+05:26:35: ( 5 , T=P#R=G#211669182502152560 , T=P#R=G#211669182502152560 , T=X#R=X#0 , T=X#R=X#0 , Beawr , Beawr , 148 , 293562978 , Salvation ) Beawr's Salvation heals Beawr for 148. 
+05:26:35: ( 3 , T=P#R=C#211669182567225542 , T=P#R=G#211669182502152560 , T=X#R=X#0 , T=X#R=X#0 , Aoife , Beawr , 56 , 473115348 , Warlock Armor ) Aoife's Warlock Armor hits Beawr for 56 Death damage. 
+05:26:35: ( 8 , T=P#R=G#211669182502152560 , T=P#R=C#211669182567225542 , T=X#R=X#0 , T=X#R=X#0 , Beawr , Aoife , 0 , 182811502 , Symbol of Corruption ) Aoife is afflicted by Beawr's Symbol of Corruption.
+05:26:35: ( 3 , T=P#R=G#211669182502152560 , T=P#R=C#211669182567225542 , T=X#R=X#0 , T=X#R=X#0 , Beawr , Aoife , 908 , 276913072 , Bolt of Depravity ) Beawr's Bolt of Depravity hits Aoife for 908 Death damage. 
+05:26:35: ( 4 , T=P#R=C#211669182567225542 , T=P#R=G#211669182502152560 , T=X#R=X#0 , T=X#R=X#0 , Aoife , Beawr , 108 , 993221111 , Necrosis ) Beawr suffers 108 Death damage from Aoife's Necrosis. 
+05:26:35: ( 5 , T=P#R=C#211669182567225542 , T=P#R=C#211669182567225542 , T=X#R=X#0 , T=X#R=X#0 , Aoife , Aoife , 56 , 1969688444 , Life Leech ) Aoife's Life Leech heals Aoife for 56. 
+05:26:35: ( 5 , T=P#R=C#211669182567225542 , T=P#R=C#211669182567225542 , T=X#R=X#0 , T=X#R=X#0 , Aoife , Aoife , 12 , 473115348 , Warlock Armor ) Aoife's Warlock Armor heals Aoife for 12. 
+05:26:35: ( 9 , T=P#R=C#211669182567225542 , T=P#R=G#211669182502152560 , T=X#R=X#0 , T=X#R=X#0 , Aoife , Beawr , 0 , 1969688444 , Life Leech ) Aoife's Life Leech dissipates from Beawr.
+05:26:35: ( 4 , T=P#R=C#211669182567225542 , T=P#R=G#211669182502152560 , T=X#R=X#0 , T=X#R=X#0 , Aoife , Beawr , 144 , 1969688444 , Life Leech ) Beawr suffers 144 Death damage from Aoife's Life Leech. 
+05:26:35: ( 3 , T=P#R=G#211669182502152560 , T=P#R=C#211669182567225542 , T=X#R=X#0 , T=X#R=X#0 , Beawr , Aoife , 52 , 861304448 , Shroud Of Agony ) Beawr's Shroud Of Agony hits Aoife for 52 Death damage. 
+05:26:35: ( 23 , T=P#R=G#211669182502152560 , T=P#R=C#211669182567225542 , T=X#R=X#0 , T=X#R=X#0 , Beawr , Aoife , 347 , 1441118300 , Sanction ) Beawr's Sanction critically hits Aoife for 347 Life damage. 
+05:26:35: ( 4 , T=P#R=C#211669182567225542 , T=P#R=G#211669182502152560 , T=X#R=X#0 , T=X#R=X#0 , Aoife , Beawr , 121 , 1055329214 , Dark Touch ) Beawr suffers 121 Death damage from Aoife's Dark Touch. 
+05:26:36: ( 5 , T=P#R=C#211669182567225542 , T=P#R=C#211669182567225542 , T=X#R=X#0 , T=X#R=X#0 , Aoife , Aoife , 12 , 473115348 , Warlock Armor ) Aoife's Warlock Armor heals Aoife for 12. 
+05:26:36: ( 5 , T=P#R=G#211669182502152560 , T=P#R=G#211669182502152560 , T=X#R=X#0 , T=X#R=X#0 , Beawr , Beawr , 10 , 293562978 , Salvation ) Beawr's Salvation heals Beawr for 10. 
+05:26:36: ( 3 , T=P#R=G#211669182502152560 , T=P#R=C#211669182567225542 , T=X#R=X#0 , T=X#R=X#0 , Beawr , Aoife , 68 , 182811502 , Symbol of Corruption ) Beawr's Symbol of Corruption hits Aoife for 68 Death damage. 
+05:26:36: ( 3 , T=P#R=C#211669182567225542 , T=P#R=G#211669182502152560 , T=X#R=X#0 , T=X#R=X#0 , Aoife , Beawr , 56 , 473115348 , Warlock Armor ) Aoife's Warlock Armor hits Beawr for 56 Death damage. 
+05:26:37: ( 5 , T=P#R=C#211669182567225542 , T=P#R=C#211669182567225542 , T=X#R=X#0 , T=X#R=X#0 , Aoife , Aoife , 12 , 473115348 , Warlock Armor ) Aoife's Warlock Armor heals Aoife for 12. 
+05:26:37: ( 4 , T=P#R=G#211669182502152560 , T=P#R=C#211669182567225542 , T=X#R=X#0 , T=X#R=X#0 , Beawr , Aoife , 68 , 182811502 , Symbol of Corruption ) Aoife suffers 68 Death damage from Beawr's Symbol of Corruption. 
+05:26:37: ( 5 , T=P#R=C#211669182567225542 , T=P#R=C#211669182567225542 , T=X#R=X#0 , T=X#R=X#0 , Aoife , Aoife , 12 , 473115348 , Warlock Armor ) Aoife's Warlock Armor heals Aoife for 12. 
+05:26:37: ( 5 , T=P#R=G#211669182502152560 , T=P#R=G#211669182502152560 , T=X#R=X#0 , T=X#R=X#0 , Beawr , Beawr , 161 , 497313021 , Contempt ) Beawr's Contempt heals Beawr for 161. 
+05:26:37: ( 4 , T=P#R=G#211669182502152560 , T=P#R=C#211669182567225542 , T=X#R=X#0 , T=X#R=X#0 , Beawr , Aoife , 179 , 167933921 , Vex ) Aoife suffers 179 Death damage from Beawr's Vex. 
+05:26:37: ( 7 , T=P#R=G#211669182502152560 , T=P#R=G#211669182502152560 , T=X#R=X#0 , T=X#R=X#0 , Beawr , Beawr , 0 , 861304448 , Shroud Of Agony ) Beawr's Shroud Of Agony fades from Beawr.
+05:26:37: ( 6 , T=P#R=G#211669182502152560 , T=P#R=G#211669182502152560 , T=X#R=X#0 , T=X#R=X#0 , Beawr , Beawr , 0 , 861304448 , Shroud Of Agony ) Beawr gains Beawr's Shroud Of Agony.
+05:26:37: ( 5 , T=P#R=C#211669182567225542 , T=P#R=C#211669182567225542 , T=X#R=X#0 , T=X#R=X#0 , Aoife , Aoife , 12 , 473115348 , Warlock Armor ) Aoife's Warlock Armor heals Aoife for 12. 
+05:26:37: ( 4 , T=P#R=C#211669182567225542 , T=P#R=G#211669182502152560 , T=X#R=X#0 , T=X#R=X#0 , Aoife , Beawr , 108 , 993221111 , Necrosis ) Beawr suffers 108 Death damage from Aoife's Necrosis. 
+05:26:37: ( 3 , T=P#R=G#211669182502152560 , T=P#R=C#211669182567225542 , T=X#R=X#0 , T=X#R=X#0 , Beawr , Aoife , 52 , 861304448 , Shroud Of Agony ) Beawr's Shroud Of Agony hits Aoife for 52 Death damage. 
+05:26:37: ( 4 , T=P#R=C#211669182567225542 , T=P#R=G#211669182502152560 , T=X#R=X#0 , T=X#R=X#0 , Aoife , Beawr , 121 , 1055329214 , Dark Touch ) Beawr suffers 121 Death damage from Aoife's Dark Touch. 
+05:26:37: ( 7 , T=P#R=G#211669182502152560 , T=P#R=G#211669182502152560 , T=X#R=X#0 , T=X#R=X#0 , Beawr , Beawr , 0 , 417489077 , Adorned Shadeshard ) Beawr's Adorned Shadeshard fades from Beawr.
+05:26:38: ( 5 , T=P#R=G#211669182502152560 , T=P#R=G#211669182502152560 , T=X#R=X#0 , T=X#R=X#0 , Beawr , Beawr , 1255 , 1712615846 , Healing Breath ) Beawr's Healing Breath heals Beawr for 1255. 
+05:26:38: ( 5 , T=P#R=C#211669182567225542 , T=P#R=C#211669182567225542 , T=X#R=X#0 , T=X#R=X#0 , Aoife , Aoife , 12 , 473115348 , Warlock Armor ) Aoife's Warlock Armor heals Aoife for 12. 
+05:26:38: ( 4 , T=P#R=G#211669182502152560 , T=P#R=C#211669182567225542 , T=X#R=X#0 , T=X#R=X#0 , Beawr , Aoife , 68 , 182811502 , Symbol of Corruption ) Aoife suffers 68 Death damage from Beawr's Symbol of Corruption. 
+05:26:38: ( 5 , T=P#R=C#211669182567225542 , T=P#R=C#211669182567225542 , T=X#R=X#0 , T=X#R=X#0 , Aoife , Aoife , 12 , 473115348 , Warlock Armor ) Aoife's Warlock Armor heals Aoife for 12. 
+05:26:38: ( 23 , T=P#R=G#211669182502152560 , T=P#R=C#211669182567225542 , T=X#R=X#0 , T=X#R=X#0 , Beawr , Aoife , 347 , 1441118300 , Sanction ) Beawr's Sanction critically hits Aoife for 347 Life damage. 
+05:26:39: ( 5 , T=P#R=C#211669182567225542 , T=P#R=C#211669182567225542 , T=X#R=X#0 , T=X#R=X#0 , Aoife , Aoife , 12 , 473115348 , Warlock Armor ) Aoife's Warlock Armor heals Aoife for 12. 
+05:26:39: ( 9 , T=P#R=G#211669182502152560 , T=P#R=C#211669182567225542 , T=X#R=X#0 , T=X#R=X#0 , Beawr , Aoife , 0 , 182811502 , Symbol of Corruption ) Beawr's Symbol of Corruption dissipates from Aoife.
+05:26:39: ( 4 , T=P#R=G#211669182502152560 , T=P#R=C#211669182567225542 , T=X#R=X#0 , T=X#R=X#0 , Beawr , Aoife , 68 , 182811502 , Symbol of Corruption ) Aoife suffers 68 Death damage from Beawr's Symbol of Corruption. 
+05:26:39: ( 4 , T=P#R=C#211669182567225542 , T=P#R=G#211669182502152560 , T=X#R=X#0 , T=X#R=X#0 , Aoife , Beawr , 108 , 993221111 , Necrosis ) Beawr suffers 108 Death damage from Aoife's Necrosis. 
+05:26:39: ( 3 , T=P#R=G#211669182502152560 , T=P#R=C#211669182567225542 , T=X#R=X#0 , T=X#R=X#0 , Beawr , Aoife , 52 , 861304448 , Shroud Of Agony ) Beawr's Shroud Of Agony hits Aoife for 52 Death damage. 
+05:26:39: ( 9 , T=P#R=C#211669182567225542 , T=P#R=G#211669182502152560 , T=X#R=X#0 , T=X#R=X#0 , Aoife , Beawr , 0 , 1055329214 , Dark Touch ) Aoife's Dark Touch dissipates from Beawr.
+05:26:39: ( 23 , T=P#R=C#211669182567225542 , T=P#R=G#211669182502152560 , T=X#R=X#0 , T=X#R=X#0 , Aoife , Beawr , 182 , 1055329214 , Dark Touch ) Aoife's Dark Touch critically hits Beawr for 182 Death damage. 
+05:26:40: ( 5 , T=P#R=C#211669182567225542 , T=P#R=C#211669182567225542 , T=X#R=X#0 , T=X#R=X#0 , Aoife , Aoife , 12 , 473115348 , Warlock Armor ) Aoife's Warlock Armor heals Aoife for 12. 
+05:26:40: ( 28 , T=P#R=G#211669182502152560 , T=P#R=G#211669182502152560 , T=X#R=X#0 , T=X#R=X#0 , Beawr , Beawr , 306 , 497313021 , Contempt ) Beawr's Contempt critically heals Beawr for 306. 
+05:26:40: ( 23 , T=P#R=G#211669182502152560 , T=P#R=C#211669182567225542 , T=X#R=X#0 , T=X#R=X#0 , Beawr , Aoife , 341 , 167933921 , Vex ) Beawr's Vex critically hits Aoife for 341 Death damage. 
+05:26:41: ( 4 , T=P#R=C#211669182567225542 , T=P#R=G#211669182502152560 , T=X#R=X#0 , T=X#R=X#0 , Aoife , Beawr , 108 , 993221111 , Necrosis ) Beawr suffers 108 Death damage from Aoife's Necrosis. 
+05:26:41: ( 3 , T=P#R=G#211669182502152560 , T=P#R=C#211669182567225542 , T=X#R=X#0 , T=X#R=X#0 , Beawr , Aoife , 52 , 861304448 , Shroud Of Agony ) Beawr's Shroud Of Agony hits Aoife for 52 Death damage. 
+05:26:41: ( 5 , T=P#R=C#211669182567225542 , T=P#R=C#211669182567225542 , T=X#R=X#0 , T=X#R=X#0 , Aoife , Aoife , 12 , 473115348 , Warlock Armor ) Aoife's Warlock Armor heals Aoife for 12. 
+05:26:41: ( 9 , T=P#R=G#211669182502152560 , T=P#R=C#211669182567225542 , T=X#R=X#0 , T=X#R=X#0 , Beawr , Aoife , 0 , 1441118300 , Sanction ) Beawr's Sanction dissipates from Aoife.
+05:26:41: ( 4 , T=P#R=G#211669182502152560 , T=P#R=C#211669182567225542 , T=X#R=X#0 , T=X#R=X#0 , Beawr , Aoife , 182 , 1441118300 , Sanction ) Aoife suffers 182 Life damage from Beawr's Sanction. 
+05:26:43: ( 5 , T=P#R=C#211669182567225542 , T=P#R=C#211669182567225542 , T=X#R=X#0 , T=X#R=X#0 , Aoife , Aoife , 12 , 473115348 , Warlock Armor ) Aoife's Warlock Armor heals Aoife for 12. 
+05:26:43: ( 5 , T=P#R=G#211669182502152560 , T=P#R=G#211669182502152560 , T=X#R=X#0 , T=X#R=X#0 , Beawr , Beawr , 161 , 497313021 , Contempt ) Beawr's Contempt heals Beawr for 161. 
+05:26:43: ( 9 , T=P#R=G#211669182502152560 , T=P#R=C#211669182567225542 , T=X#R=X#0 , T=X#R=X#0 , Beawr , Aoife , 0 , 167933921 , Vex ) Beawr's Vex dissipates from Aoife.
+05:26:43: ( 4 , T=P#R=G#211669182502152560 , T=P#R=C#211669182567225542 , T=X#R=X#0 , T=X#R=X#0 , Beawr , Aoife , 179 , 167933921 , Vex ) Aoife suffers 179 Death damage from Beawr's Vex. 
+05:26:43: ( 3 , T=P#R=G#211669182502152560 , T=P#R=C#211669182567225542 , T=X#R=X#0 , T=X#R=X#0 , Beawr , Aoife , 52 , 861304448 , Shroud Of Agony ) Beawr's Shroud Of Agony hits Aoife for 52 Death damage. 
+05:26:43: ( 9 , T=P#R=C#211669182567225542 , T=P#R=G#211669182502152560 , T=X#R=X#0 , T=X#R=X#0 , Aoife , Beawr , 0 , 993221111 , Necrosis ) Aoife's Necrosis dissipates from Beawr.
+05:26:43: ( 7 , T=P#R=G#211669182502152560 , T=P#R=G#211669182502152560 , T=X#R=X#0 , T=X#R=X#0 , Beawr , Beawr , 0 , 861304448 , Shroud Of Agony ) Beawr's Shroud Of Agony fades from Beawr.
+05:26:43: ( 4 , T=P#R=C#211669182567225542 , T=P#R=G#211669182502152560 , T=X#R=X#0 , T=X#R=X#0 , Aoife , Beawr , 108 , 993221111 , Necrosis ) Beawr suffers 108 Death damage from Aoife's Necrosis. 
+05:26:46 Combat End
+05:26:47 Combat Begin
+05:26:47: ( 5 , T=P#R=C#211669182567225542 , T=P#R=C#211669182567225542 , T=X#R=X#0 , T=X#R=X#0 , Aoife , Aoife , 12 , 473115348 , Warlock Armor ) Aoife's Warlock Armor heals Aoife for 12. 
+05:26:47: ( 12 , T=P#R=C#211669182567225542 , T=X#R=X#0 , T=X#R=X#0 , T=X#R=X#0 , Aoife , Unknown , 0 , 0 ,  ) Aoife has died.
+05:26:47: ( 5 , T=P#R=G#211669182502152560 , T=P#R=G#211669182502152560 , T=X#R=X#0 , T=X#R=X#0 , Beawr , Beawr , 133 , 293562978 , Salvation ) Beawr's Salvation heals Beawr for 133. 
+05:26:47: ( 6 , T=P#R=G#211669182502152560 , T=P#R=G#211669182502152560 , T=X#R=X#0 , T=X#R=X#0 , Beawr , Beawr , 0 , 1626474066 , Conviction ) Beawr gains Beawr's Conviction.
+05:26:47: ( 3 , T=P#R=C#211669182567225542 , T=P#R=G#211669182502152560 , T=X#R=X#0 , T=X#R=X#0 , Aoife , Beawr , 56 , 473115348 , Warlock Armor ) Aoife's Warlock Armor hits Beawr for 56 Death damage. 
+05:26:47 Combat End
+05:26:47: ( 3 , T=P#R=G#211669182502152560 , T=P#R=C#211669182567225542 , T=X#R=X#0 , T=X#R=X#0 , Beawr , Aoife , 810 , 449813826 , Sanction Heretic ) Beawr's Sanction Heretic hits Aoife for 810 Life damage. (294 overkill)
+05:26:48: ( 1 , T=P#R=O#211669182722054905 , T=X#R=X#0 , T=X#R=X#0 , T=X#R=X#0 , Hastos , Unknown , 0 , 1790356495 , Changing Role ) Hastos begins casting Changing Role.
+05:26:50: ( 7 , T=P#R=O#211669182722054905 , T=P#R=O#211669182722054905 , T=X#R=X#0 , T=X#R=X#0 , Hastos , Hastos , 0 , 2123704026 , Life of the Era ) Hastos's Life of the Era fades from Hastos.
+05:26:50: ( 7 , T=P#R=O#211669182722054905 , T=P#R=O#211669182722054905 , T=X#R=X#0 , T=X#R=X#0 , Hastos , Hastos , 0 , 328288355 , Wisdom of the Era ) Hastos's Wisdom of the Era fades from Hastos.
+05:26:50: ( 7 , T=P#R=O#211669182722054905 , T=P#R=O#211669182510763263 , T=X#R=X#0 , T=X#R=X#0 , Hastos , Yves , 0 , 965821884 , Surging Flames ) Hastos's Surging Flames fades from Yves.
+05:26:50: ( 7 , T=P#R=O#211669182722054905 , T=P#R=O#211669182510763263 , T=X#R=X#0 , T=X#R=X#0 , Hastos , Yves , 0 , 2123704026 , Life of the Era ) Hastos's Life of the Era fades from Yves.
+05:26:50: ( 7 , T=P#R=O#211669182722054905 , T=P#R=O#211669182510763263 , T=X#R=X#0 , T=X#R=X#0 , Hastos , Yves , 0 , 328288355 , Wisdom of the Era ) Hastos's Wisdom of the Era fades from Yves.
+05:26:51: ( 7 , T=P#R=O#211669182692130532 , T=P#R=O#211669182692130532 , T=X#R=X#0 , T=X#R=X#0 , Eryse , Eryse , 0 , 1697749612 , Motivational Roar ) Eryse's Motivational Roar fades from Eryse.
+05:26:53: ( 14 , T=P#R=O#211669182724339006 , T=P#R=O#211669182724339006 , T=X#R=X#0 , T=X#R=X#0 , Thirdboss , Thirdboss , 102 , 316931269 , Falling Damage ) Thirdboss takes 102 damage from Falling Damage. 
+05:26:55: ( 28 , T=P#R=G#211669182502152560 , T=P#R=C#211669182567225542 , T=X#R=X#0 , T=X#R=X#0 , Beawr , Aoife , 2338 , 1712615846 , Healing Breath ) Beawr's Healing Breath critically heals Aoife for 2338. 
+05:26:57: ( 28 , T=P#R=G#211669182502152560 , T=P#R=G#211669182502152560 , T=X#R=X#0 , T=X#R=X#0 , Beawr , Beawr , 600 , 1321451206 , Doctrine of Loyalty ) Beawr's Doctrine of Loyalty critically heals Beawr for 600. (965 overheal)
+05:26:57: ( 5 , T=P#R=G#211669182502152560 , T=P#R=C#211669182567225542 , T=X#R=X#0 , T=X#R=X#0 , Beawr , Aoife , 822 , 1321451206 , Doctrine of Loyalty ) Beawr's Doctrine of Loyalty heals Aoife for 822. 
+05:27:00: ( 28 , T=P#R=G#211669182502152560 , T=P#R=G#211669182502152560 , T=X#R=X#0 , T=X#R=X#0 , Beawr , Beawr , 0 , 1321451206 , Doctrine of Loyalty ) Beawr's Doctrine of Loyalty critically heals Beawr for 0. (1565 overheal)
+05:27:00: ( 5 , T=P#R=G#211669182502152560 , T=P#R=C#211669182567225542 , T=X#R=X#0 , T=X#R=X#0 , Beawr , Aoife , 821 , 1321451206 , Doctrine of Loyalty ) Beawr's Doctrine of Loyalty heals Aoife for 821. 
+05:27:01: ( 28 , T=P#R=G#211669182502152560 , T=P#R=G#211669182502152560 , T=X#R=X#0 , T=X#R=X#0 , Beawr , Beawr , 0 , 1321451206 , Doctrine of Loyalty ) Beawr's Doctrine of Loyalty critically heals Beawr for 0. (1565 overheal)
+05:27:01: ( 5 , T=P#R=G#211669182502152560 , T=P#R=C#211669182567225542 , T=X#R=X#0 , T=X#R=X#0 , Beawr , Aoife , 820 , 1321451206 , Doctrine of Loyalty ) Beawr's Doctrine of Loyalty heals Aoife for 820. 
+05:27:01: ( 14 , T=P#R=O#211669182723348473 , T=P#R=O#211669182723348473 , T=X#R=X#0 , T=X#R=X#0 , Noiar , Noiar , 557 , 316931269 , Falling Damage ) Noiar takes 557 damage from Falling Damage. 
+05:27:03: ( 5 , T=P#R=G#211669182502152560 , T=P#R=C#211669182567225542 , T=X#R=X#0 , T=X#R=X#0 , Beawr , Aoife , 583 , 1321451206 , Doctrine of Loyalty ) Beawr's Doctrine of Loyalty heals Aoife for 583. (241 overheal)
+05:27:03: ( 5 , T=P#R=G#211669182502152560 , T=P#R=G#211669182502152560 , T=X#R=X#0 , T=X#R=X#0 , Beawr , Beawr , 0 , 1321451206 , Doctrine of Loyalty ) Beawr's Doctrine of Loyalty heals Beawr for 0. (822 overheal)
+05:27:03: ( 7 , T=P#R=G#211669182502152560 , T=P#R=G#211669182502152560 , T=X#R=X#0 , T=X#R=X#0 , Beawr , Beawr , 0 , 1626474066 , Conviction ) Beawr's Conviction fades from Beawr.
+05:27:49: ( 3 , T=N#R=O#9223372042227776428 , T=P#R=O#211669182669056664 , T=X#R=X#0 , T=X#R=X#0 , Abyssal Infiltrator , Daedaluss , 8 , 32 , attack ) Abyssal Infiltrator's attack hits Daedaluss for 8 Physical damage. 
+05:27:51: ( 3 , T=P#R=O#211669182669056664 , T=N#R=O#9223372042227776428 , T=X#R=X#0 , T=X#R=X#0 , Daedaluss , Abyssal Infiltrator , 28 , 126733974 , Auto Attack ) Daedaluss's Auto Attack hits Abyssal Infiltrator for 28 Physical damage. 
+05:27:51: ( 6 , T=N#R=O#9223372042227776428 , T=N#R=O#9223372042227776428 , T=X#R=X#0 , T=X#R=X#0 , Abyssal Infiltrator , Abyssal Infiltrator , 0 , 1382508543 , Glacial Shield ) Abyssal Infiltrator gains Abyssal Infiltrator's Glacial Shield.
+05:27:52: ( 5 , T=P#R=O#211669182669056664 , T=P#R=O#211669182669056664 , T=X#R=X#0 , T=X#R=X#0 , Daedaluss , Daedaluss , 12 , 276598819 , Leeching Poison ) Daedaluss's Leeching Poison heals Daedaluss for 12. (55 overheal)
+05:27:52: ( 3 , T=P#R=O#211669182669056664 , T=N#R=O#9223372042227776428 , T=X#R=X#0 , T=X#R=X#0 , Daedaluss , Abyssal Infiltrator , 0 , 825130864 , Auto Attack ) Daedaluss's Auto Attack hits Abyssal Infiltrator for 0 Physical damage. (30 absorbed)
+05:27:52: ( 3 , T=N#R=O#9223372042227776428 , T=P#R=O#211669182669056664 , T=X#R=X#0 , T=X#R=X#0 , Abyssal Infiltrator , Daedaluss , 4 , 1382508543 , Glacial Shield ) Abyssal Infiltrator's Glacial Shield hits Daedaluss for 4 Water damage. 
+05:27:52: ( 3 , T=N#R=O#9223372042227776428 , T=P#R=O#211669182669056664 , T=X#R=X#0 , T=X#R=X#0 , Abyssal Infiltrator , Daedaluss , 4 , 1382508543 , Glacial Shield ) Abyssal Infiltrator's Glacial Shield hits Daedaluss for 4 Water damage. 
+05:27:52: ( 7 , T=N#R=O#9223372042227776428 , T=N#R=O#9223372042227776428 , T=X#R=X#0 , T=X#R=X#0 , Abyssal Infiltrator , Abyssal Infiltrator , 0 , 1382508543 , Glacial Shield ) Abyssal Infiltrator's Glacial Shield fades from Abyssal Infiltrator.
+05:27:52: ( 3 , T=P#R=O#211669182669056664 , T=N#R=O#9223372042227776428 , T=X#R=X#0 , T=X#R=X#0 , Daedaluss , Abyssal Infiltrator , 0 , 1249752814 , Leeching Poison ) Daedaluss's Leeching Poison hits Abyssal Infiltrator for 0 Water damage. (48 absorbed)
+05:27:52: ( 3 , T=P#R=O#211669182669056664 , T=N#R=O#9223372042227776428 , T=X#R=X#0 , T=X#R=X#0 , Daedaluss , Abyssal Infiltrator , 5 , 2083283005 , Malicious Strike ) Daedaluss's Malicious Strike hits Abyssal Infiltrator for 5 Water damage. (82 absorbed)
+05:27:52: ( 23 , T=N#R=O#9223372042227776428 , T=P#R=O#211669182669056664 , T=X#R=X#0 , T=X#R=X#0 , Abyssal Infiltrator , Daedaluss , 6 , 1382508543 , Glacial Shield ) Abyssal Infiltrator's Glacial Shield critically hits Daedaluss for 6 Water damage. 
+05:27:52: ( 8 , T=P#R=O#211669182669056664 , T=N#R=O#9223372042227776428 , T=X#R=X#0 , T=X#R=X#0 , Daedaluss , Abyssal Infiltrator , 0 , 2083283005 , Malicious Strike ) Abyssal Infiltrator is afflicted by Daedaluss's Malicious Strike.
+05:27:53: ( 3 , T=N#R=O#9223372042227776428 , T=P#R=O#211669182669056664 , T=X#R=X#0 , T=X#R=X#0 , Abyssal Infiltrator , Daedaluss , 8 , 32 , attack ) Abyssal Infiltrator's attack hits Daedaluss for 8 Physical damage. 
+05:27:53: ( 3 , T=P#R=O#211669182669056664 , T=N#R=O#9223372042227776428 , T=X#R=X#0 , T=X#R=X#0 , Daedaluss , Abyssal Infiltrator , 25 , 126733974 , Auto Attack ) Daedaluss's Auto Attack hits Abyssal Infiltrator for 25 Physical damage. 
+05:27:53: ( 8 , T=N#R=O#9223372041367850009 , T=N#R=O#9223372042227776428 , T=X#R=X#0 , T=X#R=X#0 , Kaito , Abyssal Infiltrator , 0 , 1545567662 , Frost Strike ) Abyssal Infiltrator is afflicted by Kaito's Frost Strike.
+05:27:53: ( 3 , T=N#R=O#9223372041367850009 , T=N#R=O#9223372042227776428 , T=X#R=X#0 , T=X#R=X#0 , Kaito , Abyssal Infiltrator , 170 , 1545567662 , Frost Strike ) Kaito's Frost Strike hits Abyssal Infiltrator for 170 Water damage. 
+05:27:53: ( 3 , T=N#R=O#9223372041367850009 , T=N#R=O#9223372042227776428 , T=X#R=X#0 , T=X#R=X#0 , Kaito , Abyssal Infiltrator , 10 , 1712740171 , Avatar of Fire ) Kaito's Avatar of Fire hits Abyssal Infiltrator for 10 Fire damage. 
+05:27:53: ( 3 , T=P#R=O#211669182669056664 , T=N#R=O#9223372042227776428 , T=X#R=X#0 , T=X#R=X#0 , Daedaluss , Abyssal Infiltrator , 123 , 528146724 , Planar Strike ) Daedaluss's Planar Strike hits Abyssal Infiltrator for 123 Physical damage. 
+05:27:54: ( 27 , T=P#R=C#211669182567225542 , T=P#R=C#211669182567225542 , T=X#R=X#0 , T=X#R=X#0 , Aoife , Aoife , 842 , 1793162193 , Sacrifice Life: Mana ) Aoife's Sacrifice Life: Mana gives Aoife 842 Mana.
+05:27:54: ( 5 , T=P#R=C#211669182567225542 , T=P#R=C#211669182567225542 , T=X#R=X#0 , T=X#R=X#0 , Aoife , Aoife , 0 , 473115348 , Warlock Armor ) Aoife's Warlock Armor heals Aoife for 0. (12 overheal)
+05:27:54: ( 3 , T=P#R=C#211669182567225542 , T=P#R=C#211669182567225542 , T=X#R=X#0 , T=X#R=X#0 , Aoife , Aoife , 812 , 1793162193 , Sacrifice Life: Mana ) Aoife's Sacrifice Life: Mana hits Aoife for 812 Death damage. 
+05:27:54: ( 23 , T=P#R=O#211669182669056664 , T=N#R=O#9223372042227776428 , T=X#R=X#0 , T=X#R=X#0 , Daedaluss , Abyssal Infiltrator , 84 , 825130864 , Auto Attack ) Daedaluss's Auto Attack critically hits Abyssal Infiltrator for 84 Physical damage. 
+05:27:54: ( 3 , T=P#R=O#211669182669056664 , T=N#R=O#9223372042227776428 , T=X#R=X#0 , T=X#R=X#0 , Daedaluss , Abyssal Infiltrator , 9 , 1508652891 , Serrated Blades ) Daedaluss's Serrated Blades hits Abyssal Infiltrator for 9 Physical damage. 
+05:27:54: ( 11 , T=P#R=O#211669182669056664 , T=N#R=O#9223372042227776428 , T=X#R=X#0 , T=X#R=X#0 , Daedaluss , Abyssal Infiltrator , 0 , 0 ,  ) Daedaluss has slain Abyssal Infiltrator!
+05:27:55: ( 9 , T=P#R=O#211669182669056664 , T=N#R=O#9223372042227776428 , T=X#R=X#0 , T=X#R=X#0 , Daedaluss , Abyssal Infiltrator , 0 , 2083283005 , Malicious Strike ) Daedaluss's Malicious Strike dissipates from Abyssal Infiltrator.
+05:27:55: ( 9 , T=N#R=O#9223372041367850009 , T=N#R=O#9223372042227776428 , T=X#R=X#0 , T=X#R=X#0 , Kaito , Abyssal Infiltrator , 0 , 1545567662 , Frost Strike ) Kaito's Frost Strike dissipates from Abyssal Infiltrator.
+05:27:55: ( 3 , T=P#R=O#211669182669056664 , T=N#R=O#9223372042227776428 , T=X#R=X#0 , T=X#R=X#0 , Daedaluss , Abyssal Infiltrator , 48 , 1143674616 , Lethal Poison ) Daedaluss's Lethal Poison hits Abyssal Infiltrator for 48 Water damage. (41 overkill)
+05:27:55: ( 3 , T=N#R=O#9223372042227776428 , T=P#R=O#211669182669056664 , T=X#R=X#0 , T=X#R=X#0 , Abyssal Infiltrator , Daedaluss , 16 , 795641470 , Crushing Blow ) Abyssal Infiltrator's Crushing Blow hits Daedaluss for 16 Physical damage. 
+05:27:55: ( 27 , T=P#R=C#211669182567225542 , T=P#R=C#211669182567225542 , T=X#R=X#0 , T=X#R=X#0 , Aoife , Aoife , 842 , 1793162193 , Sacrifice Life: Mana ) Aoife's Sacrifice Life: Mana gives Aoife 842 Mana.
+05:27:55: ( 5 , T=P#R=C#211669182567225542 , T=P#R=C#211669182567225542 , T=X#R=X#0 , T=X#R=X#0 , Aoife , Aoife , 12 , 473115348 , Warlock Armor ) Aoife's Warlock Armor heals Aoife for 12. 
+05:27:55: ( 3 , T=P#R=C#211669182567225542 , T=P#R=C#211669182567225542 , T=X#R=X#0 , T=X#R=X#0 , Aoife , Aoife , 812 , 1793162193 , Sacrifice Life: Mana ) Aoife's Sacrifice Life: Mana hits Aoife for 812 Death damage. 
+05:28:06: ( 1 , T=P#R=C#211669182567225542 , T=X#R=X#0 , T=X#R=X#0 , T=X#R=X#0 , Aoife , Unknown , 0 , 1969688444 , Life Leech ) Aoife begins casting Life Leech.
+05:28:07 Combat Begin
+05:28:08: ( 5 , T=P#R=C#211669182567225542 , T=P#R=C#211669182567225542 , T=X#R=X#0 , T=X#R=X#0 , Aoife , Aoife , 56 , 1969688444 , Life Leech ) Aoife's Life Leech heals Aoife for 56. 
+05:28:08: ( 8 , T=P#R=C#211669182567225542 , T=P#R=G#211669182502152560 , T=X#R=X#0 , T=X#R=X#0 , Aoife , Beawr , 0 , 1969688444 , Life Leech ) Beawr is afflicted by Aoife's Life Leech.
+05:28:08: ( 3 , T=P#R=C#211669182567225542 , T=P#R=G#211669182502152560 , T=X#R=X#0 , T=X#R=X#0 , Aoife , Beawr , 144 , 1969688444 , Life Leech ) Aoife's Life Leech hits Beawr for 144 Death damage. 
+05:28:08: ( 8 , T=P#R=C#211669182567225542 , T=P#R=G#211669182502152560 , T=X#R=X#0 , T=X#R=X#0 , Aoife , Beawr , 0 , 1055329214 , Dark Touch ) Beawr is afflicted by Aoife's Dark Touch.
+05:28:08: ( 23 , T=P#R=C#211669182567225542 , T=P#R=G#211669182502152560 , T=X#R=X#0 , T=X#R=X#0 , Aoife , Beawr , 182 , 1055329214 , Dark Touch ) Aoife's Dark Touch critically hits Beawr for 182 Death damage. 
+05:28:09: ( 5 , T=P#R=C#211669182567225542 , T=P#R=C#211669182567225542 , T=X#R=X#0 , T=X#R=X#0 , Aoife , Aoife , 0 , 1969688444 , Life Leech ) Aoife's Life Leech heals Aoife for 0. 
+05:28:09: ( 5 , T=P#R=C#211669182567225542 , T=P#R=C#211669182567225542 , T=X#R=X#0 , T=X#R=X#0 , Aoife , Aoife , 12 , 473115348 , Warlock Armor ) Aoife's Warlock Armor heals Aoife for 12. 
+05:28:09: ( 28 , T=P#R=G#211669182502152560 , T=P#R=G#211669182502152560 , T=X#R=X#0 , T=X#R=X#0 , Beawr , Beawr , 306 , 497313021 , Contempt ) Beawr's Contempt critically heals Beawr for 306. 
+05:28:09: ( 5 , T=P#R=G#211669182502152560 , T=P#R=G#211669182502152560 , T=X#R=X#0 , T=X#R=X#0 , Beawr , Beawr , 55 , 293562978 , Salvation ) Beawr's Salvation heals Beawr for 55. 
+05:28:09: ( 8 , T=P#R=G#211669182502152560 , T=P#R=C#211669182567225542 , T=X#R=X#0 , T=X#R=X#0 , Beawr , Aoife , 0 , 167933921 , Vex ) Aoife is afflicted by Beawr's Vex.
+05:28:09: ( 23 , T=P#R=G#211669182502152560 , T=P#R=C#211669182567225542 , T=X#R=X#0 , T=X#R=X#0 , Beawr , Aoife , 341 , 167933921 , Vex ) Beawr's Vex critically hits Aoife for 341 Death damage. 
+05:28:09: ( 3 , T=P#R=C#211669182567225542 , T=P#R=G#211669182502152560 , T=X#R=X#0 , T=X#R=X#0 , Aoife , Beawr , 56 , 473115348 , Warlock Armor ) Aoife's Warlock Armor hits Beawr for 56 Death damage. 
+05:28:10: ( 5 , T=P#R=C#211669182567225542 , T=P#R=C#211669182567225542 , T=X#R=X#0 , T=X#R=X#0 , Aoife , Aoife , 56 , 1969688444 , Life Leech ) Aoife's Life Leech heals Aoife for 56. 
+05:28:10: ( 4 , T=P#R=C#211669182567225542 , T=P#R=G#211669182502152560 , T=X#R=X#0 , T=X#R=X#0 , Aoife , Beawr , 144 , 1969688444 , Life Leech ) Beawr suffers 144 Death damage from Aoife's Life Leech. 
+05:28:10: ( 8 , T=P#R=C#211669182567225542 , T=P#R=G#211669182502152560 , T=X#R=X#0 , T=X#R=X#0 , Aoife , Beawr , 0 , 993221111 , Necrosis ) Beawr is afflicted by Aoife's Necrosis.
+05:28:10: ( 6 , T=P#R=G#211669182502152560 , T=P#R=G#211669182502152560 , T=X#R=X#0 , T=X#R=X#0 , Beawr , Beawr , 0 , 861304448 , Shroud Of Agony ) Beawr gains Beawr's Shroud Of Agony.
+05:28:10: ( 23 , T=P#R=C#211669182567225542 , T=P#R=G#211669182502152560 , T=X#R=X#0 , T=X#R=X#0 , Aoife , Beawr , 167 , 993221111 , Necrosis ) Aoife's Necrosis critically hits Beawr for 167 Death damage. 
+05:28:10: ( 4 , T=P#R=C#211669182567225542 , T=P#R=G#211669182502152560 , T=X#R=X#0 , T=X#R=X#0 , Aoife , Beawr , 121 , 1055329214 , Dark Touch ) Beawr suffers 121 Death damage from Aoife's Dark Touch. 
+05:28:12: ( 23 , T=P#R=C#211669182567225542 , T=P#R=G#211669182502152560 , T=X#R=X#0 , T=X#R=X#0 , Aoife , Beawr , 216 , 1969688444 , Life Leech ) Aoife's Life Leech critically hits Beawr for 216 Death damage. 
+05:28:12: ( 23 , T=P#R=C#211669182567225542 , T=P#R=G#211669182502152560 , T=X#R=X#0 , T=X#R=X#0 , Aoife , Beawr , 167 , 993221111 , Necrosis ) Aoife's Necrosis critically hits Beawr for 167 Death damage. 
+05:28:12: ( 28 , T=P#R=C#211669182567225542 , T=P#R=C#211669182567225542 , T=X#R=X#0 , T=X#R=X#0 , Aoife , Aoife , 84 , 1969688444 , Life Leech ) Aoife's Life Leech critically heals Aoife for 84. 
+05:28:12: ( 5 , T=P#R=C#211669182567225542 , T=P#R=C#211669182567225542 , T=X#R=X#0 , T=X#R=X#0 , Aoife , Aoife , 12 , 473115348 , Warlock Armor ) Aoife's Warlock Armor heals Aoife for 12. 
+05:28:12: ( 5 , T=P#R=G#211669182502152560 , T=P#R=G#211669182502152560 , T=X#R=X#0 , T=X#R=X#0 , Beawr , Beawr , 161 , 497313021 , Contempt ) Beawr's Contempt heals Beawr for 161. 
+05:28:12: ( 28 , T=P#R=C#211669182567225542 , T=P#R=C#211669182567225542 , T=X#R=X#0 , T=X#R=X#0 , Aoife , Aoife , 457 , 1109565430 , Draining Bolt ) Aoife's Draining Bolt critically heals Aoife for 457. 
+05:28:12: ( 4 , T=P#R=G#211669182502152560 , T=P#R=C#211669182567225542 , T=X#R=X#0 , T=X#R=X#0 , Beawr , Aoife , 179 , 167933921 , Vex ) Aoife suffers 179 Death damage from Beawr's Vex. 
+05:28:12: ( 7 , T=P#R=G#211669182502152560 , T=P#R=G#211669182502152560 , T=X#R=X#0 , T=X#R=X#0 , Beawr , Beawr , 0 , 861304448 , Shroud Of Agony ) Beawr's Shroud Of Agony fades from Beawr.
+05:28:12: ( 6 , T=P#R=G#211669182502152560 , T=P#R=G#211669182502152560 , T=X#R=X#0 , T=X#R=X#0 , Beawr , Beawr , 0 , 861304448 , Shroud Of Agony ) Beawr gains Beawr's Shroud Of Agony.
+05:28:12: ( 23 , T=P#R=C#211669182567225542 , T=P#R=G#211669182502152560 , T=X#R=X#0 , T=X#R=X#0 , Aoife , Beawr , 915 , 1109565430 , Draining Bolt ) Aoife's Draining Bolt critically hits Beawr for 915 Death damage. 
+05:28:12: ( 4 , T=P#R=C#211669182567225542 , T=P#R=G#211669182502152560 , T=X#R=X#0 , T=X#R=X#0 , Aoife , Beawr , 121 , 1055329214 , Dark Touch ) Beawr suffers 121 Death damage from Aoife's Dark Touch. 
+05:28:13: ( 28 , T=P#R=C#211669182567225542 , T=P#R=C#211669182567225542 , T=X#R=X#0 , T=X#R=X#0 , Aoife , Aoife , 0 , 1109565430 , Draining Bolt ) Aoife's Draining Bolt critically heals Aoife for 0. 
+05:28:13: ( 3 , T=P#R=C#211669182567225542 , T=P#R=G#211669182502152560 , T=X#R=X#0 , T=X#R=X#0 , Aoife , Beawr , 554 , 1661668470 , Void Bolt ) Aoife's Void Bolt hits Beawr for 554 Death damage. 
+05:28:14: ( 28 , T=P#R=C#211669182567225542 , T=P#R=C#211669182567225542 , T=X#R=X#0 , T=X#R=X#0 , Aoife , Aoife , 84 , 1969688444 , Life Leech ) Aoife's Life Leech critically heals Aoife for 84. 
+05:28:14: ( 5 , T=P#R=C#211669182567225542 , T=P#R=C#211669182567225542 , T=X#R=X#0 , T=X#R=X#0 , Aoife , Aoife , 58 , 1969688444 , Life Leech ) Aoife's Life Leech heals Aoife for 58. 
+05:28:14: ( 9 , T=P#R=C#211669182567225542 , T=P#R=G#211669182502152560 , T=X#R=X#0 , T=X#R=X#0 , Aoife , Beawr , 0 , 1969688444 , Life Leech ) Aoife's Life Leech dissipates from Beawr.
+05:28:14: ( 8 , T=P#R=C#211669182567225542 , T=P#R=G#211669182502152560 , T=X#R=X#0 , T=X#R=X#0 , Aoife , Beawr , 0 , 1969688444 , Life Leech ) Beawr is afflicted by Aoife's Life Leech.
+05:28:14: ( 23 , T=P#R=C#211669182567225542 , T=P#R=G#211669182502152560 , T=X#R=X#0 , T=X#R=X#0 , Aoife , Beawr , 216 , 1969688444 , Life Leech ) Aoife's Life Leech critically hits Beawr for 216 Death damage. 
+05:28:14: ( 3 , T=P#R=C#211669182567225542 , T=P#R=G#211669182502152560 , T=X#R=X#0 , T=X#R=X#0 , Aoife , Beawr , 150 , 1969688444 , Life Leech ) Aoife's Life Leech hits Beawr for 150 Death damage. 
+05:28:14: ( 4 , T=P#R=C#211669182567225542 , T=P#R=G#211669182502152560 , T=X#R=X#0 , T=X#R=X#0 , Aoife , Beawr , 111 , 993221111 , Necrosis ) Beawr suffers 111 Death damage from Aoife's Necrosis. 
+05:28:14: ( 4 , T=P#R=C#211669182567225542 , T=P#R=G#211669182502152560 , T=X#R=X#0 , T=X#R=X#0 , Aoife , Beawr , 121 , 1055329214 , Dark Touch ) Beawr suffers 121 Death damage from Aoife's Dark Touch. 
+05:28:14: ( 1 , T=P#R=C#211669182567225542 , T=X#R=X#0 , T=X#R=X#0 , T=X#R=X#0 , Aoife , Unknown , 0 , 1661668470 , Void Bolt ) Aoife begins casting Void Bolt.
+05:28:15: ( 5 , T=P#R=C#211669182567225542 , T=P#R=C#211669182567225542 , T=X#R=X#0 , T=X#R=X#0 , Aoife , Aoife , 0 , 1969688444 , Life Leech ) Aoife's Life Leech heals Aoife for 0. 
+05:28:15: ( 5 , T=P#R=G#211669182502152560 , T=P#R=G#211669182502152560 , T=X#R=X#0 , T=X#R=X#0 , Beawr , Beawr , 1227 , 1712615846 , Healing Breath ) Beawr's Healing Breath heals Beawr for 1227. 
+05:28:15: ( 5 , T=P#R=C#211669182567225542 , T=P#R=C#211669182567225542 , T=X#R=X#0 , T=X#R=X#0 , Aoife , Aoife , 12 , 473115348 , Warlock Armor ) Aoife's Warlock Armor heals Aoife for 12. 
+05:28:15: ( 5 , T=P#R=G#211669182502152560 , T=P#R=G#211669182502152560 , T=X#R=X#0 , T=X#R=X#0 , Beawr , Beawr , 161 , 497313021 , Contempt ) Beawr's Contempt heals Beawr for 161. 
+05:28:15: ( 4 , T=P#R=G#211669182502152560 , T=P#R=C#211669182567225542 , T=X#R=X#0 , T=X#R=X#0 , Beawr , Aoife , 179 , 167933921 , Vex ) Aoife suffers 179 Death damage from Beawr's Vex. 
+05:28:16: ( 1 , T=P#R=C#211669182567225542 , T=X#R=X#0 , T=X#R=X#0 , T=X#R=X#0 , Aoife , Unknown , 0 , 1661668470 , Void Bolt ) Aoife begins casting Void Bolt.
+05:28:16: ( 28 , T=P#R=C#211669182567225542 , T=P#R=C#211669182567225542 , T=X#R=X#0 , T=X#R=X#0 , Aoife , Aoife , 87 , 1969688444 , Life Leech ) Aoife's Life Leech critically heals Aoife for 87. 
+05:28:16: ( 23 , T=P#R=C#211669182567225542 , T=P#R=G#211669182502152560 , T=X#R=X#0 , T=X#R=X#0 , Aoife , Beawr , 225 , 1969688444 , Life Leech ) Aoife's Life Leech critically hits Beawr for 225 Death damage. 
+05:28:16: ( 23 , T=P#R=C#211669182567225542 , T=P#R=G#211669182502152560 , T=X#R=X#0 , T=X#R=X#0 , Aoife , Beawr , 167 , 993221111 , Necrosis ) Aoife's Necrosis critically hits Beawr for 167 Death damage. 
+05:28:16: ( 4 , T=P#R=C#211669182567225542 , T=P#R=G#211669182502152560 , T=X#R=X#0 , T=X#R=X#0 , Aoife , Beawr , 121 , 1055329214 , Dark Touch ) Beawr suffers 121 Death damage from Aoife's Dark Touch. 
+05:28:16: ( 3 , T=N#R=O#9223372042227777573 , T=P#R=O#211669182669056664 , T=X#R=X#0 , T=X#R=X#0 , Abyssal Infiltrator , Daedaluss , 17 , 795641470 , Crushing Blow ) Abyssal Infiltrator's Crushing Blow hits Daedaluss for 17 Physical damage. 
+05:28:16: ( 3 , T=P#R=C#211669182567225542 , T=P#R=G#211669182502152560 , T=X#R=X#0 , T=X#R=X#0 , Aoife , Beawr , 554 , 1661668470 , Void Bolt ) Aoife's Void Bolt hits Beawr for 554 Death damage. 
+05:28:17: ( 5 , T=P#R=C#211669182567225542 , T=P#R=C#211669182567225542 , T=X#R=X#0 , T=X#R=X#0 , Aoife , Aoife , 60 , 1969688444 , Life Leech ) Aoife's Life Leech heals Aoife for 60. 
+05:28:17: ( 9 , T=P#R=C#211669182567225542 , T=P#R=G#211669182502152560 , T=X#R=X#0 , T=X#R=X#0 , Aoife , Beawr , 0 , 1969688444 , Life Leech ) Aoife's Life Leech dissipates from Beawr.
+05:28:17: ( 8 , T=P#R=C#211669182567225542 , T=P#R=G#211669182502152560 , T=X#R=X#0 , T=X#R=X#0 , Aoife , Beawr , 0 , 1969688444 , Life Leech ) Beawr is afflicted by Aoife's Life Leech.
+05:28:17: ( 3 , T=P#R=C#211669182567225542 , T=P#R=G#211669182502152560 , T=X#R=X#0 , T=X#R=X#0 , Aoife , Beawr , 156 , 1969688444 , Life Leech ) Aoife's Life Leech hits Beawr for 156 Death damage. 
+05:28:17: ( 3 , T=P#R=O#211669182669056664 , T=N#R=O#9223372042227777573 , T=X#R=X#0 , T=X#R=X#0 , Daedaluss , Abyssal Infiltrator , 38 , 126733974 , Auto Attack ) Daedaluss's Auto Attack hits Abyssal Infiltrator for 38 Physical damage. 
+05:28:17: ( 1 , T=P#R=C#211669182567225542 , T=X#R=X#0 , T=X#R=X#0 , T=X#R=X#0 , Aoife , Unknown , 0 , 1661668470 , Void Bolt ) Aoife begins casting Void Bolt.
+05:28:18: ( 5 , T=P#R=C#211669182567225542 , T=P#R=C#211669182567225542 , T=X#R=X#0 , T=X#R=X#0 , Aoife , Aoife , 0 , 1969688444 , Life Leech ) Aoife's Life Leech heals Aoife for 0. 
+05:28:18: ( 23 , T=P#R=C#211669182567225542 , T=P#R=G#211669182502152560 , T=X#R=X#0 , T=X#R=X#0 , Aoife , Beawr , 167 , 993221111 , Necrosis ) Aoife's Necrosis critically hits Beawr for 167 Death damage. 
+05:28:18: ( 5 , T=P#R=C#211669182567225542 , T=P#R=C#211669182567225542 , T=X#R=X#0 , T=X#R=X#0 , Aoife , Aoife , 12 , 473115348 , Warlock Armor ) Aoife's Warlock Armor heals Aoife for 12. 
+05:28:18: ( 5 , T=P#R=G#211669182502152560 , T=P#R=G#211669182502152560 , T=X#R=X#0 , T=X#R=X#0 , Beawr , Beawr , 161 , 497313021 , Contempt ) Beawr's Contempt heals Beawr for 161. 
+05:28:18: ( 3 , T=P#R=C#211669182567225542 , T=P#R=G#211669182502152560 , T=X#R=X#0 , T=X#R=X#0 , Aoife , Beawr , 578 , 1661668470 , Void Bolt ) Aoife's Void Bolt hits Beawr for 578 Death damage. 
+05:28:18: ( 4 , T=P#R=G#211669182502152560 , T=P#R=C#211669182567225542 , T=X#R=X#0 , T=X#R=X#0 , Beawr , Aoife , 179 , 167933921 , Vex ) Aoife suffers 179 Death damage from Beawr's Vex. 
+05:28:18: ( 7 , T=P#R=G#211669182502152560 , T=P#R=G#211669182502152560 , T=X#R=X#0 , T=X#R=X#0 , Beawr , Beawr , 0 , 861304448 , Shroud Of Agony ) Beawr's Shroud Of Agony fades from Beawr.
+05:28:18: ( 3 , T=P#R=O#211669182669056664 , T=N#R=O#9223372042227777573 , T=X#R=X#0 , T=X#R=X#0 , Daedaluss , Abyssal Infiltrator , 97 , 2083283005 , Malicious Strike ) Daedaluss's Malicious Strike hits Abyssal Infiltrator for 97 Water damage. 
+05:28:18: ( 4 , T=P#R=C#211669182567225542 , T=P#R=G#211669182502152560 , T=X#R=X#0 , T=X#R=X#0 , Aoife , Beawr , 121 , 1055329214 , Dark Touch ) Beawr suffers 121 Death damage from Aoife's Dark Touch. 
+05:28:18: ( 8 , T=P#R=O#211669182669056664 , T=N#R=O#9223372042227777573 , T=X#R=X#0 , T=X#R=X#0 , Daedaluss , Abyssal Infiltrator , 0 , 2083283005 , Malicious Strike ) Abyssal Infiltrator is afflicted by Daedaluss's Malicious Strike.
+05:28:18: ( 3 , T=P#R=O#211669182669056664 , T=N#R=O#9223372042227777573 , T=X#R=X#0 , T=X#R=X#0 , Daedaluss , Abyssal Infiltrator , 29 , 825130864 , Auto Attack ) Daedaluss's Auto Attack hits Abyssal Infiltrator for 29 Physical damage. 
+05:28:18: ( 3 , T=P#R=O#211669182669056664 , T=N#R=O#9223372042227777573 , T=X#R=X#0 , T=X#R=X#0 , Daedaluss , Abyssal Infiltrator , 48 , 1143674616 , Lethal Poison ) Daedaluss's Lethal Poison hits Abyssal Infiltrator for 48 Water damage. 
+05:28:18: ( 15 , T=N#R=O#9223372042227777573 , T=P#R=O#211669182669056664 , T=X#R=X#0 , T=X#R=X#0 , Abyssal Infiltrator , Daedaluss , 0 , 32 , attack ) Daedaluss dodges Abyssal Infiltrator's attack.
+05:28:18: ( 5 , T=P#R=C#211669182567225542 , T=P#R=C#211669182567225542 , T=X#R=X#0 , T=X#R=X#0 , Aoife , Aoife , 60 , 1969688444 , Life Leech ) Aoife's Life Leech heals Aoife for 60. 
+05:28:18: ( 9 , T=P#R=C#211669182567225542 , T=P#R=G#211669182502152560 , T=X#R=X#0 , T=X#R=X#0 , Aoife , Beawr , 0 , 1969688444 , Life Leech ) Aoife's Life Leech dissipates from Beawr.
+05:28:18: ( 8 , T=P#R=C#211669182567225542 , T=P#R=G#211669182502152560 , T=X#R=X#0 , T=X#R=X#0 , Aoife , Beawr , 0 , 1969688444 , Life Leech ) Beawr is afflicted by Aoife's Life Leech.
+05:28:18: ( 3 , T=P#R=C#211669182567225542 , T=P#R=G#211669182502152560 , T=X#R=X#0 , T=X#R=X#0 , Aoife , Beawr , 156 , 1969688444 , Life Leech ) Aoife's Life Leech hits Beawr for 156 Death damage. 
+05:28:19: ( 1 , T=P#R=C#211669182567225542 , T=X#R=X#0 , T=X#R=X#0 , T=X#R=X#0 , Aoife , Unknown , 0 , 1661668470 , Void Bolt ) Aoife begins casting Void Bolt.
+05:28:19: ( 5 , T=P#R=C#211669182567225542 , T=P#R=C#211669182567225542 , T=X#R=X#0 , T=X#R=X#0 , Aoife , Aoife , 12 , 473115348 , Warlock Armor ) Aoife's Warlock Armor heals Aoife for 12. 
+05:28:19: ( 5 , T=P#R=G#211669182502152560 , T=P#R=G#211669182502152560 , T=X#R=X#0 , T=X#R=X#0 , Beawr , Beawr , 132 , 293562978 , Salvation ) Beawr's Salvation heals Beawr for 132. 
+05:28:19: ( 6 , T=P#R=G#211669182502152560 , T=P#R=G#211669182502152560 , T=X#R=X#0 , T=X#R=X#0 , Beawr , Beawr , 0 , 1626474066 , Conviction ) Beawr gains Beawr's Conviction.
+05:28:19: ( 3 , T=P#R=C#211669182567225542 , T=P#R=G#211669182502152560 , T=X#R=X#0 , T=X#R=X#0 , Aoife , Beawr , 56 , 473115348 , Warlock Armor ) Aoife's Warlock Armor hits Beawr for 56 Death damage. 
+05:28:19: ( 8 , T=P#R=G#211669182502152560 , T=P#R=C#211669182567225542 , T=X#R=X#0 , T=X#R=X#0 , Beawr , Aoife , 0 , 1441118300 , Sanction ) Aoife is afflicted by Beawr's Sanction.
+05:28:19: ( 3 , T=P#R=G#211669182502152560 , T=P#R=C#211669182567225542 , T=X#R=X#0 , T=X#R=X#0 , Beawr , Aoife , 809 , 449813826 , Sanction Heretic ) Beawr's Sanction Heretic hits Aoife for 809 Life damage. 
+05:28:19: ( 5 , T=P#R=C#211669182567225542 , T=P#R=C#211669182567225542 , T=X#R=X#0 , T=X#R=X#0 , Aoife , Aoife , 0 , 1969688444 , Life Leech ) Aoife's Life Leech heals Aoife for 0. 
+05:28:19: ( 6 , T=P#R=G#211669182502152560 , T=P#R=G#211669182502152560 , T=X#R=X#0 , T=X#R=X#0 , Beawr , Beawr , 0 , 861304448 , Shroud Of Agony ) Beawr gains Beawr's Shroud Of Agony.
+05:28:19: ( 23 , T=P#R=C#211669182567225542 , T=P#R=G#211669182502152560 , T=X#R=X#0 , T=X#R=X#0 , Aoife , Beawr , 826 , 1661668470 , Void Bolt ) Aoife's Void Bolt critically hits Beawr for 826 Death damage. 
+05:28:20: ( 23 , T=P#R=O#211669182669056664 , T=N#R=O#9223372042227777573 , T=X#R=X#0 , T=X#R=X#0 , Daedaluss , Abyssal Infiltrator , 242 , 528146724 , Planar Strike ) Daedaluss's Planar Strike critically hits Abyssal Infiltrator for 242 Physical damage. 
+05:28:20: ( 11 , T=P#R=O#211669182669056664 , T=N#R=O#9223372042227777573 , T=X#R=X#0 , T=X#R=X#0 , Daedaluss , Abyssal Infiltrator , 0 , 0 ,  ) Daedaluss has slain Abyssal Infiltrator!
+05:28:20: ( 9 , T=P#R=O#211669182669056664 , T=N#R=O#9223372042227777573 , T=X#R=X#0 , T=X#R=X#0 , Daedaluss , Abyssal Infiltrator , 0 , 2083283005 , Malicious Strike ) Daedaluss's Malicious Strike dissipates from Abyssal Infiltrator.
+05:28:20: ( 3 , T=P#R=O#211669182669056664 , T=N#R=O#9223372042227777573 , T=X#R=X#0 , T=X#R=X#0 , Daedaluss , Abyssal Infiltrator , 8 , 1508652891 , Serrated Blades ) Daedaluss's Serrated Blades hits Abyssal Infiltrator for 8 Physical damage. (1 overkill)
+05:28:20: ( 23 , T=P#R=C#211669182567225542 , T=P#R=G#211669182502152560 , T=X#R=X#0 , T=X#R=X#0 , Aoife , Beawr , 167 , 993221111 , Necrosis ) Aoife's Necrosis critically hits Beawr for 167 Death damage. 
+05:28:20: ( 7 , T=P#R=O#211669182603844833 , T=P#R=O#211669182603844833 , T=X#R=X#0 , T=X#R=X#0 , Helion , Helion , 0 , 1531639906 , Heroic Blessing ) Helion's Heroic Blessing fades from Helion.
+05:28:20: ( 6 , T=P#R=O#211669182603844833 , T=P#R=O#211669182603844833 , T=X#R=X#0 , T=X#R=X#0 , Helion , Helion , 0 , 1092610256 , Temporary Rune Buff ) Helion gains Helion's Temporary Rune Buff.
+05:28:20: ( 5 , T=P#R=C#211669182567225542 , T=P#R=C#211669182567225542 , T=X#R=X#0 , T=X#R=X#0 , Aoife , Aoife , 58 , 1969688444 , Life Leech ) Aoife's Life Leech heals Aoife for 58. 
+05:28:20: ( 7 , T=P#R=O#211669182698776757 , T=P#R=O#211669182698776757 , T=X#R=X#0 , T=X#R=X#0 , Svena , Svena , 0 , 1293917116 , Stone Armor ) Svena's Stone Armor fades from Svena.
+05:28:20: ( 9 , T=P#R=C#211669182567225542 , T=P#R=G#211669182502152560 , T=X#R=X#0 , T=X#R=X#0 , Aoife , Beawr , 0 , 1969688444 , Life Leech ) Aoife's Life Leech dissipates from Beawr.
+05:28:20: ( 8 , T=P#R=C#211669182567225542 , T=P#R=G#211669182502152560 , T=X#R=X#0 , T=X#R=X#0 , Aoife , Beawr , 0 , 1969688444 , Life Leech ) Beawr is afflicted by Aoife's Life Leech.
+05:28:20: ( 3 , T=P#R=C#211669182567225542 , T=P#R=G#211669182502152560 , T=X#R=X#0 , T=X#R=X#0 , Aoife , Beawr , 150 , 1969688444 , Life Leech ) Aoife's Life Leech hits Beawr for 150 Death damage. 
+05:28:20: ( 23 , T=P#R=C#211669182567225542 , T=P#R=G#211669182502152560 , T=X#R=X#0 , T=X#R=X#0 , Aoife , Beawr , 182 , 1055329214 , Dark Touch ) Aoife's Dark Touch critically hits Beawr for 182 Death damage. 
+05:28:21: ( 1 , T=P#R=C#211669182567225542 , T=X#R=X#0 , T=X#R=X#0 , T=X#R=X#0 , Aoife , Unknown , 0 , 1661668470 , Void Bolt ) Aoife begins casting Void Bolt.
+05:28:21: ( 5 , T=P#R=C#211669182567225542 , T=P#R=C#211669182567225542 , T=X#R=X#0 , T=X#R=X#0 , Aoife , Aoife , 12 , 473115348 , Warlock Armor ) Aoife's Warlock Armor heals Aoife for 12. 
+05:28:21: ( 5 , T=P#R=G#211669182502152560 , T=P#R=G#211669182502152560 , T=X#R=X#0 , T=X#R=X#0 , Beawr , Beawr , 161 , 497313021 , Contempt ) Beawr's Contempt heals Beawr for 161. 
+05:28:21: ( 5 , T=P#R=C#211669182567225542 , T=P#R=C#211669182567225542 , T=X#R=X#0 , T=X#R=X#0 , Aoife , Aoife , 0 , 1969688444 , Life Leech ) Aoife's Life Leech heals Aoife for 0. 
+05:28:21: ( 4 , T=P#R=G#211669182502152560 , T=P#R=C#211669182567225542 , T=X#R=X#0 , T=X#R=X#0 , Beawr , Aoife , 179 , 167933921 , Vex ) Aoife suffers 179 Death damage from Beawr's Vex. 
+05:28:21: ( 5 , T=P#R=G#211669182502152560 , T=P#R=G#211669182502152560 , T=X#R=X#0 , T=X#R=X#0 , Beawr , Beawr , 823 , 1321451206 , Doctrine of Loyalty ) Beawr's Doctrine of Loyalty heals Beawr for 823. 
+05:28:21: ( 7 , T=P#R=G#211669182502152560 , T=P#R=G#211669182502152560 , T=X#R=X#0 , T=X#R=X#0 , Beawr , Beawr , 0 , 1626474066 , Conviction ) Beawr's Conviction fades from Beawr.
+05:28:21: ( 3 , T=P#R=C#211669182567225542 , T=P#R=G#211669182502152560 , T=X#R=X#0 , T=X#R=X#0 , Aoife , Beawr , 552 , 1661668470 , Void Bolt ) Aoife's Void Bolt hits Beawr for 552 Death damage. 
+05:28:22: ( 4 , T=P#R=C#211669182567225542 , T=P#R=G#211669182502152560 , T=X#R=X#0 , T=X#R=X#0 , Aoife , Beawr , 111 , 993221111 , Necrosis ) Beawr suffers 111 Death damage from Aoife's Necrosis. 
+05:28:22: ( 5 , T=P#R=C#211669182567225542 , T=P#R=C#211669182567225542 , T=X#R=X#0 , T=X#R=X#0 , Aoife , Aoife , 58 , 1969688444 , Life Leech ) Aoife's Life Leech heals Aoife for 58. 
+05:28:22: ( 5 , T=P#R=C#211669182567225542 , T=P#R=C#211669182567225542 , T=X#R=X#0 , T=X#R=X#0 , Aoife , Aoife , 60 , 1969688444 , Life Leech ) Aoife's Life Leech heals Aoife for 60. 
+05:28:22: ( 7 , T=P#R=G#211669182502152560 , T=P#R=G#211669182502152560 , T=X#R=X#0 , T=X#R=X#0 , Beawr , Beawr , 0 , 861304448 , Shroud Of Agony ) Beawr's Shroud Of Agony fades from Beawr.
+05:28:22: ( 9 , T=P#R=C#211669182567225542 , T=P#R=G#211669182502152560 , T=X#R=X#0 , T=X#R=X#0 , Aoife , Beawr , 0 , 1969688444 , Life Leech ) Aoife's Life Leech dissipates from Beawr.
+05:28:22: ( 8 , T=P#R=C#211669182567225542 , T=P#R=G#211669182502152560 , T=X#R=X#0 , T=X#R=X#0 , Aoife , Beawr , 0 , 1969688444 , Life Leech ) Beawr is afflicted by Aoife's Life Leech.
+05:28:22: ( 6 , T=P#R=G#211669182502152560 , T=P#R=G#211669182502152560 , T=X#R=X#0 , T=X#R=X#0 , Beawr , Beawr , 0 , 861304448 , Shroud Of Agony ) Beawr gains Beawr's Shroud Of Agony.
+05:28:22: ( 4 , T=P#R=C#211669182567225542 , T=P#R=G#211669182502152560 , T=X#R=X#0 , T=X#R=X#0 , Aoife , Beawr , 150 , 1969688444 , Life Leech ) Beawr suffers 150 Death damage from Aoife's Life Leech. 
+05:28:22: ( 3 , T=P#R=C#211669182567225542 , T=P#R=G#211669182502152560 , T=X#R=X#0 , T=X#R=X#0 , Aoife , Beawr , 156 , 1969688444 , Life Leech ) Aoife's Life Leech hits Beawr for 156 Death damage. 
+05:28:22: ( 12 , T=P#R=G#211669182502152560 , T=X#R=X#0 , T=X#R=X#0 , T=X#R=X#0 , Beawr , Unknown , 0 , 0 ,  ) Beawr has died.
+05:28:22: ( 23 , T=P#R=C#211669182567225542 , T=P#R=G#211669182502152560 , T=X#R=X#0 , T=X#R=X#0 , Aoife , Beawr , 182 , 1055329214 , Dark Touch ) Aoife's Dark Touch critically hits Beawr for 182 Death damage. (125 overkill)
+05:28:22: ( 2 , T=P#R=C#211669182567225542 , T=X#R=X#0 , T=X#R=X#0 , T=X#R=X#0 , Aoife , Unknown , 0 , 1661668470 , Void Bolt ) Aoife's Void Bolt has been interrupted.
+05:28:22: ( 9 , T=P#R=G#211669182502152560 , T=P#R=C#211669182567225542 , T=X#R=X#0 , T=X#R=X#0 , Beawr , Aoife , 0 , 167933921 , Vex ) Beawr's Vex dissipates from Aoife.
+05:28:22: ( 9 , T=P#R=G#211669182502152560 , T=P#R=C#211669182567225542 , T=X#R=X#0 , T=X#R=X#0 , Beawr , Aoife , 0 , 1441118300 , Sanction ) Beawr's Sanction dissipates from Aoife.
+05:28:22 Combat End
+05:28:28: ( 7 , T=P#R=G#211669182502152560 , T=P#R=G#211669182502152560 , T=X#R=X#0 , T=X#R=X#0 , Beawr , Beawr , 0 , 861304448 , Shroud Of Agony ) Beawr's Shroud Of Agony fades from Beawr.
+05:28:32: ( 3 , T=N#R=O#9223372042227778092 , T=P#R=O#211669182669056664 , T=X#R=X#0 , T=X#R=X#0 , Abyssal Infiltrator , Daedaluss , 8 , 32 , attack ) Abyssal Infiltrator's attack hits Daedaluss for 8 Physical damage. 
+05:28:32: ( 11 , T=N#R=O#9223372041367851308 , T=N#R=O#9223372042227778092 , T=X#R=X#0 , T=X#R=X#0 , Sanctum Guard , Abyssal Infiltrator , 0 , 0 ,  ) Sanctum Guard has slain Abyssal Infiltrator!
+05:28:32: ( 6 , T=N#R=O#9223372041367851315 , T=N#R=O#9223372041367851315 , T=X#R=X#0 , T=X#R=X#0 , Lila Medows , Lila Medows , 0 , 424994565 , Glassy Reflection ) Lila Medows gains Lila Medows's Glassy Reflection.
+05:28:32: ( 3 , T=N#R=O#9223372041367851308 , T=N#R=O#9223372042227778092 , T=X#R=X#0 , T=X#R=X#0 , Sanctum Guard , Abyssal Infiltrator , 1627 , 1843227230 , Life's Vengeance ) Sanctum Guard's Life's Vengeance hits Abyssal Infiltrator for 1627 Life damage. (1166 overkill)
+05:28:37: ( 7 , T=N#R=O#9223372041367851315 , T=N#R=O#9223372041367851315 , T=X#R=X#0 , T=X#R=X#0 , Lila Medows , Lila Medows , 0 , 424994565 , Glassy Reflection ) Lila Medows's Glassy Reflection fades from Lila Medows.
+05:28:48: ( 3 , T=N#R=O#9223372042227778684 , T=P#R=O#211669182669056664 , T=X#R=X#0 , T=X#R=X#0 , Abyssal Infiltrator , Daedaluss , 16 , 795641470 , Crushing Blow ) Abyssal Infiltrator's Crushing Blow hits Daedaluss for 16 Physical damage. 
+05:28:48: ( 3 , T=P#R=O#211669182669056664 , T=N#R=O#9223372042227778684 , T=X#R=X#0 , T=X#R=X#0 , Daedaluss , Abyssal Infiltrator , 40 , 126733974 , Auto Attack ) Daedaluss's Auto Attack hits Abyssal Infiltrator for 40 Physical damage. 
+05:28:50: ( 15 , T=N#R=O#9223372041367851312 , T=N#R=O#9223372041367851312 , T=X#R=X#0 , T=X#R=X#0 , Marndre , Marndre , 0 , 2068625741 ,  ) Marndre dodges Marndre's .
+05:28:50: ( 12 , T=N#R=O#9223372042227778684 , T=X#R=X#0 , T=X#R=X#0 , T=X#R=X#0 , Abyssal Infiltrator , Unknown , 0 , 0 ,  ) Abyssal Infiltrator has died.
+05:28:57: ( 6 , T=P#R=O#211669182669369736 , T=P#R=O#211669182669369736 , T=X#R=X#0 , T=X#R=X#0 , Draklinthor , Draklinthor , 0 , 1092610256 , Temporary Rune Buff ) Draklinthor gains Draklinthor's Temporary Rune Buff.
+05:28:59: ( 7 , T=P#R=O#211669182603844833 , T=P#R=O#211669182603844833 , T=X#R=X#0 , T=X#R=X#0 , Helion , Helion , 0 , 1092610256 , Temporary Rune Buff ) Helion's Temporary Rune Buff fades from Helion.
+05:29:04: ( 3 , T=N#R=O#9223372042227779134 , T=P#R=O#211669182669056664 , T=X#R=X#0 , T=X#R=X#0 , Abyssal Infiltrator , Daedaluss , 8 , 32 , attack ) Abyssal Infiltrator's attack hits Daedaluss for 8 Physical damage. 
+05:29:04: ( 5 , T=P#R=O#211669182669056664 , T=P#R=O#211669182669056664 , T=X#R=X#0 , T=X#R=X#0 , Daedaluss , Daedaluss , 8 , 552196597 , Ominous Shadesource ) Daedaluss's Ominous Shadesource heals Daedaluss for 8. (81 overheal)
+05:29:04: ( 15 , T=N#R=O#9223372041367859414 , T=N#R=O#9223372041367859414 , T=X#R=X#0 , T=X#R=X#0 , Pilgrim , Pilgrim , 0 , 2068625741 ,  ) Pilgrim dodges Pilgrim's .
+05:29:04: ( 23 , T=P#R=O#211669182669056664 , T=N#R=O#9223372042227779134 , T=X#R=X#0 , T=X#R=X#0 , Daedaluss , Abyssal Infiltrator , 75 , 126733974 , Auto Attack ) Daedaluss's Auto Attack critically hits Abyssal Infiltrator for 75 Physical damage. 
+05:29:04: ( 3 , T=P#R=O#211669182669056664 , T=N#R=O#9223372042227779134 , T=X#R=X#0 , T=X#R=X#0 , Daedaluss , Abyssal Infiltrator , 9 , 1508652891 , Serrated Blades ) Daedaluss's Serrated Blades hits Abyssal Infiltrator for 9 Physical damage. 
+05:29:04: ( 3 , T=P#R=O#211669182669056664 , T=N#R=O#9223372042227779134 , T=X#R=X#0 , T=X#R=X#0 , Daedaluss , Abyssal Infiltrator , 55 , 552196597 , Ominous Shadesource ) Daedaluss's Ominous Shadesource hits Abyssal Infiltrator for 55 Death damage. 
+05:29:04: ( 12 , T=N#R=O#9223372042227779134 , T=X#R=X#0 , T=X#R=X#0 , T=X#R=X#0 , Abyssal Infiltrator , Unknown , 0 , 0 ,  ) Abyssal Infiltrator has died.
+05:29:08: ( 1 , T=P#R=G#211669182502152560 , T=X#R=X#0 , T=X#R=X#0 , T=X#R=X#0 , Beawr , Unknown , 0 , 1998712331 , Ironpine Melange ) Beawr begins casting Ironpine Melange.
+05:29:08: ( 5 , T=P#R=G#211669182502152560 , T=P#R=G#211669182502152560 , T=X#R=X#0 , T=X#R=X#0 , Beawr , Beawr , 439 , 1998712331 , Ironpine Melange ) Beawr's Ironpine Melange heals Beawr for 439. 
+05:29:08: ( 27 , T=P#R=G#211669182502152560 , T=P#R=G#211669182502152560 , T=X#R=X#0 , T=X#R=X#0 , Beawr , Beawr , 494 , 1998712331 , Ironpine Melange ) Beawr's Ironpine Melange gives Beawr 494 Mana.
+05:29:08: ( 6 , T=P#R=G#211669182502152560 , T=P#R=G#211669182502152560 , T=X#R=X#0 , T=X#R=X#0 , Beawr , Beawr , 0 , 1998712331 , Ironpine Melange ) Beawr gains Beawr's Ironpine Melange.
+05:29:09: ( 5 , T=P#R=G#211669182502152560 , T=P#R=G#211669182502152560 , T=X#R=X#0 , T=X#R=X#0 , Beawr , Beawr , 439 , 1998712331 , Ironpine Melange ) Beawr's Ironpine Melange heals Beawr for 439. 
+05:29:09: ( 27 , T=P#R=G#211669182502152560 , T=P#R=G#211669182502152560 , T=X#R=X#0 , T=X#R=X#0 , Beawr , Beawr , 494 , 1998712331 , Ironpine Melange ) Beawr's Ironpine Melange gives Beawr 494 Mana.
+05:29:10: ( 5 , T=P#R=G#211669182502152560 , T=P#R=G#211669182502152560 , T=X#R=X#0 , T=X#R=X#0 , Beawr , Beawr , 439 , 1998712331 , Ironpine Melange ) Beawr's Ironpine Melange heals Beawr for 439. 
+05:29:10: ( 27 , T=P#R=G#211669182502152560 , T=P#R=G#211669182502152560 , T=X#R=X#0 , T=X#R=X#0 , Beawr , Beawr , 494 , 1998712331 , Ironpine Melange ) Beawr's Ironpine Melange gives Beawr 494 Mana.
+05:29:11: ( 5 , T=P#R=G#211669182502152560 , T=P#R=G#211669182502152560 , T=X#R=X#0 , T=X#R=X#0 , Beawr , Beawr , 439 , 1998712331 , Ironpine Melange ) Beawr's Ironpine Melange heals Beawr for 439. 
+05:29:11: ( 27 , T=P#R=G#211669182502152560 , T=P#R=G#211669182502152560 , T=X#R=X#0 , T=X#R=X#0 , Beawr , Beawr , 494 , 1998712331 , Ironpine Melange ) Beawr's Ironpine Melange gives Beawr 494 Mana.
+05:29:12: ( 5 , T=P#R=G#211669182502152560 , T=P#R=G#211669182502152560 , T=X#R=X#0 , T=X#R=X#0 , Beawr , Beawr , 439 , 1998712331 , Ironpine Melange ) Beawr's Ironpine Melange heals Beawr for 439. 
+05:29:12: ( 27 , T=P#R=G#211669182502152560 , T=P#R=G#211669182502152560 , T=X#R=X#0 , T=X#R=X#0 , Beawr , Beawr , 494 , 1998712331 , Ironpine Melange ) Beawr's Ironpine Melange gives Beawr 494 Mana.
+05:29:13: ( 5 , T=P#R=G#211669182502152560 , T=P#R=G#211669182502152560 , T=X#R=X#0 , T=X#R=X#0 , Beawr , Beawr , 439 , 1998712331 , Ironpine Melange ) Beawr's Ironpine Melange heals Beawr for 439. 
+05:29:13: ( 27 , T=P#R=G#211669182502152560 , T=P#R=G#211669182502152560 , T=X#R=X#0 , T=X#R=X#0 , Beawr , Beawr , 494 , 1998712331 , Ironpine Melange ) Beawr's Ironpine Melange gives Beawr 494 Mana.
+05:29:14: ( 5 , T=P#R=G#211669182502152560 , T=P#R=G#211669182502152560 , T=X#R=X#0 , T=X#R=X#0 , Beawr , Beawr , 439 , 1998712331 , Ironpine Melange ) Beawr's Ironpine Melange heals Beawr for 439. 
+05:29:14: ( 27 , T=P#R=G#211669182502152560 , T=P#R=G#211669182502152560 , T=X#R=X#0 , T=X#R=X#0 , Beawr , Beawr , 494 , 1998712331 , Ironpine Melange ) Beawr's Ironpine Melange gives Beawr 494 Mana.
+05:29:15: ( 5 , T=P#R=G#211669182502152560 , T=P#R=G#211669182502152560 , T=X#R=X#0 , T=X#R=X#0 , Beawr , Beawr , 439 , 1998712331 , Ironpine Melange ) Beawr's Ironpine Melange heals Beawr for 439. 
+05:29:15: ( 27 , T=P#R=G#211669182502152560 , T=P#R=G#211669182502152560 , T=X#R=X#0 , T=X#R=X#0 , Beawr , Beawr , 445 , 1998712331 , Ironpine Melange ) Beawr's Ironpine Melange gives Beawr 445 Mana.
+05:29:16: ( 5 , T=P#R=G#211669182502152560 , T=P#R=G#211669182502152560 , T=X#R=X#0 , T=X#R=X#0 , Beawr , Beawr , 439 , 1998712331 , Ironpine Melange ) Beawr's Ironpine Melange heals Beawr for 439. 
+05:29:17: ( 5 , T=P#R=G#211669182502152560 , T=P#R=G#211669182502152560 , T=X#R=X#0 , T=X#R=X#0 , Beawr , Beawr , 402 , 1998712331 , Ironpine Melange ) Beawr's Ironpine Melange heals Beawr for 402. (37 overheal)
+05:29:18: ( 5 , T=P#R=G#211669182502152560 , T=P#R=G#211669182502152560 , T=X#R=X#0 , T=X#R=X#0 , Beawr , Beawr , 0 , 1998712331 , Ironpine Melange ) Beawr's Ironpine Melange heals Beawr for 0. (439 overheal)
+05:29:18: ( 7 , T=P#R=G#211669182502152560 , T=P#R=G#211669182502152560 , T=X#R=X#0 , T=X#R=X#0 , Beawr , Beawr , 0 , 1998712331 , Ironpine Melange ) Beawr's Ironpine Melange fades from Beawr.
+05:29:21: ( 6 , T=P#R=O#211669182658543275 , T=P#R=O#211669182658543275 , T=X#R=X#0 , T=X#R=X#0 , Evigne , Evigne , 0 , 328288355 , Wisdom of the Era ) Evigne gains Evigne's Wisdom of the Era.
+05:29:23: ( 6 , T=P#R=O#211669182658543275 , T=P#R=O#211669182658543275 , T=X#R=X#0 , T=X#R=X#0 , Evigne , Evigne , 0 , 2123704026 , Life of the Era ) Evigne gains Evigne's Life of the Era.
+05:29:23: ( 7 , T=P#R=O#211669182669369736 , T=P#R=O#211669182669369736 , T=X#R=X#0 , T=X#R=X#0 , Draklinthor , Draklinthor , 0 , 862002525 , Shield of the Hero ) Draklinthor's Shield of the Hero fades from Draklinthor.
+05:29:23: ( 6 , T=P#R=O#211669182669369736 , T=P#R=O#211669182669369736 , T=X#R=X#0 , T=X#R=X#0 , Draklinthor , Draklinthor , 0 , 862002525 , Shield of the Hero ) Draklinthor gains Draklinthor's Shield of the Hero.
+05:29:24: ( 5 , T=P#R=O#211669182658543275 , T=P#R=O#211669182658543275 , T=X#R=X#0 , T=X#R=X#0 , Evigne , Evigne , 133 , 982806151 , Healing Spray ) Evigne's Healing Spray heals Evigne for 133. 
+05:29:24: ( 6 , T=P#R=O#211669182658543275 , T=P#R=O#211669182658543275 , T=X#R=X#0 , T=X#R=X#0 , Evigne , Evigne , 0 , 982806151 , Healing Spray ) Evigne gains Evigne's Healing Spray.
+05:29:25: ( 6 , T=P#R=O#211669182669369736 , T=P#R=O#211669182669369736 , T=X#R=X#0 , T=X#R=X#0 , Draklinthor , Draklinthor , 0 , 1005772382 , Aegis of Vitality ) Draklinthor gains Draklinthor's Aegis of Vitality.
+05:29:26: ( 5 , T=P#R=O#211669182658543275 , T=P#R=O#211669182658543275 , T=X#R=X#0 , T=X#R=X#0 , Evigne , Evigne , 133 , 982806151 , Healing Spray ) Evigne's Healing Spray heals Evigne for 133. 
+05:29:27: ( 7 , T=P#R=O#211669182669369736 , T=P#R=O#211669182669369736 , T=X#R=X#0 , T=X#R=X#0 , Draklinthor , Draklinthor , 0 , 1557281695 , Storm Blade ) Draklinthor's Storm Blade fades from Draklinthor.
+05:29:27: ( 6 , T=P#R=O#211669182669369736 , T=P#R=O#211669182669369736 , T=X#R=X#0 , T=X#R=X#0 , Draklinthor , Draklinthor , 0 , 1557281695 , Storm Blade ) Draklinthor gains Draklinthor's Storm Blade.
+05:29:28: ( 5 , T=P#R=O#211669182658543275 , T=P#R=O#211669182658543275 , T=X#R=X#0 , T=X#R=X#0 , Evigne , Evigne , 31 , 982806151 , Healing Spray ) Evigne's Healing Spray heals Evigne for 31. (102 overheal)
+05:29:30: ( 5 , T=P#R=O#211669182658543275 , T=P#R=O#211669182658543275 , T=X#R=X#0 , T=X#R=X#0 , Evigne , Evigne , 0 , 982806151 , Healing Spray ) Evigne's Healing Spray heals Evigne for 0. (133 overheal)
+05:29:31: ( 6 , T=P#R=O#211669182720080577 , T=P#R=O#211669182720080577 , T=X#R=X#0 , T=X#R=X#0 , Fre , Fre , 0 , 1903177846 , Stealth ) Fre gains Fre's Stealth.
+05:29:32: ( 5 , T=P#R=O#211669182658543275 , T=P#R=O#211669182658543275 , T=X#R=X#0 , T=X#R=X#0 , Evigne , Evigne , 0 , 982806151 , Healing Spray ) Evigne's Healing Spray heals Evigne for 0. (133 overheal)
+05:29:34: ( 5 , T=P#R=O#211669182658543275 , T=P#R=O#211669182658543275 , T=X#R=X#0 , T=X#R=X#0 , Evigne , Evigne , 0 , 982806151 , Healing Spray ) Evigne's Healing Spray heals Evigne for 0. (133 overheal)
+05:29:36: ( 5 , T=P#R=O#211669182658543275 , T=P#R=O#211669182658543275 , T=X#R=X#0 , T=X#R=X#0 , Evigne , Evigne , 0 , 982806151 , Healing Spray ) Evigne's Healing Spray heals Evigne for 0. (133 overheal)
+05:29:37: ( 7 , T=P#R=O#211669182658543275 , T=P#R=O#211669182658543275 , T=X#R=X#0 , T=X#R=X#0 , Evigne , Evigne , 0 , 982806151 , Healing Spray ) Evigne's Healing Spray fades from Evigne.
+05:29:54: ( 7 , T=P#R=O#211669182718118268 , T=P#R=O#211669182718118268 , T=X#R=X#0 , T=X#R=X#0 , Wolfeael , Wolfeael , 0 , 862002525 , Shield of the Hero ) Wolfeael's Shield of the Hero fades from Wolfeael.
+05:29:54: ( 6 , T=P#R=O#211669182718118268 , T=P#R=O#211669182718118268 , T=X#R=X#0 , T=X#R=X#0 , Wolfeael , Wolfeael , 0 , 862002525 , Shield of the Hero ) Wolfeael gains Wolfeael's Shield of the Hero.
+05:29:56: ( 6 , T=P#R=O#211669182557753792 , T=P#R=O#211669182557753792 , T=X#R=X#0 , T=X#R=X#0 , Razzldazzl , Razzldazzl , 0 , 1842798307 , Icy Vortex ) Razzldazzl gains Razzldazzl's Icy Vortex.
+05:29:56: ( 7 , T=P#R=O#211669182718118268 , T=P#R=O#211669182718118268 , T=X#R=X#0 , T=X#R=X#0 , Wolfeael , Wolfeael , 0 , 478081866 , Binding of Affliction ) Wolfeael's Binding of Affliction fades from Wolfeael.
+05:29:56: ( 6 , T=P#R=O#211669182718118268 , T=P#R=O#211669182718118268 , T=X#R=X#0 , T=X#R=X#0 , Wolfeael , Wolfeael , 0 , 478081866 , Binding of Affliction ) Wolfeael gains Wolfeael's Binding of Affliction.
+05:29:57: ( 6 , T=P#R=O#211669182557753792 , T=P#R=O#211669182557753792 , T=X#R=X#0 , T=X#R=X#0 , Razzldazzl , Razzldazzl , 0 , 1479480529 , Static Barrier ) Razzldazzl gains Razzldazzl's Static Barrier.
+05:29:58: ( 7 , T=P#R=O#211669182718118268 , T=P#R=O#211669182718118268 , T=X#R=X#0 , T=X#R=X#0 , Wolfeael , Wolfeael , 0 , 243901481 , Crest of the Abyss ) Wolfeael's Crest of the Abyss fades from Wolfeael.
+05:29:58: ( 6 , T=P#R=O#211669182718118268 , T=P#R=O#211669182718118268 , T=X#R=X#0 , T=X#R=X#0 , Wolfeael , Wolfeael , 0 , 243901481 , Crest of the Abyss ) Wolfeael gains Wolfeael's Crest of the Abyss.
+05:30:00: ( 7 , T=P#R=O#211669182718118268 , T=P#R=O#211669182718118268 , T=X#R=X#0 , T=X#R=X#0 , Wolfeael , Wolfeael , 0 , 1303442702 , Aegis of Vitality ) Wolfeael's Aegis of Vitality fades from Wolfeael.
+05:30:00: ( 6 , T=P#R=O#211669182718118268 , T=P#R=O#211669182718118268 , T=X#R=X#0 , T=X#R=X#0 , Wolfeael , Wolfeael , 0 , 1303442702 , Aegis of Vitality ) Wolfeael gains Wolfeael's Aegis of Vitality.
+05:30:06: ( 7 , T=P#R=O#211669182557753792 , T=P#R=O#211669182557753792 , T=X#R=X#0 , T=X#R=X#0 , Razzldazzl , Razzldazzl , 0 , 1842798307 , Icy Vortex ) Razzldazzl's Icy Vortex fades from Razzldazzl.
+05:30:07: ( 7 , T=P#R=O#211669182499615385 , T=P#R=O#211669182499615385 , T=X#R=X#0 , T=X#R=X#0 , Famine , Famine , 0 , 1250691886 , Combat Pose ) Famine's Combat Pose fades from Famine.
+05:30:13: ( 6 , T=P#R=O#211669182557753792 , T=P#R=O#211669182557753792 , T=X#R=X#0 , T=X#R=X#0 , Razzldazzl , Razzldazzl , 0 , 34474408 , Static Discharge ) Razzldazzl gains Razzldazzl's Static Discharge.
+05:30:13: ( 8 , T=P#R=O#211669182557753792 , T=P#R=O#211669182557753792 , T=X#R=X#0 , T=X#R=X#0 , Razzldazzl , Razzldazzl , 0 , 1055878322 , Static Discharge ) Razzldazzl is afflicted by Razzldazzl's Static Discharge.
+05:30:14: ( 6 , T=N#R=O#9223372042011087985 , T=N#R=O#9223372042011087985 , T=P#R=O#211669182557753792 , T=P#R=O#211669182557753792 , Lesser Earth Elemental , Lesser Earth Elemental , 0 , 34474408 , Static Discharge ) Lesser Earth Elemental gains Lesser Earth Elemental's Static Discharge.
+05:30:14: ( 8 , T=N#R=O#9223372042011087985 , T=N#R=O#9223372042011087985 , T=P#R=O#211669182557753792 , T=P#R=O#211669182557753792 , Lesser Earth Elemental , Lesser Earth Elemental , 0 , 1055878322 , Static Discharge ) Lesser Earth Elemental is afflicted by Lesser Earth Elemental's Static Discharge.
+05:30:19: ( 7 , T=P#R=O#211669182718118268 , T=P#R=O#211669182718118268 , T=X#R=X#0 , T=X#R=X#0 , Wolfeael , Wolfeael , 0 , 639820241 , Mariel-Taun's Blessing ) Wolfeael's Mariel-Taun's Blessing fades from Wolfeael.
+05:30:22: ( 14 , T=P#R=O#211669182666964512 , T=P#R=O#211669182666964512 , T=X#R=X#0 , T=X#R=X#0 , Caitlsa , Caitlsa , 412 , 316931269 , Falling Damage ) Caitlsa takes 412 damage from Falling Damage. 
+05:30:49: ( 7 , T=P#R=O#211669182557753792 , T=P#R=O#211669182557753792 , T=X#R=X#0 , T=X#R=X#0 , Razzldazzl , Razzldazzl , 0 , 34474408 , Static Discharge ) Razzldazzl's Static Discharge fades from Razzldazzl.
+05:30:49: ( 7 , T=P#R=O#211669182557753792 , T=P#R=O#211669182557753792 , T=X#R=X#0 , T=X#R=X#0 , Razzldazzl , Razzldazzl , 0 , 1479480529 , Static Barrier ) Razzldazzl's Static Barrier fades from Razzldazzl.
+05:30:50: ( 1 , T=P#R=O#211669182723999687 , T=X#R=X#0 , T=X#R=X#0 , T=X#R=X#0 , Goonberry , Unknown , 0 , 1693236319 , Summon: Bogling Wastrel ) Goonberry begins casting Summon: Bogling Wastrel.
+05:31:14: ( 9 , T=P#R=O#211669182557753792 , T=P#R=O#211669182557753792 , T=X#R=X#0 , T=X#R=X#0 , Razzldazzl , Razzldazzl , 0 , 1055878322 , Static Discharge ) Razzldazzl's Static Discharge dissipates from Razzldazzl.
+05:31:14: ( 7 , T=N#R=O#9223372042011087985 , T=N#R=O#9223372042011087985 , T=P#R=O#211669182557753792 , T=P#R=O#211669182557753792 , Lesser Earth Elemental , Lesser Earth Elemental , 0 , 34474408 , Static Discharge ) Lesser Earth Elemental's Static Discharge fades from Lesser Earth Elemental.
+05:31:14: ( 9 , T=N#R=O#9223372042011087985 , T=N#R=O#9223372042011087985 , T=P#R=O#211669182557753792 , T=P#R=O#211669182557753792 , Lesser Earth Elemental , Lesser Earth Elemental , 0 , 1055878322 , Static Discharge ) Lesser Earth Elemental's Static Discharge dissipates from Lesser Earth Elemental.
+05:31:19: ( 1 , T=P#R=O#211669182499617226 , T=X#R=X#0 , T=X#R=X#0 , T=X#R=X#0 , Syl , Unknown , 0 , 1790356495 , Changing Role ) Syl begins casting Changing Role.
+05:31:34: ( 6 , T=P#R=O#211669182666962888 , T=P#R=O#211669182666962888 , T=X#R=X#0 , T=X#R=X#0 , Jazzmin , Jazzmin , 0 , 1697749612 , Motivational Roar ) Jazzmin gains Jazzmin's Motivational Roar.
+05:31:34: ( 6 , T=P#R=O#211669182666962888 , T=N#R=O#9223372043051154092 , T=X#R=X#0 , T=P#R=O#211669182666962888 , Jazzmin , White Bunny , 0 , 1697749612 , Motivational Roar ) White Bunny gains Jazzmin's Motivational Roar.
+05:31:55: ( 1 , T=P#R=O#211669182499617226 , T=X#R=X#0 , T=X#R=X#0 , T=X#R=X#0 , Syl , Unknown , 0 , 1524707111 , Changing Role ) Syl begins casting Changing Role.
