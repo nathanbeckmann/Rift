@@ -4,8 +4,10 @@ object Simple {
       println("Format: <combat-log-file>")
     } else {
       val parser = new Parser(args(0),
-                              c => (), //println(c.actions.tail),
-                              c => { println(c); Clippy.copy(c toString) })
+        c => (), //println(c.actions.tail),
+        c => { println(c format "Length: %t\nDPS: %20d\nHPS: %20h\n\n");
+               if (c.duration > 0) Clippy.copy(c toString) }
+        )
 
 //      parser.delete()
       val list = parser.parse()
