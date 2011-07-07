@@ -8,10 +8,18 @@ class Parser(
   afterActionCallback: Combat => Unit,
   afterCombatCallback: Combat => Unit) {
 
-  class ActionParseException(val line: String) extends Throwable
+  import Parser._
 
+  // This extracts the timestamp
   private val extractTime = """(\d\d:\d\d:\d\d):? (.*)""".r
-  private val extractAction = """\( (\d+) .* , (.*) , (.*) , (-?\d+) , \d+ , (.*) \) .*""".r
+
+  // This extracts...
+  // - action type
+  // - source, target, and owner ids
+  // - source and owner names
+  // - action value (dmg, heal)
+  // - action name
+  private val extractAction = """\( (\d+) , (.*) , (.*) , (.*) , .* , (.*) , (.*) , (-?\d+) , \d+ , (.*) \) .*""".r
 
   // returns true if still in combat
   private def parseAction(line: String): Action = {
@@ -20,12 +28,13 @@ class Parser(
     val time = new SimpleDateFormat("HH:mm:ss").parse(timeStr)
 
     action match {
-      case "Combat Begin" => new Action(time, "", "", action, 0, 0)
-      case "Combat End" => new Action(time, "", "", action, 0, 0)
-      case extractAction(category, source, target, amount, name) =>
-        new Action(time, source, target, name, amount.toDouble, category.toInt)
+      case "Combat Begin" => new Action(time, Id(), Id(), Id(), "", "", action, 0, 0)
+      case "Combat End" => new Action(time, Id(), Id(), Id(), "", "", action, 0, 0)
+      case extractAction(category, sourceId, targetId, ownerId, source, target, amount, name) =>
+        new Action(time, Id(sourceId), Id(targetId), Id(ownerId),
+                   source, target, name, amount.toDouble, category.toInt)
       case _ =>
-        throw new ActionParseException(line)
+        throw new ParseError(line)
     }
   }
 
@@ -116,5 +125,11 @@ class Parser(
     }
 
     makeCombatList(lines)
+  }
+}
+
+object Parser {
+  class ParseError(val line: String) extends Throwable {
+    override def toString = "Parse error while processing: " + line
   }
 }

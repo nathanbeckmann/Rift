@@ -2,8 +2,11 @@ import java.util.Date
 
 class Action (
   val time: Date,
-  val source: String,
-  val target: String,
+  val source: Id,
+  val target: Id,
+  val owner: Id,                        // for pets
+  val sourceName: String,
+  val targetName: String,
   val name: String,
   val amount: Double,
   val category: Int) {
@@ -44,5 +47,5 @@ class Action (
   def isBookend: Boolean = category == 0
 
   override def toString: String =
-    "(" + source + ", " + target + ", " + name + ", " + amount + ", " + category + ")"
+    "(" + sourceName + ", " + targetName + ", " + name + ", " + amount + ", " + category + ")"
 }

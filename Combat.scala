@@ -11,33 +11,46 @@ class Combat {
   var actions: DoubleLinkedList[Action] = new DoubleLinkedList[Action]()
   var inCombat: Boolean = false
 
-  val entities = Map[String, Entity]()
-
-  private val saveActions = false
+  val entities = Map[Id, Entity]()
 
   def handle(action: Action) {
 
-    if (saveActions || action.isBookend)
+    if (Config.saveActions || action.isBookend)
       actions = actions :+ action
 
-    // extending Map to use default didn't work for some reason,
-    // probably I'm a nub and a moron
-    if (!(entities contains action.source)) entities += action.source -> new Entity(action.source, this)
-    if (!(entities contains action.target)) entities += action.target -> new Entity(action.target, this)
-
-    val source = entities(action.source)
-    val target = entities(action.target)
-
-    if (saveActions || action.isBookend)
-      source.actions :+ action
-
-    if (action.isDmg) {
-      source.damage += action.amount
-      target.damageTaken += action.amount
-    }
-    else if (action.isHeal) {
-      source.heals += action.amount
-      target.healsTaken += action.amount
+    // No more processing needed for bookends
+    if (!action.isBookend) {
+  
+      // extending Map to use default didn't work for some reason,
+      // probably I'm a nub and a moron
+      if (!(entities contains action.source))
+        entities += action.source -> new Entity(action.source, action.sourceName, this)
+      if (!(entities contains action.target))
+        entities += action.target -> new Entity(action.target, action.targetName, this)
+    
+      val source = entities(action.source)
+      val target = entities(action.target)
+    
+      // Add pet to owner; pets is a set so this won't produce duplicates
+      (entities get action.owner) match {
+        case None => ()
+        case Some(owner) => {
+          if (owner.id.t != Id.Type.Unknown)
+            owner.pets += source
+        }
+      }
+    
+      if (Config.saveActions)
+        source.actions :+ action
+    
+      if (action.isDmg) {
+        source.damage += action.amount
+        target.damageTaken += action.amount
+      }
+      else if (action.isHeal) {
+        source.heals += action.amount
+        target.healsTaken += action.amount
+      }
     }
 
     action.name match {
@@ -58,12 +71,21 @@ class Combat {
   
     val timeStr = mins + ":" + (secs % 60)
 
+    // Get the top <num> entities for a particular query
     def top(query: Entity => Double, entityFmt: String, num: Int): String = {
-      val list = entities.values.filter(query(_) > 0).toArray
+
+      // First find valid entities
+      val valid = entities.filter(entry => if (Config.onlyPlayers) entry._1.t == Id.Type.Player else true)
+
+      // Now only those with a positive value for the query
+      val list = valid.values.filter(query(_) > 0).toArray
+
       stableSort[Entity](list, query(_: Entity) > query(_: Entity))
+
       list.take(num).map(_ format entityFmt) mkString ""
     }
 
+    // Put the top <num> entities into a string somewhere
     // example: replaceTop(fmt, "%d", _.dps, " %n:%d")
     def replaceTop(src: String, queryTerm: String, query: Entity => Double, entityFmt: String) = { 
       val matcherStr = "(?s).*" + (queryTerm replace ("%", "%(\\d+)")) + ".*"
@@ -88,5 +110,5 @@ class Combat {
       "%h", _.hps, " %n:%h")
   }
 
-  override def toString: String = format("%t| DPS%10d| HPS%5h")
+  override def toString: String = format("%t -DPS-%10d -HPS-%5h")
 }

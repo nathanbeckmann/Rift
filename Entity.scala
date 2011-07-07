@@ -1,20 +1,26 @@
 import scala.collection.mutable.DoubleLinkedList
+import scala.collection.mutable.Set
 
 class Entity(
+  val id: Id,
   val name: String,
   val combat: Combat) {
 
   val actions: DoubleLinkedList[Action] = new DoubleLinkedList[Action]()
+  val pets: Set[Entity] = Set[Entity]()
 
   var damage: Double = 0
   var heals: Double = 0
   var damageTaken: Double = 0
   var healsTaken: Double = 0
 
-  def dps: Double = 1000 * damage / combat.duration
-  def hps: Double = 1000 * heals / combat.duration
-  def dtps: Double = 1000 * damageTaken / combat.duration
-  def htps: Double = 1000 * healsTaken / combat.duration
+  private def valPerSecond(thisVal: => Double, petVal: Entity => Double) =
+    1000 * thisVal / combat.duration + (if (Config.combinePets) pets.map(petVal).sum else 0)
+
+  def dps: Double = valPerSecond(damage, _.dps)
+  def hps: Double = valPerSecond(heals, _.hps)
+  def dtps: Double = valPerSecond(damageTaken, _.dtps)
+  def htps: Double = valPerSecond(healsTaken, _.htps)
 
   def format(fmt: String): String = {
     val nameStr = ("%.3s" format name)
