@@ -1,0 +1,2 @@
+Main-Class: Simple
+Class-Path: simple-rift-parser.jar
