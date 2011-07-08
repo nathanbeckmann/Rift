@@ -69,7 +69,7 @@ class Combat {
     val secs = duration / 1000
     val mins = secs / 60
   
-    val timeStr = mins + ":" + (secs % 60)
+    val timeStr = mins + ":" + ("%02d" format (secs % 60))
 
     // Get the top <num> entities for a particular query
     def top(query: Entity => Double, entityFmt: String, num: Int): String = {
