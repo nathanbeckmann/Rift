@@ -8,7 +8,7 @@ object Simple {
 
       val parser = new Parser(args(0),
         c => (), //println(c.actions.tail),
-        c => { println(c format "Length: %t\nDPS: %20d\nHPS: %20h\n\n");
+        c => { println(c format "Length: %t\nDPS: %20d\nHPS: %20h\n");
                if (c.duration > 0) Clippy.copy(c toString) }
         )
 
