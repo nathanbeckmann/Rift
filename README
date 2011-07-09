@@ -1,0 +1,48 @@
+RIFT PARSER
+
+This is a command-line parser for RIFT written in Scala.
+
+If you aren't familiar with running tools from the command line, then
+don't bother. (I might make it easier in the future.)
+
+Pre-requisites:
+
+ - Install Java, if you don't have it. (You should.)
+
+ - Install Scala from: http://www.scala-lang.org/downloads
+
+Installation:
+
+ - Download the repository.
+
+ - Put in its own folder somewhere
+
+   - Location doesn't matter, but it assumes by default that RIFT is
+     installed at "../RIFT Game".
+
+ - (Optionally) Edit "./parse.sh" so that "RIFT_HOME = .." points to
+   the path of the main RIFT folder. See Option A below.
+
+Running:
+
+There are two options for running the parser. Both boil down to the
+same thing; the first is easier but less configurable, and only works
+in a UNIX-like environment. The second is more general and should work
+anywhere.
+
+ - Open a terminal and navigate to the parser directory.
+
+Option A:
+
+ - Run parse.sh from a UNIX shell.
+
+Option B:
+
+ - Run: fsc *.scala
+
+   - If this produces error messages, then please send me an email.
+
+ - Run: scala Simple <RIFT Combat Log>
+
+   - <RIFT Combat Log> should be the path of "CombatLog.txt" in the
+     RIFT installation folder.
