@@ -32,11 +32,11 @@ anywhere.
 
  - Open a terminal and navigate to the parser directory.
 
-Option A:
+  Option A:
 
  - Run parse.sh from a UNIX shell.
 
-Option B:
+  Option B:
 
  - Run: fsc *.scala
 
@@ -46,3 +46,22 @@ Option B:
 
    - <RIFT Combat Log> should be the path of "CombatLog.txt" in the
      RIFT installation folder.
+
+Configuration:
+
+If you are a coder type then it should be fairly easy to change the
+behavior of the parser. I plan on improving this next, because right
+now it is pretty inflexible and the configuration isn't in a single
+place. Important pieces are contained in...
+
+ - Config.scala: A few useful flags, such as onlyPlayers and
+   combinePets.
+
+ - Simple.scala: Top-level formatting for printing to console and
+   copying to clipboard. Can also print out individual actions as they
+   are parsed, but this will be stupidly slow.
+
+ - Combat.scala: Format of DPS and HPS lists. (See "format")
+
+ - Entity.scala: Format of individual DPS, HPS entries and player
+   names. (See "format")
