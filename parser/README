@@ -18,7 +18,8 @@ Installation:
  - Put in its own folder somewhere
 
    - Location doesn't matter, but it assumes by default that RIFT is
-     installed at "../../RIFT Game".
+     installed at "../RIFT Game". (Relative path from "./parser"
+     directory is "../../RIFT Game".)
 
  - (Optionally) Edit "./parser/parse.sh" so that "RIFT_HOME = .."
    points to the path of the main RIFT folder. See Option A below.
