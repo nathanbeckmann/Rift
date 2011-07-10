@@ -26,7 +26,12 @@ class Entity(
     val nameStr = ("%.3s" format name)
     val dpsStr = ("%.0f" format dps)
     val hpsStr = ("%.0f" format hps)
-    fmt replaceAll("%n", nameStr) replaceAll("%d", dpsStr) replaceAll("%h", hpsStr)
+    val dtStr = ("%.0f" format damageTaken)
+    fmt.replaceAll("%N", name)
+       .replaceAll("%n", nameStr)
+       .replaceAll("%d", dpsStr)
+       .replaceAll("%h", hpsStr)
+       .replaceAll("%D", dtStr)
   }
 
   override def toString: String = format(" %n:%d")
