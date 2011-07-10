@@ -20,12 +20,13 @@ class Parser(
   // - action value (dmg, heal)
   // - action name
   private val extractAction = """\( (\d+) , (.*) , (.*) , (.*) , .* , (.*) , (.*) , (-?\d+) , \d+ , (.*) \) .*""".r
+  private val timeFormat = new SimpleDateFormat("HH:mm:ss")
 
   // returns true if still in combat
   private def parseAction(line: String): Action = {
 
     val extractTime(timeStr, action) = line
-    val time = new SimpleDateFormat("HH:mm:ss").parse(timeStr)
+    val time = timeFormat.parse(timeStr)
 
     action match {
       case "Combat Begin" => new Action(time, Id(), Id(), Id(), "", "", action, 0, 0)
