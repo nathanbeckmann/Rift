@@ -27,6 +27,7 @@ class Entity(
     val dpsStr = ("%.0f" format dps)
     val hpsStr = ("%.0f" format hps)
     val dtStr = ("%.0f" format damageTaken)
+
     fmt.replaceAll("%N", name)
        .replaceAll("%n", nameStr)
        .replaceAll("%d", dpsStr)

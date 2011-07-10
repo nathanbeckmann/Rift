@@ -100,19 +100,19 @@ class Combat {
 
         src replaceAll (replaceRegex, str)
       } catch {
-        case _: MatchError => /*println("Couldn't match: " + matcherStr);*/ src
+        case _: MatchError => src
       }
     }
 
-    // this is ugly -- use implicit conversions to chain these calls?
-    replaceTop(                          // replace dt
-      replaceTop(                        // replace hps
-        replaceTop(                      // replace dps
-          fmt replaceAll("%t", timeStr), // replace time
-          "%d", _.dps, " %n:%d"),
-        "%h", _.hps, " %n:%h"),
-      "%D", _.damageTaken, " %N:%D", false)
+    // chain replacement operations to produce final formatted string
+    List(
+      (str: String) => replaceTop(str, "%D", _.damageTaken, " %N:%D", false), // replace dt  
+      (str: String) => replaceTop(str, "%h", _.hps, " %n:%h"),                // replace hps 
+      (str: String) => replaceTop(str, "%d", _.dps, " %n:%d"),                // replace dps 
+      (str: String) => str replaceAll("%t", timeStr))                         // replace time
+    .foldLeft(fmt)((str, f) => f(str))
   }
 
+  // Default string formatting
   override def toString: String = format("%t%1D -DPS-%10d -HPS-%5h")
 }
