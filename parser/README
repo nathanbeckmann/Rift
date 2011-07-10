@@ -42,10 +42,14 @@ anywhere.
 
    - If this produces error messages, then please send me an email.
 
- - Run: scala Simple <RIFT Combat Log>
+ - Run: scala Simple <RIFT Combat Log> true
 
    - <RIFT Combat Log> should be the path of "CombatLog.txt" in the
      RIFT installation folder.
+
+   - The 'true' tells the parser to delete the log when it starts,
+     instead of attempting to re-parse the full contents. This can be
+     set to 'false' to re-parse an old log.
 
 Configuration:
 
