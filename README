@@ -1,0 +1,8 @@
+                                 RIFT
+
+This repository contains a few tools I developed while playing the
+game Rift. Each lives in its own subdirectory.
+
+parser: A simple, command-line parser for Rift.
+
+selection: A zero-sum, democratic raid selection tool.
