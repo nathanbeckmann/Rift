@@ -26,8 +26,8 @@ class Statistic(
 
   def buildGraphData(builder: StringBuilder) {
 
-    val header = "{ (* %s *)\n" format name
-    val footer = "}"
+    val header = "{ (* %s *) %.2f, {\n" format (name, full)
+    val footer = "}}"
 
     val keys = bySecond.keys.toArray
     quickSort(keys)
