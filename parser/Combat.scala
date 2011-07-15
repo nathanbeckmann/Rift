@@ -1,9 +1,8 @@
-import scala.collection.mutable.DoubleLinkedList
-import scala.collection.mutable.Map
+import scala.collection.mutable.{DoubleLinkedList, Map, StringBuilder}
 import scala.util.Sorting.stableSort
 import scala.util.matching.Regex
 
-class Combat {
+class Combat extends Grapher {
   def start: Long = actions.head.time.getTime
   def end: Long = actions.last.time.getTime
   def duration: Long = end - start
@@ -113,9 +112,13 @@ class Combat {
     .foldLeft(fmt)((str, f) => f(str))
   }
 
-  def writeGraphData(w: java.io.Writer) {
-    for (ent <- entities.values)
-      ent.writeGraphData(w)
+  def buildGraphData(builder: StringBuilder) = {
+    val header = "data = {\n"
+    val footer = "};\n"
+
+    val body = entities.values.filter(_.id.t == Id.Type.Player) map ((ent: Entity) => ent.graphData)
+
+    body.addString(builder, header, ",\n\n", footer)
   }
 
   // Default string formatting

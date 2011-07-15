@@ -22,7 +22,7 @@ object Simple {
         val writer = new FileWriter(filename)
         
         try {
-          c.writeGraphData(writer)
+          writer write c.graphData
         } finally {
           writer.close()
         }

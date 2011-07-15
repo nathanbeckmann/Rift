@@ -1,57 +1,27 @@
 import java.util.Date
-import scala.collection.mutable.HashMap
-import scala.collection.mutable.MapLike
-import scala.collection.mutable.DoubleLinkedList
-import scala.collection.mutable.Set
-import scala.util.Sorting.stableSort
+import scala.collection.mutable.{DoubleLinkedList, Set, StringBuilder}
 
 class Entity(
   val id: Id,
   val name: String,
-  val combat: Combat) {
+  val combat: Combat) extends Grapher {
 
   val actions: DoubleLinkedList[Action] = new DoubleLinkedList[Action]()
   val pets: Set[Entity] = Set[Entity]()
 
-  class Statistic {
-    var full: Double = 0
+  var damage = new Statistic("damage", this)
+  var heals = new Statistic("heals", this)
+  var damageTaken = new Statistic("damage taken", this)
+  var healsTaken = new Statistic("heals taken", this)
 
-    val bySecond = new HashMap[Date, Double] {
-      override def default(key: Date): Double = 0
-    }
-
-    def += (time: Date, amt: Double) {
-      full += amt
-      if (Config.makeGraphs)
-        bySecond(time) += amt
-      this
-    }
-
-    def += (pair: (Date, Double)) {
-      this += (pair._1, pair._2)
-    }
-
-  }
-
-  var damage = new Statistic
-  var heals = new Statistic
-  var damageTaken = new Statistic
-  var healsTaken = new Statistic
-
-  def writeGraphData(w: java.io.Writer) {
-    w write ("%s = {" format name)
+  def buildGraphData(builder: StringBuilder) = {
+    val header = "{ \"%s\",\n" format name
+    val footer = "}"
 
     val stats = List(damage, heals, damageTaken, healsTaken)
+    val body = stats map ((stat: Statistic) => stat.graphData)
 
-    val keys = damage.bySecond.keys.toArray
-    stableSort(keys, (k1: Date, k2: Date) => k1.getTime < k2.getTime)
-
-    val data = for (t <- keys)
-                 yield "{ " + (t getTime) + ", {" + (stats.map(_.bySecond(t)) mkString ", ") + "} }"
-
-    w write (data mkString ",\n")
-
-    w write "}\n\n"
+    body.addString(builder, header, ",\n", footer)
   }
 
   private def valPerSecond(thisVal: => Statistic, petVal: Entity => Double) =
