@@ -3,7 +3,7 @@ import java.text.SimpleDateFormat
 
 object Util {
 
-  private val now_format = "yyyy-MM-dd-HH:mm:ss";
+  private val now_format = "yyyy-MM-dd"; //-HH:mm:ss";
 
   def now: String = {
     val cal = Calendar.getInstance()
