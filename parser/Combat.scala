@@ -7,7 +7,7 @@ class Combat {
   def start: Long = actions.head.time.getTime
   def end: Long = actions.last.time.getTime
   def duration: Long = end - start
-
+  
   var actions: DoubleLinkedList[Action] = new DoubleLinkedList[Action]()
   var inCombat: Boolean = false
 
@@ -44,12 +44,12 @@ class Combat {
         source.actions :+ action
     
       if (action.isDmg) {
-        source.damage += action.amount
-        target.damageTaken += action.amount
+        source.damage += action.time -> action.amount
+        target.damageTaken += action.time -> action.amount
       }
       else if (action.isHeal) {
-        source.heals += action.amount
-        target.healsTaken += action.amount
+        source.heals += action.time -> action.amount
+        target.healsTaken += action.time -> action.amount
       }
     }
 
@@ -106,11 +106,16 @@ class Combat {
 
     // chain replacement operations to produce final formatted string
     List(
-      (str: String) => replaceTop(str, "%D", _.damageTaken, " %N:%D", false), // replace dt  
+      (str: String) => replaceTop(str, "%D", _.damageTaken.full, " %N:%D", false), // replace dt  
       (str: String) => replaceTop(str, "%h", _.hps, " %n:%h"),                // replace hps 
       (str: String) => replaceTop(str, "%d", _.dps, " %n:%d"),                // replace dps 
       (str: String) => str replaceAll("%t", timeStr))                         // replace time
     .foldLeft(fmt)((str, f) => f(str))
+  }
+
+  def writeGraphData(w: java.io.Writer) {
+    for (ent <- entities.values)
+      ent.writeGraphData(w)
   }
 
   // Default string formatting
