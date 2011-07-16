@@ -17,13 +17,13 @@ object Simple {
       // only make graphs if some entity took more than 1 million damage
       val maxdmg = c.entities.values.map(_.damageTaken.full).max
 
-      if (true || maxdmg > 1000000) {
+      if (maxdmg > 1000000) {
       
         val filename = ("../data/" + Util.now + (c format "%1D") + ".txt") replaceAll (":", "-")
 
         val file = new File(filename)
 
-        file.delete()
+        // file.delete()
 
         if (file.createNewFile()) {
           val writer = new FileWriter(filename)
