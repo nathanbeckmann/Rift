@@ -43,14 +43,20 @@ anywhere.
 
    - If this produces error messages, then please send me an email.
 
- - Run: scala Simple <RIFT Combat Log> true
+ - Run: scala Simple <RIFT Combat Log> true true
 
    - <RIFT Combat Log> should be the path of "CombatLog.txt" in the
      RIFT installation folder.
 
-   - The 'true' tells the parser to delete the log when it starts,
-     instead of attempting to re-parse the full contents. This can be
-     set to 'false' to re-parse an old log.
+   - The first 'true' tells the parser to delete the log when it
+     starts, instead of attempting to re-parse the full contents. This
+     can be set to 'false' to re-parse an old log, in which case it
+     will exit when it reaches the end.
+
+   - The second 'true' tells it to emit detailed second-by-second data
+     to a text file for fights with a boss that takes >1 million
+     damage. This can be used to generate graphs for damage and
+     healing.
 
 Configuration:
 
