@@ -13,18 +13,30 @@ object Simple {
     if (c.duration > 0) Clippy.copy(c toString)
 
     if (Config.makeGraphs) {
+
+      // only make graphs if some entity took more than 1 million damage
+      val maxdmg = c.entities.values.map(_.damageTaken.full).max
+
+      if (true || maxdmg > 1000000) {
       
-      val filename = ("../data/" + Util.now + (c format "%1D") + ".txt") replaceAll (":", "-")
+        val filename = ("../data/" + Util.now + (c format "%1D") + ".txt") replaceAll (":", "-")
 
-      val file = new File(filename)
+        val file = new File(filename)
 
-      if (file.createNewFile()) {
-        val writer = new FileWriter(filename)
-        
-        try {
-          writer write c.graphData
-        } finally {
-          writer.close()
+        file.delete()
+
+        if (file.createNewFile()) {
+          val writer = new FileWriter(filename)
+
+          try {
+            writer write c.graphData
+
+            println("Graph data saved to : " + filename)
+          } finally {
+            writer.close()
+          }
+        } else {
+          println("Couldn't create graph data file! " + filename)
         }
       }
     }
