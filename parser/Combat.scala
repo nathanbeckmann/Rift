@@ -113,7 +113,10 @@ class Combat extends Grapher {
   }
 
   def buildGraphData(builder: StringBuilder) = {
-    val header = "data = {\n"
+
+    val (_, maxdmg) = entities max Ordering.by((_ : (_, Entity))._2.damageTaken.full)
+
+    val header = "headline = \"%s : %.2f\";\ndata = { \n" format (maxdmg.name, maxdmg.damageTaken.full)
     val footer = "};\n"
 
     val body = entities.values.filter(_.id.t == Id.Type.Player) map ((ent: Entity) => ent.graphData)
