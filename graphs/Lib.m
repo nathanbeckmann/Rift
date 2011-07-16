@@ -40,50 +40,48 @@ stack[data_] :=
 normalize[table_] :=
     Table[ #[[i]] / table[[-1,i]], {i, Length[#]} ] & /@ table
 
+  (* Common plot options *)
+plotOpts[label_, names_] = Sequence[ 
+    FrameLabel -> {{label,""},{"Time (sec)",""}},
+    FrameTicksStyle -> Directive[Tiny],
+    PlotLegend -> names,
+    Joined -> True,
+    Frame -> {{True,False},{True,False}},
+    LegendPosition -> {0.7,-0.4},
+    LegendSize -> {0.3, 0.7},
+    LegendShadow -> None,
+    PlotRange -> Full,
+    PlotStyle -> darkColors,
+    PlotLabel -> headline,
+    AspectRatio -> 1/2
+                   ]
+
+plotOptsStacked[data_, label_, names_] := Sequence[
+    plotOpts[label, names],
+    Filling -> If[ Length[data] > 1, Table[ i -> {{i-1}, lightColors[[i]]}, {i, 2, Length[data]} ], None]
+                          ]
+
   (* Generate and save a plot *)
 plot[filename_, label_, data_] := 
     Block[{plot},
           plot = ListPlot[data,
-                          Joined -> True,
-                          Frame -> {{True,False},{True,False}},
-                          FrameLabel -> {{label,""},{"Time (sec)",""}},
-                          PlotLegend -> names,
-                          LegendPosition -> {1.1,-0.4},
-                          LegendSize -> {0.3, 1.0},
-                          LegendShadow -> None,
-                          PlotRange -> Full
+                          plotOpts[label,names]
                          ];
           Export[filename, plot, ImageResolution -> 150]]
 
 plotStacked[filename_, label_, data_] := 
     Block[{plot},
           plot = ListPlot[data,
-                          Joined -> True,
-                          Frame -> {{True,False},{True,False}},
-                          FrameLabel -> {{label,""},{"Time (sec)",""}},
-                          PlotLegend -> names,
-                          LegendPosition -> {1.1,-0.4},
-                          LegendSize -> {0.3, 1.0},
-                          LegendShadow -> None,
                           PlotRange -> {0, Full},
-                          PlotStyle -> darkColors,
-                          Filling -> If[ Length[data] > 1, Table[ i -> {{i-1}, lightColors[[i]]}, {i, 2, Length[data]} ], None]
+                          plotOptsStacked[data, label, names]
                          ];
           Export[filename, plot, ImageResolution -> 150]]
 
 plotStackedN[filename_, label_, data_] := 
     Block[{plot},
           plot = ListPlot[data,
-                          Joined -> True,
-                          Frame -> {{True,False},{True,False}},
-                          FrameLabel -> {{label,""},{"Time (sec)",""}},
-                          PlotLegend -> names,
-                          LegendPosition -> {1.1,-0.4},
-                          LegendSize -> {0.3, 1.0},
-                          LegendShadow -> None,
                           PlotRange -> {0, 1},
-                          PlotStyle -> darkColors,
-                          Filling -> If[ Length[data] > 1, Table[ i -> {{i-1}, lightColors[[i]]}, {i, 2, Length[data]} ], None]
+                          plotOptsStacked[data, label, names]
                          ];
           Export[filename, plot, ImageResolution -> 150]]
 
@@ -130,6 +128,7 @@ plotDataSet[data_, label_, index_, plotfile_, ext_] :=
 
           (* Normalized stacked graphs *)
           normalized = normalize[stacked];
+
           plotStackedN[plotfile <> "-stackn" <> ext, label, normalized];
 
           Null]
