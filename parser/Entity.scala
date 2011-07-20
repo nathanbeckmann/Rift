@@ -8,11 +8,11 @@ class Entity(
 
   val actions: DoubleLinkedList[Action] = new DoubleLinkedList[Action]()
   val pets: Set[Entity] = Set[Entity]()
-
-  var damage = new Statistic("damage", this)
-  var heals = new Statistic("heals", this)
-  var damageTaken = new Statistic("damage taken", this)
-  var healsTaken = new Statistic("heals taken", this)
+  
+  var damage: Statistic = new Statistic("damage", this, (ent: Entity) => ent.damage)
+  var heals: Statistic = new Statistic("heals", this, (ent: Entity) => ent.heals)
+  var damageTaken: Statistic = new Statistic("damage taken", this, (ent: Entity) => ent.damageTaken)
+  var healsTaken: Statistic = new Statistic("heals taken", this, (ent: Entity) => ent.healsTaken)
 
   def buildGraphData(builder: StringBuilder) = {
     val header = "{ \"%s\",\n" format name

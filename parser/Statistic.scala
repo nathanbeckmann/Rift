@@ -4,7 +4,8 @@ import scala.util.Sorting.quickSort
 
 class Statistic(
   val name: String,
-  val entity: Entity
+  val entity: Entity,
+  childAccessor: Entity => Statistic
 ) extends Grapher {
   var full: Double = 0
 
@@ -26,14 +27,26 @@ class Statistic(
 
   def buildGraphData(builder: StringBuilder) {
 
-    val header = "{ (* %s *) %.2f, {\n" format (name, full)
+    val petStatFull = 
+      if (entity.pets nonEmpty)
+        entity.pets map(childAccessor) map(_.full) reduce(_+_)
+      else
+        0
+
+    val header = "{ (* %s *) %.2f, {\n" format (name, full + petStatFull)
     val footer = "}}"
 
     val keys = bySecond.keys.toArray
     quickSort(keys)
 
-    val body = for (t <- keys)
-                 yield "{ " + ((t - entity.combat.start) / 1000) + ", " + bySecond(t) + "}"
+    val body = for (t <- keys;
+                    val petStat =
+                      if (entity.pets nonEmpty)
+                        entity.pets map(childAccessor) map(_.bySecond(t)) reduce(_+_)
+                      else
+                        0;
+                    val stat = bySecond(t) + petStat)
+                 yield "{ " + ((t - entity.combat.start) / 1000) + ", " + stat + "}"
 
     body.addString(builder, header, ", ", footer)
   }
