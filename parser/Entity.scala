@@ -33,6 +33,8 @@ class Entity(
   def dtps: Double = valPerSecond(damageTaken, _.dtps)
   def htps: Double = valPerSecond(healsTaken, _.htps)
 
+  def isPlayer: Boolean = id.t == Id.Type.Player
+
   def format(fmt: String): String = {
     val nameStr = ("%.3s" format name)
     val dpsStr = ("%.0f" format dps)
