@@ -2,7 +2,7 @@
 
 << ./Lib.m
 
-ext = ".png"
+ext = ".pdf"
 
 plotDataSet[data, "Damage", 2, inputFile <> "-damage", ext]
 plotDataSet[data, "Heals", 3, inputFile <> "-heals", ext]
