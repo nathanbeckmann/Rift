@@ -14,6 +14,9 @@ class Combat extends Grapher {
 
   def handle(action: Action) {
 
+    if (Config.ignoredActions contains action.name)
+      return
+
     if (Config.saveActions || action.isBookend)
       actions = actions :+ action
 
