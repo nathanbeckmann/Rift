@@ -1,6 +1,6 @@
-<< ./Start.m
+<< ./graphs/Start.m
 
-<< ./Lib.m
+<< ./graphs/Lib.m
 
 ext = ".pdf"
 
