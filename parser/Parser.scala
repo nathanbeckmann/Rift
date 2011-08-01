@@ -39,11 +39,19 @@ class Parser(
     }
   }
 
-  private def waitForLine(it: Iterator[String]) {
+  private def waitForLine(it: Iterator[String], timeout: Long = 0): Boolean = {
+    val start = new Date()
+
     // wait for a line to be available
     while (!it.hasNext) {
       Thread.sleep(500)
+
+      if (timeout > 0 &&
+          ((new Date()).getTime - start.getTime) > timeout)
+        return false
     }
+
+    return true
   }
 
   private def parseCombat(lines: Iterator[String]): (Combat, Iterator[String]) = {
@@ -51,23 +59,25 @@ class Parser(
     // find a valid entry, if one exists
     val buf = lines.buffered
 
-    while (buf.hasNext && !(buf.head contains "Combat Begin"))
-      buf.next()
-
     if (!buf.hasNext) {
       (null, buf)
     } else {
       val combat = new Combat
+      val timeout = Config.inactivityThreshold * 1000
 
       do {
-        waitForLine(buf)
-
-        val action = parseAction(buf.next())
-        combat.handle(action)
-
-        afterActionCallback(combat)
+        if (waitForLine(buf, timeout)) {
+          val action = parseAction(buf.next())
+          combat.handle(action)
+          afterActionCallback(combat)
+        } else {
+          if (combat.inCombat)
+            combat.notifyIdle(timeout)
+          else
+            return (null, buf)
+        }
       }
-      while(combat.inCombat)
+      while(!combat.ended)
 
       afterCombatCallback(combat)
 
@@ -105,7 +115,6 @@ class Parser(
     {
       try {
         var lines = new OnlineIterator(logFilename)
-
         parseForever(lines)
       } catch {
         case _: java.io.FileNotFoundException => Thread.sleep(500)

@@ -1,12 +1,12 @@
 import java.util.Date
-import scala.collection.mutable.{DoubleLinkedList, Set, StringBuilder}
+import scala.collection.mutable.{Buffer, Set, StringBuilder}
 
 class Entity(
   val id: Id,
   val name: String,
   val combat: Combat) extends Grapher {
 
-  val actions: DoubleLinkedList[Action] = new DoubleLinkedList[Action]()
+  val actions: Buffer[Action] = Buffer.empty[Action]
   val pets: Set[Entity] = Set[Entity]()
   
   var damage: Statistic = new Statistic("damage", this, (ent: Entity) => ent.damage)
@@ -25,7 +25,7 @@ class Entity(
   }
 
   private def valPerSecond(thisVal: => Statistic, petVal: Entity => Double) =
-    1000 * thisVal.full / combat.duration +
+    thisVal.full / combat.duration +
       (if (Config.combinePets) pets.map(petVal).sum else 0)
 
   def dps: Double = valPerSecond(damage, _.dps)

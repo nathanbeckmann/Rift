@@ -1,62 +1,111 @@
-import scala.collection.mutable.{DoubleLinkedList, Map, StringBuilder}
+import scala.collection.mutable.{Buffer, Map, StringBuilder}
 import scala.util.Sorting.stableSort
 import scala.util.matching.Regex
 
 class Combat extends Grapher {
-  def start: Long = actions.head.time.getTime
-  def end: Long = actions.last.time.getTime
-  def duration: Long = end - start
+
+  var start: Long = 0
+  var end: Long = 0
+  private var last: Long = 0            // the last action, regardless
+                                        // of type. see comment below
+                                        // for inCombat
+
+  def duration: Long = (end - start) / 1000
+  private def idle: Long = (last - end) / 1000
   
-  var actions: DoubleLinkedList[Action] = new DoubleLinkedList[Action]()
-  var inCombat: Boolean = false
+  val actions: Buffer[Action] = Buffer.empty[Action]
+
+  private var deferredActions: Buffer[Action] = Buffer.empty[Action]
 
   val entities = Map[Id, Entity]()
 
-  def handle(action: Action) {
+  // The timing model for combat is from the first to last damaging
+  // action. Combat is reset whenever no damaging action occurs within
+  // Config.inactivityThreshold seconds
+  def inCombat = (start != 0) && (idle <= Config.inactivityThreshold)
+  def ended = (start != 0) && (idle > Config.inactivityThreshold)
 
-    if (Config.saveActions || action.isBookend)
-      actions = actions :+ action
+  private def isCombatAction(action: Action) = action.isDmg
 
-    // No more processing needed for bookends
-    if (!action.isBookend) {
-  
+  private def isIgnoredAction(action: Action) =
+    (Config.ignoredActions contains action.name) ||
+    action.isBookend ||
+    (action.source.r == Id.Relation.Other && action.target.r == Id.Relation.Other)
+
+  private def updateTimers(action: Action) {
+    if (isCombatAction(action)) {
+      if (start == 0)
+        start = action.time.getTime
+
+      end = action.time.getTime
+    }
+
+    last = action.time.getTime
+  }
+
+  // Deferred processing of an action
+  private def process(action: Action) {
       // extending Map to use default didn't work for some reason,
       // probably I'm a nub and a moron
-      if (!(entities contains action.source))
-        entities += action.source -> new Entity(action.source, action.sourceName, this)
-      if (!(entities contains action.target))
-        entities += action.target -> new Entity(action.target, action.targetName, this)
+    if (!(entities contains action.source))
+      entities += action.source -> new Entity(action.source, action.sourceName, this)
+    if (!(entities contains action.target))
+      entities += action.target -> new Entity(action.target, action.targetName, this)
     
-      val source = entities(action.source)
-      val target = entities(action.target)
+    val source = entities(action.source)
+    val target = entities(action.target)
     
-      // Add pet to owner; pets is a set so this won't produce duplicates
-      (entities get action.owner) match {
-        case None => ()
+    // pets
+    (entities get action.owner) match {
+      case None => ()
         case Some(owner) => {
           if (owner.id.t != Id.Type.Unknown)
-            owner.pets += source
+            owner.pets += source        // pets is a set; no duplicates
         }
-      }
+    }
     
-      if (Config.saveActions)
-        source.actions :+ action
+    if (Config.saveActions)
+      source.actions :+ action
     
-      if (action.isDmg) {
-        source.damage += action.time -> action.amount
-        target.damageTaken += action.time -> action.amount
-      }
-      else if (action.isHeal) {
-        source.heals += action.time -> action.amount
-        target.healsTaken += action.time -> action.amount
-      }
+    if (action.isDmg) {
+      source.damage += action.time -> action.amount
+      target.damageTaken += action.time -> action.amount
+    }
+    else if (action.isHeal) {
+      source.heals += action.time -> action.amount
+      target.healsTaken += action.time -> action.amount
+    }
+  }
+
+  // Public interface to process a single action
+  def handle(action: Action) {
+    if (Config.saveActions)
+      actions :+ action
+
+    if (isIgnoredAction(action))
+      return
+  
+    updateTimers(action)
+
+    // we defer processing of actions until we know that they should
+    // be included in the stats of this combat (see updateTimers)
+    if (inCombat) {
+      deferredActions += action
     }
 
-    action.name match {
-      case "Combat Begin" => inCombat = true
-      case "Combat End" => inCombat = false
-      case _ =>
+    if (isCombatAction(action)) {
+      deferredActions.foreach(process)
+      deferredActions.clear()
     }
+  }
+
+  // Notify this structure that nothing has happened for a while,
+  // possibly end combat
+  // 
+  // The milliseconds parameter is in real-time -- not rift time. (For
+  // offline parsing these are not the same.)
+  def notifyIdle(milliseconds: Long) {
+    last += milliseconds
   }
 
   // Pass in a string of with these formatting rules:
@@ -65,7 +114,7 @@ class Combat extends Grapher {
   //  %<num>h - <num> top hpsers
   def format(fmt: String): String = {
 
-    val secs = duration / 1000
+    val secs = duration
     val mins = secs / 60
   
     val timeStr = mins + ":" + ("%02d" format (secs % 60))

@@ -12,7 +12,7 @@ object Simple {
 
     if (c.duration > 0) Clippy.copy(c toString)
 
-    if (Config.makeGraphs) {
+    if (Config.makeGraphs && c.entities.nonEmpty) {
 
       // only make graphs if some entity took more than 1 million damage
       val maxdmg = c.entities.values.map(_.damageTaken.full).max
@@ -23,7 +23,7 @@ object Simple {
 
         val file = new File(filename)
 
-        // file.delete()
+        file.delete()
 
         if (file.createNewFile()) {
           val writer = new FileWriter(filename)
