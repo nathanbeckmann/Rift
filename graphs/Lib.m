@@ -51,13 +51,17 @@ plotOpts[label_, names_] = Sequence[
     legendStyle,
     FrameLabel -> {{label,""},{"Time (sec)",""}},
     FrameTicksStyle -> Directive[Tiny],
+    PlotLegend -> names,
     Joined -> True,
     Frame -> {{True,False},{True,False}},
+    LegendPosition -> {0.7,-0.4},
+    LegendSize -> {0.3, 0.7},
+    LegendShadow -> None,
     PlotRange -> Full,
     PlotStyle -> darkColors,
     PlotLabel -> headline,
     AspectRatio -> 1/2
-                   ];
+                   ]
 
 plotOptsStacked[data_, label_, names_] := Sequence[
     plotOpts[label, names],
@@ -67,31 +71,25 @@ plotOptsStacked[data_, label_, names_] := Sequence[
   (* Generate and save a plot *)
 plot[filename_, label_, data_] := 
     Block[{plot},
-          plot = showLegend[
-              makeLegend2 @@ names,
-              ListPlot[data,
-                       plotOpts[label,names]
-                      ]];
+          plot = ListPlot[data,
+                          plotOpts[label,names]
+                         ];
           Export[filename, plot, ImageResolution -> 150]]
 
 plotStacked[filename_, label_, data_] := 
     Block[{plot},
-          plot = showLegend[
-              makeLegend2 @@ names,
-              ListPlot[data,
-                       PlotRange -> {0, Full},
-                       plotOptsStacked[data, label, names]
-                      ]];
+          plot = ListPlot[data,
+                          PlotRange -> {0, Full},
+                          plotOptsStacked[data, label, names]
+                         ];
           Export[filename, plot, ImageResolution -> 150]]
 
 plotStackedN[filename_, label_, data_] := 
     Block[{plot},
-          plot = showLegend[
-              makeLegend2 @@ names,
-              ListPlot[data,
-                       PlotRange -> {0, 1},
-                       plotOptsStacked[data, label, names]
-                      ]];
+          plot = ListPlot[data,
+                          PlotRange -> {0, 1},
+                          plotOptsStacked[data, label, names]
+                         ];
           Export[filename, plot, ImageResolution -> 150]]
 
 (* Isolate a data set, format it, and plot it *)
