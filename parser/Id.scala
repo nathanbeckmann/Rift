@@ -3,6 +3,7 @@ import scala.collection.mutable.Map
 
 class Id(
   val t: Id.Type.Type,
+  val r: Id.Relation.Type,
   val id: String) {
 
   override def hashCode = id.hashCode
@@ -33,11 +34,29 @@ object Id {
       case _ => throw new Error(c)
     }
   }
-  import Type.{Type, Unknown, Player, Nonplayer}
+  import Type.{Unknown, Player, Nonplayer}
 
-  private val nothing = new Id(Unknown, "")
+  object Relation extends Enumeration {
+
+    type Type = Value
+    val Character, Group, Raid, Other = Value
+
+    class Error(val c: Char) extends Throwable
+
+    def apply(s: String): Type = apply(s charAt 0)
+    def apply(c: Char): Type = c match {
+      case 'C' => Character
+      case 'G' => Group
+      case 'R' => Raid
+      case 'O' => Other
+      case _ => throw new Error(c)
+    }
+  }
+  import Relation.{Character, Group, Raid, Other}
+
+  private val nothing = new Id(Unknown, Other, "")
   private val ids = Map[String, Id]("T=X#R=X#0" -> nothing)
-  private val parseRegex = """T=([XPN])#R=.#(\d+)""".r
+  private val parseRegex = """T=([XPN])#R=([CGRO])#(\d+)""".r
 
   def apply() = nothing
 
@@ -46,9 +65,9 @@ object Id {
     (ids get str) match {
       case Some(id) => id
       case None => str match {
-        case parseRegex(c, id) =>
+        case parseRegex(c, r, id) =>
           try {
-            val newId = new Id(Type(c), id)
+            val newId = new Id(Type(c), Relation(r), id)
             ids += str -> newId
             newId
           }

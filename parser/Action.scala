@@ -13,6 +13,7 @@ class Action (
 
   object Categories {
     val CAST_START = 1
+    val INTERRUPT = 2
     val HIT = 3
     val DOT = 4
     val HEAL = 5
@@ -22,7 +23,10 @@ class Action (
     val DEBUFF_END = 9
     val MISS = 10
     val SLAIN = 11
+    val DIED = 12
+    val FALL = 14
     val DODGE = 15
+    val PARRY = 16
     val CRITICAL_HIT = 23
     val IMMUNE = 26
     val REGEN = 27                        // ??
@@ -43,7 +47,9 @@ class Action (
     case _ => false
   }
 
-  // if this is a start or end marker
+  // if this is a Combat Begin/End
+  // note: this isn't used for much since we use an inactivity
+  // interval now
   def isBookend: Boolean = category == 0
 
   override def toString: String =
