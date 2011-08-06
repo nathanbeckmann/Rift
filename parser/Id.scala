@@ -48,7 +48,7 @@ object Id {
       case 'C' => Character
       case 'G' => Group
       case 'R' => Raid
-      case 'O' => Other
+      case 'O' | 'X' => Other
       case _ => throw new Error(c)
     }
   }
@@ -56,7 +56,7 @@ object Id {
 
   private val nothing = new Id(Unknown, Other, "")
   private val ids = Map[String, Id]("T=X#R=X#0" -> nothing)
-  private val parseRegex = """T=([XPN])#R=([CGRO])#(\d+)""".r
+  private val parseRegex = """T=([XPN])#R=([CGROX])#(\d+)""".r
 
   def apply() = nothing
 
