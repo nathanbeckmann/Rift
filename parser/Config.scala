@@ -9,6 +9,6 @@ object Config {
   // considering that combat has ended
   val inactivityThreshold = 5
 
-  val ignoredActions = List("Shocking Cipher", "Deathly Flames")
+  val ignoredActions = List("Shocking Cipher", "Deathly Flames", "Sourcestone Annihilation")
 
 }
