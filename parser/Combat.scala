@@ -30,7 +30,9 @@ class Combat extends Grapher {
   private def isIgnoredAction(action: Action) =
     (Config.ignoredActions contains action.name) ||
     action.isBookend ||
-    (action.source.r == Id.Relation.Other && action.target.r == Id.Relation.Other)
+    (action.source.r == Id.Relation.Other
+     && action.target.r == Id.Relation.Other
+     && action.owner.r == Id.Relation.Other)
 
   private def updateTimers(action: Action) {
     if (isCombatAction(action)) {
