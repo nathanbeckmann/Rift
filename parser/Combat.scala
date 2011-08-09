@@ -128,12 +128,17 @@ class Combat extends Grapher {
       // First find valid entities
       val valid = entities.filter(entry => if (onlyPlayers) entry._1.t == Id.Type.Player else true)
 
+      val sum = valid.values.map(query).reduce(_ + _)
+
       // Now only those with a positive value for the query
       val list = valid.values.filter(query(_) > 0).toArray
 
       stableSort[Entity](list, query(_: Entity) > query(_: Entity))
 
-      list.take(num).map(_ format entityFmt) mkString ""
+      val top = list.take(num)
+      val topStr = top.map(_ format entityFmt) mkString ""
+
+      " " + ("%.0f" format sum) + topStr
     }
 
     // Put the top <num> entities into a string somewhere
