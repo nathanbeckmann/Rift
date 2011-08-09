@@ -4,6 +4,7 @@ object Config {
   val onlyPlayers = true
   val combinePets = true
   var makeGraphs = false
+  val trackAbilities = false
 
   // The number of seconds to wait with no damaging spells before
   // considering that combat has ended

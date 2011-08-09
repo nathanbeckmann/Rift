@@ -70,12 +70,12 @@ class Combat extends Grapher {
       source.actions :+ action
     
     if (action.isDmg) {
-      source.damage += action.time -> action.amount
-      target.damageTaken += action.time -> action.amount
+      source.damage += action
+      target.damageTaken += action
     }
     else if (action.isHeal) {
-      source.heals += action.time -> action.amount
-      target.healsTaken += action.time -> action.amount
+      source.heals += action
+      target.healsTaken += action
     }
   }
 

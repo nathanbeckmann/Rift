@@ -13,16 +13,20 @@ class Statistic(
     override def default(key: Long): Double = 0
   }
 
-  def += (time: Date, amt: Double) {
-    full += amt
-    if (Config.makeGraphs && amt != 0)
-      bySecond(time.getTime) += amt
-
-    this
+  val byName = new HashMap[String, Double] {
+    override def default(key: String): Double = 0
   }
 
-  def += (pair: (Date, Double)) {
-    this += (pair._1, pair._2)
+  def += (action: Action) {
+    full += action.amount
+    if (action.amount != 0) {
+      if (Config.makeGraphs)
+        bySecond(action.time.getTime) += action.amount
+      if (Config.trackAbilities)
+        byName(action.name) += action.amount
+    }
+
+    this
   }
 
   def buildGraphData(builder: StringBuilder) {

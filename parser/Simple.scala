@@ -1,4 +1,5 @@
 import java.io.{File,FileWriter,Writer}
+import scala.util.Sorting.stableSort
 
 object Simple {
 
@@ -6,12 +7,7 @@ object Simple {
     // nothing
   }
 
-  def postCombat(c: Combat) {
-
-    println(c format "Length: %t,%1D\nDPS:%20d\nHPS:%20h\n")
-
-    if (c.duration > 0) Clippy.copy(c toString)
-
+  def dumpGraphs(c: Combat) {
     if (Config.makeGraphs && c.entities.nonEmpty) {
 
       // only make graphs if some entity took more than 1 million damage
@@ -40,6 +36,45 @@ object Simple {
         }
       }
     }
+  }
+
+  def dumpAbilities(c: Combat) {
+    if (Config.trackAbilities) {
+
+      def printEntityAbilities(entity: Entity, prefix: String) {
+        println(prefix + entity.name + ": " + entity.damage.full)
+
+        val abilities = entity.damage.byName.toArray
+        stableSort(abilities, (a : (String, Double), b : (String, Double)) => a._2 > b._2)
+
+        for ((ability, damage) <- abilities) {
+          val percentage = 100 * damage / entity.damage.full
+          println(prefix + "\t" + ability + ": " + damage + " (" + ("%.2f" format percentage) + "%)")
+        }
+        println()
+      }
+
+      for (entity <- c.entities.values) {
+        if (!Config.onlyPlayers || entity.id.t == Id.Type.Player) {
+          printEntityAbilities(entity, "")
+
+          for (pet <- entity.pets) {
+            printEntityAbilities(pet, "\t")
+          }
+        }
+      }
+    }
+  }
+
+  def postCombat(c: Combat) {
+
+    println(c format "Length: %t,%1D\nDPS:%20d\nHPS:%20h\n")
+
+    if (c.duration > 0) Clippy.copy(c toString)
+
+    dumpGraphs(c)
+
+    dumpAbilities(c)
   }
 
   def main(args: Array[String]) {

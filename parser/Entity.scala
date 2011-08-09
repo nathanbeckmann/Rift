@@ -8,7 +8,7 @@ class Entity(
 
   val actions: Buffer[Action] = Buffer.empty[Action]
   val pets: Set[Entity] = Set[Entity]()
-  
+
   var damage: Statistic = new Statistic("damage", this, (ent: Entity) => ent.damage)
   var heals: Statistic = new Statistic("heals", this, (ent: Entity) => ent.heals)
   var damageTaken: Statistic = new Statistic("damage taken", this, (ent: Entity) => ent.damageTaken)
