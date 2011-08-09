@@ -19,7 +19,8 @@ class Parser(
   // - source and owner names
   // - action value (dmg, heal)
   // - action name
-  private val extractAction = """\( (\d+) , (.*) , (.*) , (.*) , .* , (.*) , (.*) , (-?\d+) , \d+ , (.*) \) .*""".r
+  private val extractAction = """\( (\d+) , (.*) , (.*) , (.*) , .* , (.*) , (.*) , (-?\d+) , \d+ , (.*) \) (.*)""".r
+  private val extractAbsorbed = """.*\((\d+) absorbed\)""".r
   private val timeFormat = new SimpleDateFormat("HH:mm:ss")
 
   // returns true if still in combat
@@ -31,9 +32,15 @@ class Parser(
     action match {
       case "Combat Begin" => new Action(time, Id(), Id(), Id(), "", "", action, 0, 0)
       case "Combat End" => new Action(time, Id(), Id(), Id(), "", "", action, 0, 0)
-      case extractAction(category, sourceId, targetId, ownerId, source, target, amount, name) =>
+      case extractAction(category, sourceId, targetId, ownerId, source, target, amount, name, text) =>
+
+        val absorbed = text match {
+            case extractAbsorbed(abs) if Config.includeAbsorbed => abs.toDouble
+            case _ => 0
+          }
+
         new Action(time, Id(sourceId), Id(targetId), Id(ownerId),
-                   source, target, name, amount.toDouble, category.toInt)
+                   source, target, name, amount.toDouble + absorbed, category.toInt)
       case _ =>
         throw new ParseError(line)
     }

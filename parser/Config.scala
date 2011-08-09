@@ -5,6 +5,7 @@ object Config {
   val combinePets = true
   var makeGraphs = false
   val trackAbilities = false
+  val includeAbsorbed = true
 
   // The number of seconds to wait with no damaging spells before
   // considering that combat has ended
