@@ -121,7 +121,7 @@ class Parser(
     while (true)
     {
       try {
-        var lines = new OnlineIterator(logFilename)
+        var lines = new OnlineIterator(logFilename, true)
         parseForever(lines)
       } catch {
         case _: java.io.FileNotFoundException => Thread.sleep(500)
@@ -131,7 +131,7 @@ class Parser(
 
   // Off-line processing of logs
   def parseList(): List[Combat] = {
-    val lines = new OnlineIterator(logFilename)
+    val lines = new OnlineIterator(logFilename, false)
 
     def makeCombatList(it: Iterator[String]): List[Combat] = {
       val (combat, nextLines) = parseCombat(it)
