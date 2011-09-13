@@ -142,7 +142,7 @@ class Combat extends Grapher {
       val top = list.take(num)
       val topStr = top.map(_ format entityFmt) mkString ""
 
-      val header = " " + (if (includeTotal) Util.format(sum) else "")
+      val header = if (includeTotal) " " + Util.format(sum) else ""
 
       header + topStr
     }
