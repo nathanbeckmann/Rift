@@ -123,12 +123,16 @@ class Combat extends Grapher {
 
     // Get the top <num> entities for a particular query
     def top(query: Entity => Double, entityFmt: String,
-            num: Int, onlyPlayers: Boolean): String = {
+            num: Int, includeTotal: Boolean, onlyPlayers: Boolean): String = {
 
       // First find valid entities
       val valid = entities.filter(entry => if (onlyPlayers) entry._1.t == Id.Type.Player else true)
 
-      val sum = valid.values.map(query).reduce(_ + _)
+      val values = valid.values.map(query)
+      val sum = values.reduceOption(_ + _) match {
+        case None => 0
+        case Some(x) => x
+      }
 
       // Now only those with a positive value for the query
       val list = valid.values.filter(query(_) > 0).toArray
@@ -138,19 +142,21 @@ class Combat extends Grapher {
       val top = list.take(num)
       val topStr = top.map(_ format entityFmt) mkString ""
 
-      " " + ("%.0f" format sum) + topStr
+      val header = " " + (if (includeTotal) Util.format(sum) else "")
+
+      header + topStr
     }
 
     // Put the top <num> entities into a string somewhere
-    // example: replaceTop(fmt, "%d", _.dps, " %n:%d")
+    // example: replaceTop(fmt, "%d", _.dps, " %n:%d", true)
     def replaceTop(src: String, queryTerm: String, query: Entity => Double,
-                   entityFmt: String, onlyPlayers: Boolean = Config.onlyPlayers) = { 
+                   entityFmt: String, includeTotal: Boolean, onlyPlayers: Boolean = Config.onlyPlayers) = { 
       val matcherStr = "(?s).*" + (queryTerm replace ("%", "%(\\d+)")) + ".*"
       val matcher = matcherStr.r
 
       try {
         val matcher(num) = src
-        val str = top(query, entityFmt, num.toInt, onlyPlayers)
+        val str = top(query, entityFmt, num.toInt, includeTotal, onlyPlayers)
 	val replaceRegex = queryTerm replaceAll ("%", """%(\\d+)""")
 
         src replaceAll (replaceRegex, str)
@@ -161,9 +167,9 @@ class Combat extends Grapher {
 
     // chain replacement operations to produce final formatted string
     List(
-      (str: String) => replaceTop(str, "%D", _.damageTaken.full, " %N:%D", false), // replace dt  
-      (str: String) => replaceTop(str, "%h", _.hps, " %n:%h"),                // replace hps 
-      (str: String) => replaceTop(str, "%d", _.dps, " %n:%d"),                // replace dps 
+      (str: String) => replaceTop(str, "%D", _.damageTaken.full, " %N:%D", false, false), // replace dt  
+      (str: String) => replaceTop(str, "%h", _.hps, " %n:%h", true),                // replace hps 
+      (str: String) => replaceTop(str, "%d", _.dps, " %n:%d", true),                // replace dps 
       (str: String) => str replaceAll("%t", timeStr))                         // replace time
     .foldLeft(fmt)((str, f) => f(str))
   }

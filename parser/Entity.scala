@@ -36,12 +36,13 @@ class Entity(
   def isPlayer: Boolean = id.t == Id.Type.Player
 
   def format(fmt: String): String = {
-    val nameStr = ("%.3s" format name)
-    val dpsStr = ("%.0f" format dps)
-    val hpsStr = ("%.0f" format hps)
-    val dtStr = ("%.0f" format damageTaken.full)
+    val nameLongStr = "%.10s" format name
+    val nameStr = "%.3s" format name
+    val dpsStr = Util.format(dps)
+    val hpsStr = Util.format(hps)
+    val dtStr = Util.format(damageTaken.full)
 
-    fmt.replaceAll("%N", name)
+    fmt.replaceAll("%N", nameLongStr)
        .replaceAll("%n", nameStr)
        .replaceAll("%d", dpsStr)
        .replaceAll("%h", hpsStr)
