@@ -167,10 +167,12 @@ class Combat extends Grapher {
 
     // chain replacement operations to produce final formatted string
     List(
-      (str: String) => replaceTop(str, "%D", _.damageTaken.full, " %N:%D", false, false), // replace dt  
-      (str: String) => replaceTop(str, "%h", _.hps, " %n:%h", true),                // replace hps 
-      (str: String) => replaceTop(str, "%d", _.dps, " %n:%d", true),                // replace dps 
-      (str: String) => str replaceAll("%t", timeStr))                         // replace time
+      (str: String) => replaceTop(str, "%dt", _.dtps, " %n:%dt", true), // replace dtps
+      (str: String) => replaceTop(str, "%ht", _.htps, " %n:%ht", true), // replace htps
+      (str: String) => replaceTop(str, "%D", _.damageTaken.full, " %N:%D (%dt)", false, false), // replace dt
+      (str: String) => replaceTop(str, "%h", _.hps, " %n:%h", true), // replace hps
+      (str: String) => replaceTop(str, "%d", _.dps, " %n:%d", true), // replace dps
+      (str: String) => str replaceAll("%t", timeStr)) // replace time
     .foldLeft(fmt)((str, f) => f(str))
   }
 

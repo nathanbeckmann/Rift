@@ -70,7 +70,7 @@ object Simple {
 
     if (c.duration < Config.minimumCombatLength) return
 
-    println(c format "Length: %t%1D\nDPS:%20d\nHPS:%20h\n")
+    println(c format "Length: %t%1D\nDPS:%20d\nHPS:%20h\nDTPS:%20dt\nHTPS:%20ht\n")
 
     if (c.duration > 0) Clippy.copy(c toString)
 

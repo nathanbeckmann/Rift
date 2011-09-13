@@ -30,8 +30,8 @@ class Entity(
 
   def dps: Double = valPerSecond(damage, _.dps)
   def hps: Double = valPerSecond(heals, _.hps)
-  def dtps: Double = valPerSecond(damageTaken, _.dtps)
-  def htps: Double = valPerSecond(healsTaken, _.htps)
+  def dtps: Double = damageTaken.full / combat.duration //valPerSecond(damageTaken, _.dtps)
+  def htps: Double = healsTaken.full / combat.duration //valPerSecond(healsTaken, _.htps)
 
   def isPlayer: Boolean = id.t == Id.Type.Player
 
@@ -41,9 +41,13 @@ class Entity(
     val dpsStr = Util.format(dps)
     val hpsStr = Util.format(hps)
     val dtStr = Util.format(damageTaken.full)
+    val dtpsStr = Util.format(dtps)
+    val htpsStr = Util.format(htps)
 
     fmt.replaceAll("%N", nameLongStr)
        .replaceAll("%n", nameStr)
+       .replaceAll("%dt", dtpsStr)
+       .replaceAll("%ht", htpsStr)
        .replaceAll("%d", dpsStr)
        .replaceAll("%h", hpsStr)
        .replaceAll("%D", dtStr)
