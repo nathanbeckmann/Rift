@@ -68,6 +68,8 @@ object Simple {
 
   def postCombat(c: Combat) {
 
+    if (c.duration < Config.minimumCombatLength) return
+
     println(c format "Length: %t,%1D\nDPS:%20d\nHPS:%20h\n")
 
     if (c.duration > 0) Clippy.copy(c toString)
