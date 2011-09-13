@@ -25,7 +25,7 @@ class Combat extends Grapher {
   def inCombat = (start != 0) && (idle <= Config.inactivityThreshold)
   def ended = (start != 0) && (idle > Config.inactivityThreshold)
 
-  private def isCombatAction(action: Action) = action.isDmg
+  private def isCombatAction(action: Action) = action.isDmg || (Config.healsAreCombatActions && action.isHeal)
 
   private def isIgnoredAction(action: Action) =
     (Config.ignoredActions contains action.name) ||

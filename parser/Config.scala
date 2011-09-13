@@ -6,6 +6,7 @@ object Config {
   var makeGraphs = false
   val trackAbilities = false
   val includeAbsorbed = true
+  val healsAreCombatActions = false
 
   // The number of seconds to wait with no damaging spells before
   // considering that combat has ended
