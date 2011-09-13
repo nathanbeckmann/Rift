@@ -13,7 +13,7 @@ object Config {
   val inactivityThreshold = 5
 
   // The number of seconds combat must last before we process it.
-  val minimumCombatLength = 15
+  val minimumCombatLength = 30
 
   val ignoredActions = List("Shocking Cipher", "Deathly Flames", "Sourcestone Annihilation")
 
