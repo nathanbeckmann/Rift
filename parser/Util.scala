@@ -15,7 +15,7 @@ object Util {
   def format(num: Double): String = {
     if (num > 1e6)
       "%.3gM" format (num / 1e6)
-    else if (num > 1e3)
+    else if (num > 1e4)
       "%.3gk" format (num / 1e3)
     else
       "%.0f" format num
