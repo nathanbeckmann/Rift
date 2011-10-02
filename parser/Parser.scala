@@ -70,7 +70,7 @@ class Parser(
       (null, buf)
     } else {
       val combat = new Combat
-      val timeout = Config.inactivityThreshold * 1000
+      val timeout = Config.combatTimeoutThreshold * 1000
 
       do {
         if (waitForLine(buf, timeout)) {

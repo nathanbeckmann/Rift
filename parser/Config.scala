@@ -10,6 +10,8 @@ object Config {
 
   // The number of seconds to wait with no damaging spells before
   // considering that combat has ended
+  val combatTimeoutThreshold = 5
+
   val inactivityThreshold = 5
 
   // The number of seconds combat must last before we process it.

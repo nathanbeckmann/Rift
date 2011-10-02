@@ -21,9 +21,9 @@ class Combat extends Grapher {
 
   // The timing model for combat is from the first to last damaging
   // action. Combat is reset whenever no damaging action occurs within
-  // Config.inactivityThreshold seconds
-  def inCombat = (start != 0) && (idle <= Config.inactivityThreshold)
-  def ended = (start != 0) && (idle > Config.inactivityThreshold)
+  // Config.combatTimeoutThreshold seconds
+  def inCombat = (start != 0) && (idle <= Config.combatTimeoutThreshold)
+  def ended = (start != 0) && (idle > Config.combatTimeoutThreshold)
 
   private def isCombatAction(action: Action) = action.isDmg || (Config.healsAreCombatActions && action.isHeal)
 
@@ -65,18 +65,9 @@ class Combat extends Grapher {
             owner.pets += source        // pets is a set; no duplicates
         }
     }
-    
-    if (Config.saveActions)
-      source.actions :+ action
-    
-    if (action.isDmg) {
-      source.damage += action
-      target.damageTaken += action
-    }
-    else if (action.isHeal) {
-      source.heals += action
-      target.healsTaken += action
-    }
+
+    source.act(action)
+    target.receive(action)
   }
 
   // Public interface to process a single action
@@ -172,6 +163,10 @@ class Combat extends Grapher {
       (str: String) => replaceTop(str, "%D", _.damageTaken.full, " %N:%D (%dt)", false, false), // replace dt
       (str: String) => replaceTop(str, "%h", _.hps, " %n:%h", true), // replace hps
       (str: String) => replaceTop(str, "%d", _.dps, " %n:%d", true), // replace dps
+      (str: String) => replaceTop(str, "%adt", _.adtps, " %n:%adt(%p)", true), // replace dtps
+      (str: String) => replaceTop(str, "%aht", _.ahtps, " %n:%aht(%p)", true), // replace htps
+      (str: String) => replaceTop(str, "%ah", _.ahps, " %n:%ah(%p)", true), // replace hps
+      (str: String) => replaceTop(str, "%ad", _.adps, " %n:%ad(%p)", true), // replace dps
       (str: String) => str replaceAll("%t", timeStr)) // replace time
     .foldLeft(fmt)((str, f) => f(str))
   }
